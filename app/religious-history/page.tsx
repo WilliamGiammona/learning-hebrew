@@ -1,6 +1,6 @@
 //app/religious-history/page.tsx
 
-const JewishHistory = () => {
+const JewishReligiousHistory = () => {
   return (
     <>
       <h1>
@@ -70,4 +70,4 @@ const JewishHistory = () => {
   );
 };
 
-export default JewishHistory;
+export default JewishReligiousHistory;
