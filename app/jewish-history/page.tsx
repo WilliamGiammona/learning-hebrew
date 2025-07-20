@@ -40,6 +40,7 @@ const JewishHistory = () => {
       <section id="#10-Commandments"></section>
       <section id="#Into Israel"></section>
       <section id="#12-Tribes-Divided"></section>
+      <section id="#Philistines"></section>
       <section id="#Saul"></section>
       <section id="#Civil-War"></section>
       <section id="#King-David"></section>
@@ -54,6 +55,8 @@ const JewishHistory = () => {
       <section id="#Herod"></section>
       <section id="#Jesus-3-sects"></section>
       <section id="#First-Revolt"></section>
+      <section id="#Bar-Kochba-Revolt"></section>
+      <section id="#Ashkenazi-Sephardic-Mizrachi-Ethiopian-Jews"></section>
       <section id="#Jehuda-HaNasi"></section>
       <section id="#Karite-Jews"></section>
       <section id="#Two-Talmuds"></section>
@@ -61,11 +64,13 @@ const JewishHistory = () => {
       <section id="#Maimodines"></section>
       <section id="#Kabala"></section>
       <section id="#Shulchan-Aruch"></section>
+      <section id="#Ashkenazi-Power"></section>
       <section id="#Hasidic"></section>
       <section id="#Litvish"></section>
       <section id="#Rabbi-Kook"></section>
       <section id="#Rabbi-Kahane"></section>
       <section id="#Ovidia-Yosef"></section>
+      <section id="Modern-Israel"></section>
     </>
   );
 };
