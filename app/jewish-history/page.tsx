@@ -4,7 +4,7 @@ const JewishHistory = () => {
   return (
     <>
       <h1>
-        Brief Overview of Biblical and Religious History of Jewish People and
+        Brief Overview of Historical and Religious History of Jewish People and
         Judaism
       </h1>
       <section id="#Abraham">
