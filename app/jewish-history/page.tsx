@@ -29,7 +29,7 @@ const JewishHistory = () => {
           2) 3) 4) 5) 6) 7) 8) 9) 10) 11) 12)
         </p>
       </section>
-      <section id="#Egypt">
+      <section id="#Egyptian-Slavery">
         <h1>Egypt</h1>
         <p>
           Around this time, the New Kingdom of Egypt was at its most powerful,
@@ -37,7 +37,8 @@ const JewishHistory = () => {
           lead the Jews out of Israel and his brother Aaron was a Cohen
         </p>
       </section>
-      <section id="#10-Commandments"></section>
+      <section id="#Moses"></section>
+      <section id="#Torah"></section>
       <section id="#Into Israel"></section>
       <section id="#12-Tribes-Divided"></section>
       <section id="#Philistines"></section>
@@ -46,7 +47,7 @@ const JewishHistory = () => {
       <section id="#King-David"></section>
       <section id="#Solomon"></section>
       <section id="#Two-States-Samaritans"></section>
-      <section id="#Tanach"></section>
+      <section id="#Tanach-Old-Testament"></section>
       <section id="#Assyrian-Invasion"></section>
       <section id="#Babylonian-Captivity"></section>
       <section id="#Return-to-Israel"></section>
