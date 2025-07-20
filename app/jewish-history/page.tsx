@@ -46,9 +46,10 @@ const JewishHistory = () => {
       <section id="#King-David"></section>
       <section id="#Solomon"></section>
       <section id="#Two-States-Samaritans"></section>
+      <section id="#Tanach"></section>
       <section id="#Assyrian-Invasion"></section>
-      <section id="#Babylonian Captivity"></section>
-      <section id="3Return to Israel"></section>
+      <section id="#Babylonian-Captivity"></section>
+      <section id="#Return-to-Israel"></section>
       <section id="#Macedon"></section>
       <section id="#Hasmonian-Kingdom"></section>
       <section id="#Pompey"></section>
