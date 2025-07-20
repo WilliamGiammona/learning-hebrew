@@ -1,7 +1,13 @@
 //app/alphabet/page.tsx
 
-const page = () => {
-  return <div>page</div>;
+const Alphabet = () => {
+  return (
+    <>
+      <section id="#Formal-Letters"></section>
+      <section id="#Vowels"></section>
+      <section id="#Cursive"></section>
+    </>
+  );
 };
 
-export default page;
+export default Alphabet;
