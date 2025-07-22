@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Alphabet = () => {
   const sections = [
-    { id: "formal-letters", title: "Formal Letters" },
+    { id: "block-script", title: "Block Script" },
     { id: "vowels", title: "Vowels" },
     { id: "cursive", title: "Cursive" },
     { id: "numbers", title: "Numbers" },
@@ -40,11 +40,15 @@ const Alphabet = () => {
 
           {/* Main Content */}
           <main className="flex-1">
-            <section id="formal-letters" className="mb-12 scroll-mt-20">
+            <h1 className="text-4xl font-bold text-blue-800 mb-8 text-center">
+              The Hebrew Alphabet
+            </h1>
+
+            <section id="block-script" className="mb-12 scroll-mt-20">
               <div className="bg-white rounded-lg shadow-md p-8 border border-gray-200">
-                <h1 className="text-4xl font-bold text-blue-800 mb-6 text-center">
-                  The Hebrew Alphabet
-                </h1>
+                <h2 className="text-3xl font-bold text-blue-800 mb-6 text-center">
+                  Block Script
+                </h2>
                 <div className="prose prose-lg mx-auto text-center">
                   <p className="text-gray-700 leading-relaxed">
                     Hebrew is read from{" "}
@@ -84,7 +88,23 @@ const Alphabet = () => {
                   </div>
                 </div>
 
+                {/* Historical Context */}
+                <div className="mt-6 bg-amber-50 rounded-lg p-4 border border-amber-200">
+                  <p className="text-sm text-gray-700 leading-relaxed">
+                    <span className="font-semibold">Historical Note:</span> The
+                    alphabet shown below is the Aramaic-derived script that
+                    replaced the original Paleo-Hebrew (K'tav Ivri) during the
+                    Babylonian captivity in the 6th century B.C. This script,
+                    adopted by the returning exiles, became the basis for the
+                    modern Hebrew script used today, commonly referred to as{" "}
+                    <b>Block Script</b> (K'tav Ashuri).
+                  </p>
+                </div>
+
                 {/* Hebrew Alphabet Chart */}
+                <h2 className="text-2xl font-bold text-blue-700 mt-8 mb-4 text-center">
+                  Block Script
+                </h2>
                 <div className="mt-8">
                   <div className="relative w-full overflow-hidden rounded-lg border border-gray-300 shadow-sm">
                     <Image
@@ -94,9 +114,9 @@ const Alphabet = () => {
                       height={400}
                       className="w-full h-auto"
                       priority
+                      unoptimized
                     />
                   </div>
-
                   <p className="text-sm text-gray-600 text-center mt-3">
                     The 22 letters of the Hebrew alphabet with their names and
                     forms
