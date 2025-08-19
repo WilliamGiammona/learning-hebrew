@@ -98,7 +98,7 @@ const Alphabet = () => {
                     script, adopted by the returning exiles, became the basis
                     for the modern Hebrew script used today, commonly referred
                     to as
-                    <b>Block Script</b> (K&apos;tav Ashuri).
+                    <b> Block Script</b> (K&apos;tav Ashuri).
                   </p>
                 </div>
 
