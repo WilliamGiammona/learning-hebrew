@@ -93,11 +93,12 @@ const Alphabet = () => {
                   <p className="text-sm text-gray-700 leading-relaxed">
                     <span className="font-semibold">Historical Note:</span> The
                     alphabet shown below is the Aramaic-derived script that
-                    replaced the original Paleo-Hebrew (K'tav Ivri) during the
-                    Babylonian captivity in the 6th century B.C. This script,
-                    adopted by the returning exiles, became the basis for the
-                    modern Hebrew script used today, commonly referred to as{" "}
-                    <b>Block Script</b> (K'tav Ashuri).
+                    replaced the original Paleo-Hebrew (K&apos;tav Ivri) during
+                    the Babylonian captivity in the 6th century B.C. This
+                    script, adopted by the returning exiles, became the basis
+                    for the modern Hebrew script used today, commonly referred
+                    to as
+                    <b>Block Script</b> (K&apos;tav Ashuri).
                   </p>
                 </div>
 
