@@ -264,6 +264,29 @@ const Alphabet = () => {
                     </p>
                   </div>
                 </div>
+                {/* Aleph section */}
+                <div className="mt-10">
+                  <div className="rounded-xl border border-purple-200 bg-gradient-to-br from-purple-50 via-white to-purple-50 p-6 shadow-sm">
+                    <h3 className="text-2xl font-bold text-purple-800 text-center">
+                      Aleph (א)
+                    </h3>
+                    <p className="mt-3 text-gray-700 leading-relaxed text-center max-w-2xl mx-auto">
+                      The first letter of the Hebrew alphabet,{" "}
+                      <span className="font-semibold text-purple-700">
+                        Aleph, (א)
+                      </span>
+                      , is unique because it is{" "}
+                      <span className="italic">silent</span> on its own. Its
+                      sound depends on the{" "}
+                      <span className="font-semibold">vowel mark</span> placed
+                      with it. Aleph often serves as a{" "}
+                      <span className="font-medium">“carrier”</span> for vowels
+                      rather than producing a consonant sound by itself. So its
+                      sound is entirely determined by the vowel that accompanies
+                      it. We will learn the voewls in the next section.
+                    </p>
+                  </div>
+                </div>
               </div>
             </section>
 
