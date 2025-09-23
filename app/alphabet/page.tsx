@@ -134,12 +134,14 @@ const Alphabet = () => {
                       <span className="font-semibold text-blue-700">
                         five “final” forms
                       </span>{" "}
-                      used only at the end of a word, and{" "}
-                      <span className="font-semibold text-blue-700">
-                        two letters
-                      </span>{" "}
-                      whose pronunciation changes with a dot (dagesh) or dot
-                      placement.
+                      used only at the end of a word, and letters whose
+                      pronunciation can change with a dot:{" "}
+                      <span className="font-semibold text-blue-700">Bet</span>,{" "}
+                      <span className="font-semibold text-blue-700">Kaf</span>,{" "}
+                      <span className="font-semibold text-blue-700">Peh</span>{" "}
+                      (via <span className="font-semibold">dagesh</span>), and{" "}
+                      <span className="font-semibold text-blue-700">Shin</span>{" "}
+                      (via dot placement).
                     </p>
 
                     {/* Final forms */}
@@ -220,14 +222,19 @@ const Alphabet = () => {
                         Dot Variations (דגש / נקודה)
                       </h4>
                       <p className="mt-1 text-sm text-gray-700">
-                        A dot (dagesh) can change pronunciation; for{" "}
-                        <span className="font-medium">Bet</span> it marks hard
-                        “b” vs. soft “v”. For{" "}
-                        <span className="font-medium">Shin</span>, the dot
-                        position (right vs. left) gives “sh” vs. “s”.
+                        A dot (<span className="font-medium">dagesh</span>) can
+                        change pronunciation: for{" "}
+                        <span className="font-medium">Bet</span> it marks “b”
+                        vs. “v”, for <span className="font-medium">Kaf</span> it
+                        marks “k” vs. “kh” (as in
+                        <i> loch</i>), and for{" "}
+                        <span className="font-medium">Peh</span> it marks “p”
+                        vs. “f”. <span className="font-medium">Shin</span> uses
+                        a dot above the letter (right vs. left) to give “sh” vs.
+                        “s”.
                       </p>
                       <ul
-                        className="mt-4 grid gap-3 sm:grid-cols-2"
+                        className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-4"
                         aria-label="Dot variations grid"
                       >
                         {/* Bet / Vet */}
@@ -239,9 +246,36 @@ const Alphabet = () => {
                             בּ <span className="mx-1 text-gray-400">/</span> ב
                           </div>
                           <div className="mt-1 text-xs text-gray-500">
-                            v (no dot) / b (with dot)
+                            b (with dot) / v (no dot)
                           </div>
                         </li>
+
+                        {/* Kaf / Khaf */}
+                        <li className="rounded-lg bg-white border border-gray-200 p-3 text-center">
+                          <div className="text-xs uppercase tracking-wide text-gray-500">
+                            Kaf / Khaf
+                          </div>
+                          <div dir="rtl" className="mt-2 text-4xl leading-none">
+                            כּ <span className="mx-1 text-gray-400">/</span> כ
+                          </div>
+                          <div className="mt-1 text-xs text-gray-500">
+                            k (with dot) / kh (no dot)
+                          </div>
+                        </li>
+
+                        {/* Pe / Fe */}
+                        <li className="rounded-lg bg-white border border-gray-200 p-3 text-center">
+                          <div className="text-xs uppercase tracking-wide text-gray-500">
+                            Peh / Fe
+                          </div>
+                          <div dir="rtl" className="mt-2 text-4xl leading-none">
+                            פּ <span className="mx-1 text-gray-400">/</span> פ
+                          </div>
+                          <div className="mt-1 text-xs text-gray-500">
+                            p (with dot) / f (no dot)
+                          </div>
+                        </li>
+
                         {/* Shin / Sin */}
                         <li className="rounded-lg bg-white border border-gray-200 p-3 text-center">
                           <div className="text-xs uppercase tracking-wide text-gray-500">
@@ -251,10 +285,16 @@ const Alphabet = () => {
                             שׁ <span className="mx-1 text-gray-400">/</span> שׂ
                           </div>
                           <div className="mt-1 text-xs text-gray-500">
-                            “s” (left dot) / “sh” (right dot)
+                            “sh” (right dot) / “s” (left dot)
                           </div>
                         </li>
                       </ul>
+
+                      <p className="mt-3 text-xs text-gray-600">
+                        Note: The final forms <span dir="rtl">ך</span> and{" "}
+                        <span dir="rtl">ף</span> do not take a dagesh—so
+                        they&apos;re always “kh” and “f”.
+                      </p>
                     </div>
 
                     <p className="mt-6 text-center text-sm text-gray-600">
