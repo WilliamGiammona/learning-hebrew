@@ -123,6 +123,147 @@ const Alphabet = () => {
                     forms
                   </p>
                 </div>
+                {/* Variations callout */}
+                <div className="mt-10">
+                  <div className="rounded-xl border border-blue-200 bg-gradient-to-br from-blue-50 via-white to-blue-50 p-6 shadow-sm">
+                    <h3 className="text-2xl font-bold text-blue-800 text-center">
+                      Letters with Variations (7)
+                    </h3>
+                    <p className="mt-2 text-center text-gray-700">
+                      In addition to the standard 22 letters, Hebrew has{" "}
+                      <span className="font-semibold text-blue-700">
+                        five “final” forms
+                      </span>{" "}
+                      used only at the end of a word, and{" "}
+                      <span className="font-semibold text-blue-700">
+                        two letters
+                      </span>{" "}
+                      whose pronunciation changes with a dot (dagesh) or dot
+                      placement.
+                    </p>
+
+                    {/* Final forms */}
+                    <div className="mt-6 rounded-lg border border-amber-200 bg-amber-50/60 p-4">
+                      <h4 className="text-lg font-semibold text-amber-900">
+                        Final Forms (אותיות סופיות) — used at word end
+                      </h4>
+                      <ul
+                        className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-5"
+                        aria-label="Final forms grid"
+                      >
+                        {/* Kaf */}
+                        <li className="rounded-lg bg-white border border-gray-200 p-3 text-center">
+                          <div className="text-xs uppercase tracking-wide text-gray-500">
+                            Kaf
+                          </div>
+                          <div dir="rtl" className="mt-2 text-4xl leading-none">
+                            ך <span className="mx-1 text-gray-400">/</span> כ
+                          </div>
+                          <div className="mt-1 text-xs text-gray-500">
+                            Final / Regular
+                          </div>
+                        </li>
+                        {/* Mem */}
+                        <li className="rounded-lg bg-white border border-gray-200 p-3 text-center">
+                          <div className="text-xs uppercase tracking-wide text-gray-500">
+                            Mem
+                          </div>
+                          <div dir="rtl" className="mt-2 text-4xl leading-none">
+                            ם <span className="mx-1 text-gray-400">/</span> מ
+                          </div>
+                          <div className="mt-1 text-xs text-gray-500">
+                            Final / Regular
+                          </div>
+                        </li>
+                        {/* Nun */}
+                        <li className="rounded-lg bg-white border border-gray-200 p-3 text-center">
+                          <div className="text-xs uppercase tracking-wide text-gray-500">
+                            Nun
+                          </div>
+                          <div dir="rtl" className="mt-2 text-4xl leading-none">
+                            ן <span className="mx-1 text-gray-400">/</span> נ
+                          </div>
+                          <div className="mt-1 text-xs text-gray-500">
+                            Final / Regular
+                          </div>
+                        </li>
+                        {/* Peh */}
+                        <li className="rounded-lg bg-white border border-gray-200 p-3 text-center">
+                          <div className="text-xs uppercase tracking-wide text-gray-500">
+                            Peh
+                          </div>
+                          <div dir="rtl" className="mt-2 text-4xl leading-none">
+                            ף <span className="mx-1 text-gray-400">/</span> פ
+                          </div>
+                          <div className="mt-1 text-xs text-gray-500">
+                            Final / Regular
+                          </div>
+                        </li>
+                        {/* Tzadi */}
+                        <li className="rounded-lg bg-white border border-gray-200 p-3 text-center">
+                          <div className="text-xs uppercase tracking-wide text-gray-500">
+                            Tzadi
+                          </div>
+                          <div dir="rtl" className="mt-2 text-4xl leading-none">
+                            ץ <span className="mx-1 text-gray-400">/</span> צ
+                          </div>
+                          <div className="mt-1 text-xs text-gray-500">
+                            Final / Regular
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+
+                    {/* Dot / hard–soft variations */}
+                    <div className="mt-6 rounded-lg border border-indigo-200 bg-indigo-50/60 p-4">
+                      <h4 className="text-lg font-semibold text-indigo-900">
+                        Dot Variations (דגש / נקודה)
+                      </h4>
+                      <p className="mt-1 text-sm text-gray-700">
+                        A dot (dagesh) can change pronunciation; for{" "}
+                        <span className="font-medium">Bet</span> it marks hard
+                        “b” vs. soft “v”. For{" "}
+                        <span className="font-medium">Shin</span>, the dot
+                        position (right vs. left) gives “sh” vs. “s”.
+                      </p>
+                      <ul
+                        className="mt-4 grid gap-3 sm:grid-cols-2"
+                        aria-label="Dot variations grid"
+                      >
+                        {/* Bet / Vet */}
+                        <li className="rounded-lg bg-white border border-gray-200 p-3 text-center">
+                          <div className="text-xs uppercase tracking-wide text-gray-500">
+                            Bet / Vet
+                          </div>
+                          <div dir="rtl" className="mt-2 text-4xl leading-none">
+                            בּ <span className="mx-1 text-gray-400">/</span> ב
+                          </div>
+                          <div className="mt-1 text-xs text-gray-500">
+                            b (with dot) / v (no dot)
+                          </div>
+                        </li>
+                        {/* Shin / Sin */}
+                        <li className="rounded-lg bg-white border border-gray-200 p-3 text-center">
+                          <div className="text-xs uppercase tracking-wide text-gray-500">
+                            Shin / Sin
+                          </div>
+                          <div dir="rtl" className="mt-2 text-4xl leading-none">
+                            שׁ <span className="mx-1 text-gray-400">/</span> שׂ
+                          </div>
+                          <div className="mt-1 text-xs text-gray-500">
+                            “sh” (right dot) / “s” (left dot)
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <p className="mt-6 text-center text-sm text-gray-600">
+                      Tip: You&apos;ll often see the five final forms only at
+                      the end of a word, while the dagesh/dot variations can
+                      appear anywhere and affect pronunciation.
+                    </p>
+                  </div>
+                </div>
               </div>
             </section>
 
