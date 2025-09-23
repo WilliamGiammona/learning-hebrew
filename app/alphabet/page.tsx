@@ -287,6 +287,111 @@ const Alphabet = () => {
                     </p>
                   </div>
                 </div>
+                {/* Bet section */}
+                <div className="mt-10">
+                  <div className="rounded-xl border border-indigo-200 bg-gradient-to-br from-indigo-50 via-white to-indigo-50 p-6 shadow-sm">
+                    <h3 className="text-2xl font-bold text-indigo-800 text-center">
+                      Bet (ב)
+                    </h3>
+
+                    <p className="mt-3 text-gray-700 leading-relaxed text-center max-w-2xl mx-auto">
+                      <span className="font-semibold text-indigo-700">
+                        Bet (ב),
+                      </span>
+                      is one letter with two pronunciations: with a dot (
+                      <span className="font-medium">dagesh</span>) it’s a hard
+                      “b” sound (
+                      <span dir="rtl" className="font-mono">
+                        בּ
+                      </span>
+                      ), and without the dot it’s a soft “v” sound (
+                      <span dir="rtl" className="font-mono">
+                        ב
+                      </span>
+                      ). Unlike Aleph, Bet always represents a consonant; the
+                      vowel sound comes from the vowel marks around it.
+                    </p>
+
+                    {/* Two-variant cards */}
+                    <div className="mt-6 grid gap-4 sm:grid-cols-2">
+                      {/* Bet with dagesh */}
+                      <div className="rounded-lg bg-white border border-gray-200 p-4 text-center">
+                        <div className="text-xs uppercase tracking-wide text-gray-500">
+                          With dagesh
+                        </div>
+                        <div dir="rtl" className="mt-2 text-4xl leading-none">
+                          בּ
+                        </div>
+                        <div className="mt-1 text-sm text-gray-600">
+                          Pronounced “b”
+                        </div>
+                        <div className="mt-3 rounded-md bg-indigo-50 border border-indigo-100 p-3 text-sm">
+                          <div className="font-medium text-gray-700">
+                            Examples
+                          </div>
+                          <ul className="mt-1 space-y-1 text-gray-700">
+                            <li>
+                              <span dir="rtl" className="font-mono">
+                                בַּיִת
+                              </span>{" "}
+                              — <span className="italic">bayit</span> (“house”)
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      {/* Vet without dagesh */}
+                      <div className="rounded-lg bg-white border border-gray-200 p-4 text-center">
+                        <div className="text-xs uppercase tracking-wide text-gray-500">
+                          No dagesh
+                        </div>
+                        <div dir="rtl" className="mt-2 text-4xl leading-none">
+                          ב
+                        </div>
+                        <div className="mt-1 text-sm text-gray-600">
+                          Pronounced “v” (Vet)
+                        </div>
+                        <div className="mt-3 rounded-md bg-indigo-50 border border-indigo-100 p-3 text-sm">
+                          <div className="font-medium text-gray-700">
+                            Examples
+                          </div>
+                          <ul className="mt-1 space-y-1 text-gray-700">
+                            <li>
+                              <span dir="rtl" className="font-mono">
+                                אָב
+                              </span>{" "}
+                              — <span className="italic">av</span> (“father”)
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Quick notes */}
+                    <div className="mt-6 rounded-lg border border-indigo-100 bg-white p-4">
+                      <ul className="list-disc pl-5 space-y-2 text-sm text-gray-700">
+                        <li>
+                          The presence/absence of the dot (
+                          <span className="font-medium">dagesh</span>) is what
+                          changes “b” ↔ “v”.
+                        </li>
+                        <li>
+                          Bet has{" "}
+                          <span className="font-medium">no final form</span>{" "}
+                          (unlike Kaf, Mem, Nun, Peh, Tzadi).
+                        </li>
+                        <li>
+                          You’ll often meet{" "}
+                          <span className="font-medium">בּ</span> at the start
+                          of words and
+                          <span className="font-medium"> ב</span> between
+                          vowels, but always read the actual dotting in the
+                          text.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
             </section>
 
