@@ -606,7 +606,20 @@ const Alphabet = () => {
                       Kaf / Khaf (כ / ך)
                     </h3>
 
-                    <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                    <p className="mt-3 text-gray-700 leading-relaxed text-center max-w-2xl mx-auto">
+                      <span className="font-semibold text-yellow-700">
+                        Kaf (כּ)
+                      </span>{" "}
+                      with a dot (dagesh) is “k.” Without the dot,{" "}
+                      <span className="font-semibold text-yellow-700">
+                        Khaf (כ)
+                      </span>{" "}
+                      is a “kh” sound. Kaf also has a{" "}
+                      <span className="font-medium">final form</span> (ך) used
+                      only at the end of words.
+                    </p>
+
+                    <div className="mt-6 grid gap-4 sm:grid-cols-3">
                       {/* Kaf with dagesh */}
                       <div className="rounded-lg bg-white border border-gray-200 p-4 text-center">
                         <div className="text-xs uppercase text-gray-500">
@@ -620,7 +633,7 @@ const Alphabet = () => {
                         </div>
                       </div>
 
-                      {/* Khaf no dagesh */}
+                      {/* Khaf without dagesh */}
                       <div className="rounded-lg bg-white border border-gray-200 p-4 text-center">
                         <div className="text-xs uppercase text-gray-500">
                           No dagesh
@@ -633,7 +646,7 @@ const Alphabet = () => {
                         </div>
                       </div>
 
-                      {/* Final form */}
+                      {/* Final Kaf */}
                       <div className="rounded-lg bg-white border border-gray-200 p-4 text-center">
                         <div className="text-xs uppercase text-gray-500">
                           Final form
@@ -667,6 +680,15 @@ const Alphabet = () => {
                     <h3 className="text-2xl font-bold text-amber-800 text-center">
                       Mem (מ / ם)
                     </h3>
+
+                    <p className="mt-3 text-gray-700 leading-relaxed text-center max-w-2xl mx-auto">
+                      <span className="font-semibold text-amber-700">
+                        Mem (מ)
+                      </span>{" "}
+                      represents the sound “m”. It also has a{" "}
+                      <span className="font-medium">final form</span> (ם), which
+                      appears only at the end of words.
+                    </p>
 
                     <div className="mt-6 grid gap-4 sm:grid-cols-2">
                       {/* Regular Mem */}
@@ -772,14 +794,27 @@ const Alphabet = () => {
                   </div>
                 </div>
 
-                {/* Peh section */}
+                {/* Peh / Feh section */}
                 <div className="mt-10">
                   <div className="rounded-xl border border-rose-200 bg-gradient-to-br from-rose-50 via-white to-rose-50 p-6 shadow-sm">
                     <h3 className="text-2xl font-bold text-rose-800 text-center">
-                      Peh (פ / ף)
+                      Peh / Feh (פ / ף)
                     </h3>
 
-                    <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                    <p className="mt-3 text-gray-700 leading-relaxed text-center max-w-2xl mx-auto">
+                      <span className="font-semibold text-rose-700">
+                        Peh (פּ)
+                      </span>{" "}
+                      with a dot (dagesh) is “p.” Without the dot,{" "}
+                      <span className="font-semibold text-rose-700">
+                        Feh (פ)
+                      </span>{" "}
+                      is “f.” Peh also has a{" "}
+                      <span className="font-medium">final form</span> (ף) used
+                      at the end of words.
+                    </p>
+
+                    <div className="mt-6 grid gap-4 sm:grid-cols-3">
                       {/* Peh with dagesh */}
                       <div className="rounded-lg bg-white border border-gray-200 p-4 text-center">
                         <div className="text-xs uppercase text-gray-500">
@@ -793,7 +828,7 @@ const Alphabet = () => {
                         </div>
                       </div>
 
-                      {/* Feh no dagesh */}
+                      {/* Feh without dagesh */}
                       <div className="rounded-lg bg-white border border-gray-200 p-4 text-center">
                         <div className="text-xs uppercase text-gray-500">
                           No dagesh
@@ -806,7 +841,7 @@ const Alphabet = () => {
                         </div>
                       </div>
 
-                      {/* Final form */}
+                      {/* Final Peh */}
                       <div className="rounded-lg bg-white border border-gray-200 p-4 text-center">
                         <div className="text-xs uppercase text-gray-500">
                           Final form
@@ -895,15 +930,27 @@ const Alphabet = () => {
                   </div>
                 </div>
 
-                {/* Shin section */}
+                {/* Shin / Sin section */}
                 <div className="mt-10">
                   <div className="rounded-xl border border-blue-200 bg-gradient-to-br from-blue-50 via-white to-blue-50 p-6 shadow-sm">
                     <h3 className="text-2xl font-bold text-blue-800 text-center">
-                      Shin (שׁ / שׂ)
+                      Shin / Sin (שׁ / שׂ)
                     </h3>
 
+                    <p className="mt-3 text-gray-700 leading-relaxed text-center max-w-2xl mx-auto">
+                      <span className="font-semibold text-blue-700">
+                        Shin (שׁ)
+                      </span>{" "}
+                      is pronounced “sh,” while{" "}
+                      <span className="font-semibold text-blue-700">
+                        Sin (שׂ)
+                      </span>{" "}
+                      is pronounced “s.” The dot’s placement — right for Shin,
+                      left for Sin — determines the sound.
+                    </p>
+
                     <div className="mt-6 grid gap-4 sm:grid-cols-2">
-                      {/* Shin with right dot */}
+                      {/* Shin (right dot) */}
                       <div className="rounded-lg bg-white border border-gray-200 p-4 text-center">
                         <div className="text-xs uppercase text-gray-500">
                           Right dot
@@ -916,7 +963,7 @@ const Alphabet = () => {
                         </div>
                       </div>
 
-                      {/* Sin with left dot */}
+                      {/* Sin (left dot) */}
                       <div className="rounded-lg bg-white border border-gray-200 p-4 text-center">
                         <div className="text-xs uppercase text-gray-500">
                           Left dot
