@@ -160,7 +160,7 @@ const Alphabet = () => {
                             ך <span className="mx-1 text-gray-400">/</span> כ
                           </div>
                           <div className="mt-1 text-xs text-gray-500">
-                            Final / Regular
+                            Regular / Final
                           </div>
                         </li>
                         {/* Mem */}
@@ -172,7 +172,7 @@ const Alphabet = () => {
                             ם <span className="mx-1 text-gray-400">/</span> מ
                           </div>
                           <div className="mt-1 text-xs text-gray-500">
-                            Final / Regular
+                            Regular / Final
                           </div>
                         </li>
                         {/* Nun */}
@@ -184,7 +184,7 @@ const Alphabet = () => {
                             ן <span className="mx-1 text-gray-400">/</span> נ
                           </div>
                           <div className="mt-1 text-xs text-gray-500">
-                            Final / Regular
+                            Regular / Final
                           </div>
                         </li>
                         {/* Peh */}
@@ -196,7 +196,7 @@ const Alphabet = () => {
                             ף <span className="mx-1 text-gray-400">/</span> פ
                           </div>
                           <div className="mt-1 text-xs text-gray-500">
-                            Final / Regular
+                            Regular / Final
                           </div>
                         </li>
                         {/* Tzadi */}
@@ -208,7 +208,7 @@ const Alphabet = () => {
                             ץ <span className="mx-1 text-gray-400">/</span> צ
                           </div>
                           <div className="mt-1 text-xs text-gray-500">
-                            Final / Regular
+                            Regular / Final
                           </div>
                         </li>
                       </ul>
@@ -239,7 +239,7 @@ const Alphabet = () => {
                             בּ <span className="mx-1 text-gray-400">/</span> ב
                           </div>
                           <div className="mt-1 text-xs text-gray-500">
-                            b (with dot) / v (no dot)
+                            v (no dot) / b (with dot)
                           </div>
                         </li>
                         {/* Shin / Sin */}
@@ -251,7 +251,7 @@ const Alphabet = () => {
                             שׁ <span className="mx-1 text-gray-400">/</span> שׂ
                           </div>
                           <div className="mt-1 text-xs text-gray-500">
-                            “sh” (right dot) / “s” (left dot)
+                            “s” (left dot) / “sh” (right dot)
                           </div>
                         </li>
                       </ul>
