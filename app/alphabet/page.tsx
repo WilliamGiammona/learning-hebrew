@@ -246,7 +246,7 @@ const Alphabet = () => {
                             בּ <span className="mx-1 text-gray-400">/</span> ב
                           </div>
                           <div className="mt-1 text-xs text-gray-500">
-                            b (with dot) / v (no dot)
+                            v (no dot) / b (with dot)
                           </div>
                         </li>
 
@@ -259,7 +259,7 @@ const Alphabet = () => {
                             כּ <span className="mx-1 text-gray-400">/</span> כ
                           </div>
                           <div className="mt-1 text-xs text-gray-500">
-                            k (with dot) / kh (no dot)
+                            kh (no dot) / k (with dot)
                           </div>
                         </li>
 
@@ -272,7 +272,7 @@ const Alphabet = () => {
                             פּ <span className="mx-1 text-gray-400">/</span> פ
                           </div>
                           <div className="mt-1 text-xs text-gray-500">
-                            p (with dot) / f (no dot)
+                            f (no dot) / p (with dot)
                           </div>
                         </li>
 
@@ -285,7 +285,7 @@ const Alphabet = () => {
                             שׁ <span className="mx-1 text-gray-400">/</span> שׂ
                           </div>
                           <div className="mt-1 text-xs text-gray-500">
-                            “sh” (right dot) / “s” (left dot)
+                            “s” (left dot) / “sh” (right dot)
                           </div>
                         </li>
                       </ul>
@@ -298,12 +298,121 @@ const Alphabet = () => {
                     </div>
 
                     <p className="mt-6 text-center text-sm text-gray-600">
-                      Tip: You&apos;ll often see the five final forms only at
-                      the end of a word, while the dagesh/dot variations can
-                      appear anywhere and affect pronunciation.
+                      Tip: You&apos;ll only see the five final forms only at the
+                      end of a word, while the dagesh/dot variations can appear
+                      anywhere and affect pronunciation.
                     </p>
                   </div>
                 </div>
+
+                {/* Same Sounds section */}
+                <div className="mt-10">
+                  <div className="rounded-xl border border-teal-200 bg-gradient-to-br from-teal-50 via-white to-teal-50 p-6 shadow-sm">
+                    <h3 className="text-2xl font-bold text-teal-800 text-center">
+                      Same Sounds (Common Pronunciations)
+                    </h3>
+                    <p className="mt-2 text-center text-gray-700 max-w-2xl mx-auto">
+                      In modern Israeli Hebrew, several different letters can
+                      share the{" "}
+                      <span className="font-semibold">same sound</span>. Below
+                      are common pairs you’ll hear pronounced alike in everyday
+                      speech.
+                    </p>
+
+                    <ul
+                      className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3"
+                      aria-label="Same sounds grid"
+                    >
+                      {/* Aleph & Ayin */}
+                      <li className="rounded-lg bg-white border border-gray-200 p-4 text-center">
+                        <div className="text-xs uppercase tracking-wide text-gray-500">
+                          Aleph &amp; Ayin
+                        </div>
+                        <div dir="rtl" className="mt-2 text-4xl leading-none">
+                          א <span className="mx-1 text-gray-400">/</span> ע
+                        </div>
+                        <div className="mt-1 text-sm text-gray-600">
+                          Both silent; vowel “carriers”.
+                        </div>
+                        <div className="mt-1 text-xs text-gray-500">
+                          (*Ayin has a distinct sound in some traditions.)
+                        </div>
+                      </li>
+
+                      {/* Vav & Bet (no dagesh) */}
+                      <li className="rounded-lg bg-white border border-gray-200 p-4 text-center">
+                        <div className="text-xs uppercase tracking-wide text-gray-500">
+                          Vav &amp; Bet (no dagesh)
+                        </div>
+                        <div dir="rtl" className="mt-2 text-4xl leading-none">
+                          ו <span className="mx-1 text-gray-400">/</span> ב
+                        </div>
+                        <div className="mt-1 text-sm text-gray-600">
+                          Both pronounced “v”.
+                        </div>
+                      </li>
+
+                      {/* Khet & Khaf (no dagesh) */}
+                      <li className="rounded-lg bg-white border border-gray-200 p-4 text-center">
+                        <div className="text-xs uppercase tracking-wide text-gray-500">
+                          Khet &amp; Khaf (no dagesh)
+                        </div>
+                        <div dir="rtl" className="mt-2 text-4xl leading-none">
+                          ח <span className="mx-1 text-gray-400">/</span> כ
+                        </div>
+                        <div className="mt-1 text-sm text-gray-600">
+                          Both pronounced “kh” (like in <i>loch</i>).
+                        </div>
+                      </li>
+
+                      {/* Tav & Tet */}
+                      <li className="rounded-lg bg-white border border-gray-200 p-4 text-center">
+                        <div className="text-xs uppercase tracking-wide text-gray-500">
+                          Tav &amp; Tet
+                        </div>
+                        <div dir="rtl" className="mt-2 text-4xl leading-none">
+                          ת <span className="mx-1 text-gray-400">/</span> ט
+                        </div>
+                        <div className="mt-1 text-sm text-gray-600">
+                          Both pronounced “t”.
+                        </div>
+                      </li>
+
+                      {/* Kaf (with dagesh) & Qof */}
+                      <li className="rounded-lg bg-white border border-gray-200 p-4 text-center">
+                        <div className="text-xs uppercase tracking-wide text-gray-500">
+                          Kaf (with dagesh) &amp; Qof
+                        </div>
+                        <div dir="rtl" className="mt-2 text-4xl leading-none">
+                          כּ <span className="mx-1 text-gray-400">/</span> ק
+                        </div>
+                        <div className="mt-1 text-sm text-gray-600">
+                          Both pronounced “k”.
+                        </div>
+                      </li>
+
+                      {/* Shin (left dot) & Samekh */}
+                      <li className="rounded-lg bg-white border border-gray-200 p-4 text-center">
+                        <div className="text-xs uppercase tracking-wide text-gray-500">
+                          Shin (left dot) &amp; Samekh
+                        </div>
+                        <div dir="rtl" className="mt-2 text-4xl leading-none">
+                          שׂ <span className="mx-1 text-gray-400">/</span> ס
+                        </div>
+                        <div className="mt-1 text-sm text-gray-600">
+                          Both pronounced “s”.
+                        </div>
+                      </li>
+                    </ul>
+
+                    <p className="mt-4 text-xs text-gray-600 text-center">
+                      Note: Historical/other traditions may distinguish some of
+                      these sounds (e.g., ע or ק), but modern Israeli Hebrew
+                      typically merges them as shown.
+                    </p>
+                  </div>
+                </div>
+
                 {/* Aleph section */}
                 <div className="mt-10">
                   <div className="rounded-xl border border-purple-200 bg-gradient-to-br from-purple-50 via-white to-purple-50 p-6 shadow-sm">
@@ -365,22 +474,9 @@ const Alphabet = () => {
                         <div className="mt-1 text-sm text-gray-600">
                           Pronounced “b”
                         </div>
-                        <div className="mt-3 rounded-md bg-indigo-50 border border-indigo-100 p-3 text-sm">
-                          <div className="font-medium text-gray-700">
-                            Examples
-                          </div>
-                          <ul className="mt-1 space-y-1 text-gray-700">
-                            <li>
-                              <span dir="rtl" className="font-mono">
-                                בַּיִת
-                              </span>{" "}
-                              — <span className="italic">bayit</span> (“house”)
-                            </li>
-                          </ul>
-                        </div>
                       </div>
 
-                      {/* Vet without dagesh */}
+                      {/* Bet without dagesh */}
                       <div className="rounded-lg bg-white border border-gray-200 p-4 text-center">
                         <div className="text-xs uppercase tracking-wide text-gray-500">
                           No dagesh
@@ -389,46 +485,9 @@ const Alphabet = () => {
                           ב
                         </div>
                         <div className="mt-1 text-sm text-gray-600">
-                          Pronounced “v” (Vet)
-                        </div>
-                        <div className="mt-3 rounded-md bg-indigo-50 border border-indigo-100 p-3 text-sm">
-                          <div className="font-medium text-gray-700">
-                            Examples
-                          </div>
-                          <ul className="mt-1 space-y-1 text-gray-700">
-                            <li>
-                              <span dir="rtl" className="font-mono">
-                                אָב
-                              </span>{" "}
-                              — <span className="italic">av</span> (“father”)
-                            </li>
-                          </ul>
+                          Pronounced “v”
                         </div>
                       </div>
-                    </div>
-
-                    {/* Quick notes */}
-                    <div className="mt-6 rounded-lg border border-indigo-100 bg-white p-4">
-                      <ul className="list-disc pl-5 space-y-2 text-sm text-gray-700">
-                        <li>
-                          The presence/absence of the dot (
-                          <span className="font-medium">dagesh</span>) is what
-                          changes “b” ↔ “v”.
-                        </li>
-                        <li>
-                          Bet has{" "}
-                          <span className="font-medium">no final form</span>{" "}
-                          (unlike Kaf, Mem, Nun, Peh, Tzadi).
-                        </li>
-                        <li>
-                          You’ll often meet{" "}
-                          <span className="font-medium">בּ</span> at the start
-                          of words and
-                          <span className="font-medium"> ב</span> between
-                          vowels, but always read the actual dotting in the
-                          text.
-                        </li>
-                      </ul>
                     </div>
                   </div>
                 </div>
