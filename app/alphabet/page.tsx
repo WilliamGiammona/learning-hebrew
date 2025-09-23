@@ -491,6 +491,439 @@ const Alphabet = () => {
                     </div>
                   </div>
                 </div>
+
+                {/* Gimel section */}
+                <div className="mt-10">
+                  <div className="rounded-xl border border-emerald-200 bg-gradient-to-br from-emerald-50 via-white to-emerald-50 p-6 shadow-sm">
+                    <h3 className="text-2xl font-bold text-emerald-800 text-center">
+                      Gimel (ג)
+                    </h3>
+                    <p className="mt-3 text-gray-700 leading-relaxed text-center max-w-2xl mx-auto">
+                      Represents a hard “g” as in <i>go</i>. In modern Hebrew
+                      it’s consistently “g”; older or foreign-influenced
+                      variants are rare in everyday Israeli usage.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Dalet section */}
+                <div className="mt-10">
+                  <div className="rounded-xl border border-amber-200 bg-gradient-to-br from-amber-50 via-white to-amber-50 p-6 shadow-sm">
+                    <h3 className="text-2xl font-bold text-amber-800 text-center">
+                      Dalet (ד)
+                    </h3>
+                    <p className="mt-3 text-gray-700 leading-relaxed text-center max-w-2xl mx-auto">
+                      Pronounced “d” as in <i>dog</i>. Modern Hebrew does not
+                      distinguish a “th” sound for Dalet.
+                    </p>
+                  </div>
+                </div>
+
+                {/* He section */}
+                <div className="mt-10">
+                  <div className="rounded-xl border border-rose-200 bg-gradient-to-br from-rose-50 via-white to-rose-50 p-6 shadow-sm">
+                    <h3 className="text-2xl font-bold text-rose-800 text-center">
+                      He (ה)
+                    </h3>
+                    <p className="mt-3 text-gray-700 leading-relaxed text-center max-w-2xl mx-auto">
+                      A breathy “h” sound. At the end of words it can be silent
+                      and serve as a vowel marker in spelling.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Vav section */}
+                <div className="mt-10">
+                  <div className="rounded-xl border border-cyan-200 bg-gradient-to-br from-cyan-50 via-white to-cyan-50 p-6 shadow-sm">
+                    <h3 className="text-2xl font-bold text-cyan-800 text-center">
+                      Vav (ו)
+                    </h3>
+                    <p className="mt-3 text-gray-700 leading-relaxed text-center max-w-2xl mx-auto">
+                      Consonant “v”. In pointed text it also functions as a
+                      vowel letter indicating “o” or “u” when marked with the
+                      appropriate dots.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Zayin section */}
+                <div className="mt-10">
+                  <div className="rounded-xl border border-fuchsia-200 bg-gradient-to-br from-fuchsia-50 via-white to-fuchsia-50 p-6 shadow-sm">
+                    <h3 className="text-2xl font-bold text-fuchsia-800 text-center">
+                      Zayin (ז)
+                    </h3>
+                    <p className="mt-3 text-gray-700 leading-relaxed text-center max-w-2xl mx-auto">
+                      Pronounced “z” as in <i>zoo</i>.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Khet section */}
+                <div className="mt-10">
+                  <div className="rounded-xl border border-stone-200 bg-gradient-to-br from-stone-50 via-white to-stone-50 p-6 shadow-sm">
+                    <h3 className="text-2xl font-bold text-stone-800 text-center">
+                      Khet (ח)
+                    </h3>
+                    <p className="mt-3 text-gray-700 leading-relaxed text-center max-w-2xl mx-auto">
+                      A guttural “kh” (like the German <i>Bach</i> or Scottish{" "}
+                      <i>loch</i>). In modern Hebrew this sound matches Khaf
+                      without a dagesh.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Tet section */}
+                <div className="mt-10">
+                  <div className="rounded-xl border border-lime-200 bg-gradient-to-br from-lime-50 via-white to-lime-50 p-6 shadow-sm">
+                    <h3 className="text-2xl font-bold text-lime-800 text-center">
+                      Tet (ט)
+                    </h3>
+                    <p className="mt-3 text-gray-700 leading-relaxed text-center max-w-2xl mx-auto">
+                      Pronounced “t”. In modern Hebrew it sounds the same as
+                      Tav.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Yod section */}
+                <div className="mt-10">
+                  <div className="rounded-xl border border-sky-200 bg-gradient-to-br from-sky-50 via-white to-sky-50 p-6 shadow-sm">
+                    <h3 className="text-2xl font-bold text-sky-800 text-center">
+                      Yod (י)
+                    </h3>
+                    <p className="mt-3 text-gray-700 leading-relaxed text-center max-w-2xl mx-auto">
+                      Consonant “y”. It also serves as a vowel letter indicating
+                      an “i” sound in pointed text or standard spelling
+                      conventions.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Kaf / Khaf section */}
+                <div className="mt-10">
+                  <div className="rounded-xl border border-yellow-200 bg-gradient-to-br from-yellow-50 via-white to-yellow-50 p-6 shadow-sm">
+                    <h3 className="text-2xl font-bold text-yellow-800 text-center">
+                      Kaf / Khaf (כ / ך)
+                    </h3>
+
+                    <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                      {/* Kaf with dagesh */}
+                      <div className="rounded-lg bg-white border border-gray-200 p-4 text-center">
+                        <div className="text-xs uppercase text-gray-500">
+                          With dagesh
+                        </div>
+                        <div dir="rtl" className="mt-2 text-4xl">
+                          כּ
+                        </div>
+                        <div className="mt-1 text-sm text-gray-600">
+                          “k” sound
+                        </div>
+                      </div>
+
+                      {/* Khaf no dagesh */}
+                      <div className="rounded-lg bg-white border border-gray-200 p-4 text-center">
+                        <div className="text-xs uppercase text-gray-500">
+                          No dagesh
+                        </div>
+                        <div dir="rtl" className="mt-2 text-4xl">
+                          כ
+                        </div>
+                        <div className="mt-1 text-sm text-gray-600">
+                          “kh” sound
+                        </div>
+                      </div>
+
+                      {/* Final form */}
+                      <div className="rounded-lg bg-white border border-gray-200 p-4 text-center">
+                        <div className="text-xs uppercase text-gray-500">
+                          Final form
+                        </div>
+                        <div dir="rtl" className="mt-2 text-4xl">
+                          ך
+                        </div>
+                        <div className="mt-1 text-sm text-gray-600">
+                          Used at word end
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Lamed section */}
+                <div className="mt-10">
+                  <div className="rounded-xl border border-indigo-200 bg-gradient-to-br from-indigo-50 via-white to-indigo-50 p-6 shadow-sm">
+                    <h3 className="text-2xl font-bold text-indigo-800 text-center">
+                      Lamed (ל)
+                    </h3>
+                    <p className="mt-3 text-gray-700 leading-relaxed text-center max-w-2xl mx-auto">
+                      Pronounced “l” as in <i>light</i>.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Mem section */}
+                <div className="mt-10">
+                  <div className="rounded-xl border border-amber-200 bg-gradient-to-br from-amber-50 via-white to-amber-50 p-6 shadow-sm">
+                    <h3 className="text-2xl font-bold text-amber-800 text-center">
+                      Mem (מ / ם)
+                    </h3>
+
+                    <div className="mt-6 grid gap-4 sm:grid-cols-2">
+                      {/* Regular Mem */}
+                      <div className="rounded-lg bg-white border border-gray-200 p-4 text-center">
+                        <div className="text-xs uppercase text-gray-500">
+                          Regular
+                        </div>
+                        <div dir="rtl" className="mt-2 text-4xl">
+                          מ
+                        </div>
+                        <div className="mt-1 text-sm text-gray-600">
+                          “m” sound
+                        </div>
+                      </div>
+
+                      {/* Final Mem */}
+                      <div className="rounded-lg bg-white border border-gray-200 p-4 text-center">
+                        <div className="text-xs uppercase text-gray-500">
+                          Final
+                        </div>
+                        <div dir="rtl" className="mt-2 text-4xl">
+                          ם
+                        </div>
+                        <div className="mt-1 text-sm text-gray-600">
+                          Used at word end
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Nun section */}
+                <div className="mt-10">
+                  <div className="rounded-xl border border-teal-200 bg-gradient-to-br from-teal-50 via-white to-teal-50 p-6 shadow-sm">
+                    <h3 className="text-2xl font-bold text-teal-800 text-center">
+                      Nun (נ / ן)
+                    </h3>
+
+                    <div className="mt-6 grid gap-4 sm:grid-cols-2">
+                      {/* Regular Nun */}
+                      <div className="rounded-lg bg-white border border-gray-200 p-4 text-center">
+                        <div className="text-xs uppercase text-gray-500">
+                          Regular
+                        </div>
+                        <div dir="rtl" className="mt-2 text-4xl">
+                          נ
+                        </div>
+                        <div className="mt-1 text-sm text-gray-600">
+                          “n” sound
+                        </div>
+                      </div>
+
+                      {/* Final Nun */}
+                      <div className="rounded-lg bg-white border border-gray-200 p-4 text-center">
+                        <div className="text-xs uppercase text-gray-500">
+                          Final
+                        </div>
+                        <div dir="rtl" className="mt-2 text-4xl">
+                          ן
+                        </div>
+                        <div className="mt-1 text-sm text-gray-600">
+                          Used at word end
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Samekh section */}
+                <div className="mt-10">
+                  <div className="rounded-xl border border-emerald-200 bg-gradient-to-br from-emerald-50 via-white to-emerald-50 p-6 shadow-sm">
+                    <h3 className="text-2xl font-bold text-emerald-800 text-center">
+                      Samekh (ס)
+                    </h3>
+                    <p className="mt-3 text-gray-700 leading-relaxed text-center max-w-2xl mx-auto">
+                      Pronounced “s”. In modern Hebrew it matches the “s” of
+                      Shin with a left dot.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Ayin section */}
+                <div className="mt-10">
+                  <div className="rounded-xl border border-zinc-200 bg-gradient-to-br from-zinc-50 via-white to-zinc-50 p-6 shadow-sm">
+                    <h3 className="text-2xl font-bold text-zinc-800 text-center">
+                      Ayin (ע)
+                    </h3>
+                    <p className="mt-3 text-gray-700 leading-relaxed text-center max-w-2xl mx-auto">
+                      Silent in modern Israeli Hebrew and functions as a vowel
+                      carrier; some traditions pronounce it as a distinct
+                      guttural.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Peh section */}
+                <div className="mt-10">
+                  <div className="rounded-xl border border-rose-200 bg-gradient-to-br from-rose-50 via-white to-rose-50 p-6 shadow-sm">
+                    <h3 className="text-2xl font-bold text-rose-800 text-center">
+                      Peh (פ / ף)
+                    </h3>
+
+                    <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                      {/* Peh with dagesh */}
+                      <div className="rounded-lg bg-white border border-gray-200 p-4 text-center">
+                        <div className="text-xs uppercase text-gray-500">
+                          With dagesh
+                        </div>
+                        <div dir="rtl" className="mt-2 text-4xl">
+                          פּ
+                        </div>
+                        <div className="mt-1 text-sm text-gray-600">
+                          “p” sound
+                        </div>
+                      </div>
+
+                      {/* Feh no dagesh */}
+                      <div className="rounded-lg bg-white border border-gray-200 p-4 text-center">
+                        <div className="text-xs uppercase text-gray-500">
+                          No dagesh
+                        </div>
+                        <div dir="rtl" className="mt-2 text-4xl">
+                          פ
+                        </div>
+                        <div className="mt-1 text-sm text-gray-600">
+                          “f” sound
+                        </div>
+                      </div>
+
+                      {/* Final form */}
+                      <div className="rounded-lg bg-white border border-gray-200 p-4 text-center">
+                        <div className="text-xs uppercase text-gray-500">
+                          Final form
+                        </div>
+                        <div dir="rtl" className="mt-2 text-4xl">
+                          ף
+                        </div>
+                        <div className="mt-1 text-sm text-gray-600">
+                          Used at word end
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Tzadi section */}
+                <div className="mt-10">
+                  <div className="rounded-xl border border-cyan-200 bg-gradient-to-br from-cyan-50 via-white to-cyan-50 p-6 shadow-sm">
+                    <h3 className="text-2xl font-bold text-cyan-800 text-center">
+                      Tzadi (צ / ץ)
+                    </h3>
+
+                    <div className="mt-6 grid gap-4 sm:grid-cols-2">
+                      {/* Regular Tzadi */}
+                      <div className="rounded-lg bg-white border border-gray-200 p-4 text-center">
+                        <div className="text-xs uppercase text-gray-500">
+                          Regular
+                        </div>
+                        <div dir="rtl" className="mt-2 text-4xl">
+                          צ
+                        </div>
+                        <div className="mt-1 text-sm text-gray-600">
+                          “ts” sound
+                        </div>
+                      </div>
+
+                      {/* Final Tzadi */}
+                      <div className="rounded-lg bg-white border border-gray-200 p-4 text-center">
+                        <div className="text-xs uppercase text-gray-500">
+                          Final
+                        </div>
+                        <div dir="rtl" className="mt-2 text-4xl">
+                          ץ
+                        </div>
+                        <div className="mt-1 text-sm text-gray-600">
+                          Used at word end
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Qof section */}
+                <div className="mt-10">
+                  <div className="rounded-xl border border-purple-200 bg-gradient-to-br from-purple-50 via-white to-purple-50 p-6 shadow-sm">
+                    <h3 className="text-2xl font-bold text-purple-800 text-center">
+                      Qof (ק)
+                    </h3>
+                    <p className="mt-3 text-gray-700 leading-relaxed text-center max-w-2xl mx-auto">
+                      Pronounced “k” in modern Hebrew, like Kaf with dagesh.
+                      Historical pronunciations may differ by tradition.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Resh section */}
+                <div className="mt-10">
+                  <div className="rounded-xl border border-orange-200 bg-gradient-to-br from-orange-50 via-white to-orange-50 p-6 shadow-sm">
+                    <h3 className="text-2xl font-bold text-orange-800 text-center">
+                      Resh (ר)
+                    </h3>
+                    <p className="mt-3 text-gray-700 leading-relaxed text-center max-w-2xl mx-auto">
+                      The Hebrew “r”. In Israeli Hebrew it’s typically a uvular
+                      or tapped “r” depending on speaker and context.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Shin section */}
+                <div className="mt-10">
+                  <div className="rounded-xl border border-blue-200 bg-gradient-to-br from-blue-50 via-white to-blue-50 p-6 shadow-sm">
+                    <h3 className="text-2xl font-bold text-blue-800 text-center">
+                      Shin (שׁ / שׂ)
+                    </h3>
+
+                    <div className="mt-6 grid gap-4 sm:grid-cols-2">
+                      {/* Shin with right dot */}
+                      <div className="rounded-lg bg-white border border-gray-200 p-4 text-center">
+                        <div className="text-xs uppercase text-gray-500">
+                          Right dot
+                        </div>
+                        <div dir="rtl" className="mt-2 text-4xl">
+                          שׁ
+                        </div>
+                        <div className="mt-1 text-sm text-gray-600">
+                          “sh” sound
+                        </div>
+                      </div>
+
+                      {/* Sin with left dot */}
+                      <div className="rounded-lg bg-white border border-gray-200 p-4 text-center">
+                        <div className="text-xs uppercase text-gray-500">
+                          Left dot
+                        </div>
+                        <div dir="rtl" className="mt-2 text-4xl">
+                          שׂ
+                        </div>
+                        <div className="mt-1 text-sm text-gray-600">
+                          “s” sound
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Tav section */}
+                <div className="mt-10">
+                  <div className="rounded-xl border border-neutral-200 bg-gradient-to-br from-neutral-50 via-white to-neutral-50 p-6 shadow-sm">
+                    <h3 className="text-2xl font-bold text-neutral-800 text-center">
+                      Tav (ת)
+                    </h3>
+                    <p className="mt-3 text-gray-700 leading-relaxed text-center max-w-2xl mx-auto">
+                      Pronounced “t” in modern Hebrew; there is no “th” contrast
+                      in contemporary Israeli pronunciation.
+                    </p>
+                  </div>
+                </div>
               </div>
             </section>
 
