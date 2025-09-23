@@ -705,6 +705,16 @@ const Alphabet = () => {
                       Nun (נ / ן)
                     </h3>
 
+                    <p className="mt-3 text-gray-700 leading-relaxed text-center max-w-2xl mx-auto">
+                      <span className="font-semibold text-teal-700">
+                        Nun (נ)
+                      </span>{" "}
+                      is the consonant “n”. It has a{" "}
+                      <span className="font-medium">final form</span> (ן) used
+                      only at the end of words. As with all Hebrew consonants,
+                      the vowel you hear comes from the vowel marks around it.
+                    </p>
+
                     <div className="mt-6 grid gap-4 sm:grid-cols-2">
                       {/* Regular Nun */}
                       <div className="rounded-lg bg-white border border-gray-200 p-4 text-center">
@@ -818,6 +828,16 @@ const Alphabet = () => {
                     <h3 className="text-2xl font-bold text-cyan-800 text-center">
                       Tzadi (צ / ץ)
                     </h3>
+
+                    <p className="mt-3 text-gray-700 leading-relaxed text-center max-w-2xl mx-auto">
+                      <span className="font-semibold text-cyan-700">
+                        Tzadi (צ)
+                      </span>{" "}
+                      is pronounced “ts” (as in <i>cats</i>). It has a{" "}
+                      <span className="font-medium">final form</span> (ץ) used
+                      only at the end of words. The consonant stays “ts”; vowel
+                      sounds come from the vowel marks that accompany it.
+                    </p>
 
                     <div className="mt-6 grid gap-4 sm:grid-cols-2">
                       {/* Regular Tzadi */}
