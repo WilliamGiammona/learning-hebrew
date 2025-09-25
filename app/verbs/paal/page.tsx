@@ -1641,6 +1641,167 @@ export default function PaalPage() {
                 </div>
               </div>
             </section>
+
+            {/* Imperative Exceptions */}
+            <section id="imperative-exceptions" className="mb-12 scroll-mt-20">
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  Imperative Exceptions (ציווי – חריגים)
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-6">
+                  Some roots tweak the regular imperative patterns. Two common
+                  cases are roots that{" "}
+                  <span className="font-semibold">
+                    start with י (yod) or נ (nun)
+                  </span>
+                  , and roots that{" "}
+                  <span className="font-semibold">end with ה (hey)</span>.
+                </p>
+
+                {/* 1) Starts with Yod or Nun */}
+                <h3 className="text-xl font-semibold text-indigo-700 mt-2 mb-3">
+                  1) Root starts with י (yod) or נ (nun) — example: ירד (yared)
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  For roots that begin with{" "}
+                  <span className="font-semibold">י</span> or{" "}
+                  <span className="font-semibold">נ</span>, the{" "}
+                  <span className="font-semibold">
+                    first letter of the root is dropped
+                  </span>{" "}
+                  in the imperative.
+                  <br />•{" "}
+                  <span className="font-semibold">
+                    Masculine singular:
+                  </span>{" "}
+                  drop the first letter. <br />•{" "}
+                  <span className="font-semibold">Feminine singular:</span> same
+                  drop, then add <span className="font-semibold">י</span> (
+                  <i>-i</i>) at the end. <br />•{" "}
+                  <span className="font-semibold">Plural:</span> same drop, then
+                  add <span className="font-semibold">וּ</span> (<i>-u</i>) at
+                  the end.
+                </p>
+
+                {/* Table for ירד */}
+                <div className="overflow-x-auto mb-8">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Form
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">Masculine Singular</td>
+                        <td className="border px-4 py-2">רֵד</td>
+                        <td className="border px-4 py-2">Red</td>
+                        <td className="border px-4 py-2">
+                          Descend!/Go down! (m.s.)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Feminine Singular</td>
+                        <td className="border px-4 py-2">רְדִי</td>
+                        <td className="border px-4 py-2">Redi</td>
+                        <td className="border px-4 py-2">
+                          Descend!/Go down! (f.s.)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Plural</td>
+                        <td className="border px-4 py-2">רְדוּ</td>
+                        <td className="border px-4 py-2">Redu</td>
+                        <td className="border px-4 py-2">
+                          Descend!/Go down! (pl.)
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div className="p-4 bg-indigo-50 border-l-4 border-indigo-400 rounded mb-8">
+                  <p className="text-gray-700">
+                    The same “drop the first letter” rule applies to roots that
+                    start with <span className="font-semibold">נ</span> (nun) as
+                    well.
+                  </p>
+                </div>
+
+                {/* 2) Ends with Hey */}
+                <h3 className="text-xl font-semibold text-indigo-700 mt-2 mb-3">
+                  2) Root ends with ה (hey) — example: קנה (kana)
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  For roots ending in <span className="font-semibold">ה</span>:{" "}
+                  <br />•{" "}
+                  <span className="font-semibold">Masculine singular:</span>{" "}
+                  regular imperative shape (base). <br />•{" "}
+                  <span className="font-semibold">Feminine singular:</span> the
+                  final <span className="font-semibold">ה</span> is{" "}
+                  <span className="font-semibold">replaced by י</span> →{" "}
+                  <i>-i</i>. <br />•{" "}
+                  <span className="font-semibold">Plural:</span> the final{" "}
+                  <span className="font-semibold">ה</span> is{" "}
+                  <span className="font-semibold">replaced by ו</span> →{" "}
+                  <i>-u</i>.
+                </p>
+
+                {/* Table for קנה */}
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Form
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">Masculine Singular</td>
+                        <td className="border px-4 py-2">קְנֵה</td>
+                        <td className="border px-4 py-2">K'ne</td>
+                        <td className="border px-4 py-2">Buy! (m.s.)</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Feminine Singular</td>
+                        <td className="border px-4 py-2">קְנִי</td>
+                        <td className="border px-4 py-2">K'ni</td>
+                        <td className="border px-4 py-2">Buy! (f.s.)</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Plural</td>
+                        <td className="border px-4 py-2">קְנוּ</td>
+                        <td className="border px-4 py-2">K'nu</td>
+                        <td className="border px-4 py-2">Buy! (pl.)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </section>
           </main>
         </div>
       </div>
