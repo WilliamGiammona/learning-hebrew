@@ -75,6 +75,14 @@ export default function PaalPage() {
                     Past Tense Exceptions
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#future-tense"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    Future Tense
+                  </a>
+                </li>
               </ul>
             </nav>
           </aside>
