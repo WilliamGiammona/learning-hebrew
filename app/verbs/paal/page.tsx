@@ -91,6 +91,14 @@ export default function PaalPage() {
                     Future Tense Exceptions
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#imperative"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    Imperative (ציווי)
+                  </a>
+                </li>
               </ul>
             </nav>
           </aside>
