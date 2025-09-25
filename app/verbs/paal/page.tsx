@@ -67,6 +67,14 @@ export default function PaalPage() {
                     Past Conjugation (למד)
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#past-exceptions"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    Past Tense Exceptions
+                  </a>
+                </li>
               </ul>
             </nav>
           </aside>
@@ -696,6 +704,577 @@ export default function PaalPage() {
                         <td className="border border-gray-300 px-4 py-2">
                           They learned
                         </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </section>
+
+            {/* Past tense exceptions */}
+            <section id="past-exceptions" className="mb-12 scroll-mt-20">
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  Past Tense Exceptions
+                </h2>
+                <p className="text-gray-700 leading-relaxed mb-6">
+                  Three common root patterns behave differently in the past
+                  tense: a{" "}
+                  <span className="font-semibold">yod (י) in the middle</span>,
+                  a <span className="font-semibold">vav (ו) in the middle</span>
+                  , and a{" "}
+                  <span className="font-semibold">hey (ה) at the end</span>.
+                </p>
+
+                {/* 1) Yod in the middle – שיר */}
+                <h3 className="text-xl font-semibold text-indigo-700 mt-2 mb-3">
+                  1) Yod (י) in the middle — שיר
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-3">
+                  The middle <span className="font-semibold">י</span> is
+                  deleted. As a result, the{" "}
+                  <span className="font-semibold">present</span> and{" "}
+                  <span className="font-semibold">past</span> of{" "}
+                  <span className="font-semibold">
+                    3rd person masculine singular
+                  </span>{" "}
+                  are identical: <span className="font-semibold">שָׁר</span>{" "}
+                  (“he sings/he sang”).
+                </p>
+
+                {/* Present mini-table for SHAR */}
+                <div className="overflow-x-auto mb-4">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Tense
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Form
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td
+                          className="border border-gray-300 px-4 py-2"
+                          rowSpan={5}
+                        >
+                          Present
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          Infinitive
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          לָשִׁיר
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          Lashir
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2">
+                          Masculine sg.
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          שָׁר
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          Shar
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2">
+                          Feminine sg.
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          שָׁרָה
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          Shara
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2">
+                          Masculine pl.
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          שָׁרִים
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          Sharim
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2">
+                          Feminine pl.
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          שָׁרוֹת
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          Sharot
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                {/* Past table for SHAR */}
+                <div className="overflow-x-auto mb-8">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Person
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">1st sg. (אני)</td>
+                        <td className="border px-4 py-2">שַׁרְתִּי</td>
+                        <td className="border px-4 py-2">Sharti</td>
+                        <td className="border px-4 py-2">I sang</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          2nd sg. m. (אַתָּה)
+                        </td>
+                        <td className="border px-4 py-2">שַׁרְתָּ</td>
+                        <td className="border px-4 py-2">Sharta</td>
+                        <td className="border px-4 py-2">You (m.s.) sang</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">2nd sg. f. (אַתְּ)</td>
+                        <td className="border px-4 py-2">שַׁרְתְּ</td>
+                        <td className="border px-4 py-2">Shart</td>
+                        <td className="border px-4 py-2">You (f.s.) sang</td>
+                      </tr>
+                      <tr className="bg-indigo-50">
+                        <td className="border px-4 py-2 font-semibold">
+                          3rd sg. m. (הוּא) – Root-like
+                        </td>
+                        <td className="border px-4 py-2 font-semibold">שָׁר</td>
+                        <td className="border px-4 py-2 font-semibold">Shar</td>
+                        <td className="border px-4 py-2">He sang</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">3rd sg. f. (הִיא)</td>
+                        <td className="border px-4 py-2">שָׁרָה</td>
+                        <td className="border px-4 py-2">Shara</td>
+                        <td className="border px-4 py-2">She sang</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          1st pl. (אֲנַחְנוּ)
+                        </td>
+                        <td className="border px-4 py-2">שַׁרְנוּ</td>
+                        <td className="border px-4 py-2">Sharnu</td>
+                        <td className="border px-4 py-2">We sang</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          2nd pl. m. (אַתֶּם)
+                        </td>
+                        <td className="border px-4 py-2">שַׁרְתֶּם</td>
+                        <td className="border px-4 py-2">Shartem</td>
+                        <td className="border px-4 py-2">You (m.pl.) sang</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          2nd pl. f. (אַתֵּן)
+                        </td>
+                        <td className="border px-4 py-2">שַׁרְתֶּן</td>
+                        <td className="border px-4 py-2">Sharten</td>
+                        <td className="border px-4 py-2">You (f.pl.) sang</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          3rd pl. (הֵם / הֵן)
+                        </td>
+                        <td className="border px-4 py-2">שָׁרוּ</td>
+                        <td className="border px-4 py-2">Sharu</td>
+                        <td className="border px-4 py-2">They sang</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                {/* 2) Vav in the middle – טוס */}
+                <h3 className="text-xl font-semibold text-indigo-700 mt-2 mb-3">
+                  2) Vav (ו) in the middle — טוס
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-3">
+                  The middle <span className="font-semibold">ו</span> is
+                  removed. Like the yod case, the{" "}
+                  <span className="font-semibold">present</span> and{" "}
+                  <span className="font-semibold">past</span> of{" "}
+                  <span className="font-semibold">
+                    3rd person masculine singular
+                  </span>{" "}
+                  are identical: <span className="font-semibold">טָס</span> (“he
+                  flies/he flew”).
+                </p>
+
+                {/* Past table for TAS */}
+                <div className="overflow-x-auto mb-8">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Person
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">1st sg. (אני)</td>
+                        <td className="border px-4 py-2">טַסְתִּי</td>
+                        <td className="border px-4 py-2">Tasti</td>
+                        <td className="border px-4 py-2">I flew</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          2nd sg. m. (אַתָּה)
+                        </td>
+                        <td className="border px-4 py-2">טַסְתָּ</td>
+                        <td className="border px-4 py-2">Tasta</td>
+                        <td className="border px-4 py-2">You (m.s.) flew</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">2nd sg. f. (אַתְּ)</td>
+                        <td className="border px-4 py-2">טַסְתְּ</td>
+                        <td className="border px-4 py-2">Tast</td>
+                        <td className="border px-4 py-2">You (f.s.) flew</td>
+                      </tr>
+                      <tr className="bg-indigo-50">
+                        <td className="border px-4 py-2 font-semibold">
+                          3rd sg. m. (הוּא)
+                        </td>
+                        <td className="border px-4 py-2 font-semibold">טָס</td>
+                        <td className="border px-4 py-2 font-semibold">Tas</td>
+                        <td className="border px-4 py-2">He flew</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">3rd sg. f. (הִיא)</td>
+                        <td className="border px-4 py-2">טָסָה</td>
+                        <td className="border px-4 py-2">Tasa</td>
+                        <td className="border px-4 py-2">She flew</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          1st pl. (אֲנַחְנוּ)
+                        </td>
+                        <td className="border px-4 py-2">טַסְנוּ</td>
+                        <td className="border px-4 py-2">Tasnu</td>
+                        <td className="border px-4 py-2">We flew</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          2nd pl. m. (אַתֶּם)
+                        </td>
+                        <td className="border px-4 py-2">טַסְתֶּם</td>
+                        <td className="border px-4 py-2">Tastem</td>
+                        <td className="border px-4 py-2">You (m.pl.) flew</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          2nd pl. f. (אַתֵּן)
+                        </td>
+                        <td className="border px-4 py-2">טַסְתֶּן</td>
+                        <td className="border px-4 py-2">Tasten</td>
+                        <td className="border px-4 py-2">You (f.pl.) flew</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          3rd pl. (הֵם / הֵן)
+                        </td>
+                        <td className="border px-4 py-2">טָסוּ</td>
+                        <td className="border px-4 py-2">Tasu</td>
+                        <td className="border px-4 py-2">They flew</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                {/* 3) Hey at the end – קנה */}
+                <h3 className="text-xl font-semibold text-indigo-700 mt-2 mb-3">
+                  3) Hey (ה) at the end — קנה
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-3">
+                  When the root ends with{" "}
+                  <span className="font-semibold">ה</span>:
+                  <br />•{" "}
+                  <span className="font-semibold">
+                    3rd person feminine singular
+                  </span>{" "}
+                  adds <span className="font-semibold">ת</span> before the ה →
+                  e.g. <span className="font-semibold">קָנְתָה</span> (
+                  <i>
+                    kan<span className="underline">t</span>a
+                  </i>
+                  ) “she bought”.
+                  <br />•{" "}
+                  <span className="font-semibold">3rd person plural</span>{" "}
+                  replaces the ה with <span className="font-semibold">ו</span> →{" "}
+                  <span className="font-semibold">קָנוּ</span> (kanu) “they
+                  bought”.
+                  <br />• For all other past forms, the ה is generally replaced
+                  by <span className="font-semibold">י</span> in the spelling
+                  (the{" "}
+                  <span className="font-semibold">
+                    3rd person masculine singular
+                  </span>{" "}
+                  root form
+                  <span className="mx-1">קָנָה</span> does not change).
+                </p>
+
+                {/* Past table for KANA */}
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Person
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">1st sg. (אני)</td>
+                        <td className="border px-4 py-2">קָנִיתִי</td>
+                        <td className="border px-4 py-2">Kaniti</td>
+                        <td className="border px-4 py-2">I bought</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          2nd sg. m. (אַתָּה)
+                        </td>
+                        <td className="border px-4 py-2">קָנִיתָ</td>
+                        <td className="border px-4 py-2">Kanita</td>
+                        <td className="border px-4 py-2">You (m.s.) bought</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">2nd sg. f. (אַתְּ)</td>
+                        <td className="border px-4 py-2">קָנִיתְ</td>
+                        <td className="border px-4 py-2">Kanit</td>
+                        <td className="border px-4 py-2">You (f.s.) bought</td>
+                      </tr>
+                      <tr className="bg-indigo-50">
+                        <td className="border px-4 py-2 font-semibold">
+                          3rd sg. m. (הוּא) – Root Form
+                        </td>
+                        <td className="border px-4 py-2 font-semibold">
+                          קָנָה
+                        </td>
+                        <td className="border px-4 py-2 font-semibold">
+                          Kanah
+                        </td>
+                        <td className="border px-4 py-2">He bought</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">3rd sg. f. (הִיא)</td>
+                        <td className="border px-4 py-2">קָנְתָה</td>
+                        <td className="border px-4 py-2">Kanta</td>
+                        <td className="border px-4 py-2">She bought</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          1st pl. (אֲנַחְנוּ)
+                        </td>
+                        <td className="border px-4 py-2">קָנִינוּ</td>
+                        <td className="border px-4 py-2">Kaninu</td>
+                        <td className="border px-4 py-2">We bought</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          2nd pl. m. (אַתֶּם)
+                        </td>
+                        <td className="border px-4 py-2">קְנִיתֶם</td>
+                        <td className="border px-4 py-2">K’nitem</td>
+                        <td className="border px-4 py-2">You (m.pl.) bought</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          2nd pl. f. (אַתֵּן)
+                        </td>
+                        <td className="border px-4 py-2">קְנִיתֶן</td>
+                        <td className="border px-4 py-2">K’niten</td>
+                        <td className="border px-4 py-2">You (f.pl.) bought</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          3rd pl. (הֵם / הֵן)
+                        </td>
+                        <td className="border px-4 py-2">קָנוּ</td>
+                        <td className="border px-4 py-2">Kanu</td>
+                        <td className="border px-4 py-2">They bought</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </section>
+
+            {/* Future tense */}
+            <section id="future-tense" className="mb-12 scroll-mt-20">
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  The Future Tense (עתיד)
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  In Hebrew, the future tense is built using special{" "}
+                  <span className="font-semibold">prefixes</span> attached to
+                  the root. These prefixes are remembered by the acronym{" "}
+                  <span className="font-semibold">אֶתָ״ן (Eitan)</span> —
+                  <span className="font-semibold">Aleph</span>,{" "}
+                  <span className="font-semibold">Tav</span>,{" "}
+                  <span className="font-semibold">Yod</span>,{" "}
+                  <span className="font-semibold">Nun</span>. Each prefix marks
+                  a different subject pronoun.
+                </p>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Let’s use the root <span className="font-semibold">סגר</span>
+                  (Sagar – “to close”) as our example. The infinitive is{" "}
+                  <span className="font-semibold">לִסְגוֹר</span> (lisgor). In
+                  the future tense, we attach the appropriate prefix to form
+                  words like <span className="font-semibold">אֶסְגוֹר</span>{" "}
+                  (esgor – “I will close”).
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Person
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">1st sg. (אני)</td>
+                        <td className="border px-4 py-2">אֶסְגוֹר</td>
+                        <td className="border px-4 py-2">Esgor</td>
+                        <td className="border px-4 py-2">I will close</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          2nd sg. m. (אַתָּה)
+                        </td>
+                        <td className="border px-4 py-2">תִּסְגוֹר</td>
+                        <td className="border px-4 py-2">Tisgor</td>
+                        <td className="border px-4 py-2">
+                          You (m.s.) will close
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">2nd sg. f. (אַתְּ)</td>
+                        <td className="border px-4 py-2">תִּסְגְּרִי</td>
+                        <td className="border px-4 py-2">Tisgri</td>
+                        <td className="border px-4 py-2">
+                          You (f.s.) will close
+                        </td>
+                      </tr>
+                      <tr className="bg-indigo-50">
+                        <td className="border px-4 py-2 font-semibold">
+                          3rd sg. m. (הוּא)
+                        </td>
+                        <td className="border px-4 py-2 font-semibold">
+                          יִסְגוֹר
+                        </td>
+                        <td className="border px-4 py-2 font-semibold">
+                          Yisgor
+                        </td>
+                        <td className="border px-4 py-2">He will close</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">3rd sg. f. (הִיא)</td>
+                        <td className="border px-4 py-2">תִּסְגוֹר</td>
+                        <td className="border px-4 py-2">Tisgor</td>
+                        <td className="border px-4 py-2">She will close</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          1st pl. (אֲנַחְנוּ)
+                        </td>
+                        <td className="border px-4 py-2">נִסְגוֹר</td>
+                        <td className="border px-4 py-2">Nisgor</td>
+                        <td className="border px-4 py-2">We will close</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          2nd pl. m. (אַתֶּם)
+                        </td>
+                        <td className="border px-4 py-2">תִּסְגְּרוּ</td>
+                        <td className="border px-4 py-2">Tisgeru</td>
+                        <td className="border px-4 py-2">
+                          You (m.pl.) will close
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          2nd pl. f. (אַתֵּן)
+                        </td>
+                        <td className="border px-4 py-2">תִּסְגֹּרְנָה</td>
+                        <td className="border px-4 py-2">Tisgorna</td>
+                        <td className="border px-4 py-2">
+                          You (f.pl.) will close
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          3rd pl. (הֵם / הֵן)
+                        </td>
+                        <td className="border px-4 py-2">יִסְגְּרוּ</td>
+                        <td className="border px-4 py-2">Yisgeru</td>
+                        <td className="border px-4 py-2">They will close</td>
                       </tr>
                     </tbody>
                   </table>
