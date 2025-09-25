@@ -1945,7 +1945,7 @@ const Alphabet = () => {
                   <p className="mt-2">
                     Larger numbers continue this pattern. For example:{" "}
                     <span dir="rtl" className="font-medium">
-                      תצ״ט
+                      תצט
                     </span>{" "}
                     = 499 (400 + 90 + 9).
                   </p>
