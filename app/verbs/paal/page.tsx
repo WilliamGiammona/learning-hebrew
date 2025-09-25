@@ -1790,19 +1790,19 @@ export default function PaalPage() {
                       <tr>
                         <td className="border px-4 py-2">Masculine Singular</td>
                         <td className="border px-4 py-2">קְנֵה</td>
-                        <td className="border px-4 py-2">K'ne</td>
+                        <td className="border px-4 py-2">K&apos;ne</td>
                         <td className="border px-4 py-2">Buy! (m.s.)</td>
                       </tr>
                       <tr>
                         <td className="border px-4 py-2">Feminine Singular</td>
                         <td className="border px-4 py-2">קְנִי</td>
-                        <td className="border px-4 py-2">K'ni</td>
+                        <td className="border px-4 py-2">K&apos;ni</td>
                         <td className="border px-4 py-2">Buy! (f.s.)</td>
                       </tr>
                       <tr>
                         <td className="border px-4 py-2">Plural</td>
                         <td className="border px-4 py-2">קְנוּ</td>
-                        <td className="border px-4 py-2">K'nu</td>
+                        <td className="border px-4 py-2">K&apos;nu</td>
                         <td className="border px-4 py-2">Buy! (pl.)</td>
                       </tr>
                     </tbody>
