@@ -999,7 +999,849 @@ const Alphabet = () => {
                 <h2 className="text-3xl font-bold text-blue-800 mb-4">
                   Vowels
                 </h2>
-                <p className="text-gray-700">Content coming soon...</p>
+
+                {/* Intro */}
+                <p className="text-gray-700 max-w-3xl">
+                  In pointed Hebrew (<span className="font-medium">niqqud</span>
+                  ), vowels are written with small marks around/below
+                  consonants. Below are the common sets for the{" "}
+                  <span className="font-semibold text-blue-700">
+                    “ah”
+                  </span> and{" "}
+                  <span className="font-semibold text-blue-700">“eh”</span>{" "}
+                  sounds.
+                </p>
+
+                {/* ====== “Ah” family ====== */}
+                <h3 className="mt-8 text-2xl font-bold text-blue-800 text-center">
+                  “Ah” Vowels
+                </h3>
+                <p className="text-gray-700 text-center">
+                  Kamatz, Patach, and Khataf Patach
+                </p>
+
+                <div className="mt-6 grid gap-6 md:grid-cols-3">
+                  {/* Kamatz */}
+                  <div className="rounded-xl border border-amber-200 bg-amber-50/60 p-5">
+                    <h4 className="text-xl font-bold text-amber-900 text-center">
+                      Kamatz — ָ
+                    </h4>
+                    <p className="mt-2 text-gray-700 text-sm text-center">
+                      Usually a full/long “ah”.
+                    </p>
+                    <div className="mt-4 rounded-lg bg-white border border-gray-200 p-4 text-center">
+                      <div className="text-xs uppercase tracking-wide text-gray-500">
+                        Symbol on Aleph
+                      </div>
+                      <div dir="rtl" className="mt-1 text-4xl leading-none">
+                        אָ
+                      </div>
+                      <div className="mt-2 text-xs text-gray-500">
+                        Aleph + Kamatz
+                      </div>
+                    </div>
+                    <div className="mt-3 text-sm text-gray-700">
+                      <div className="font-medium">Examples:</div>
+                      <ul className="list-disc ms-5 mt-1 space-y-1">
+                        <li dir="rtl" className="text-lg leading-none">
+                          אָב
+                        </li>
+                        <li dir="rtl" className="text-lg leading-none">
+                          שָׁלוֹם
+                        </li>
+                      </ul>
+                    </div>
+                    <p className="mt-3 text-xs text-gray-600">
+                      <span className="font-semibold">Note:</span>{" "}
+                      <span className="italic">Kamatz Qatan</span>
+                      &nbsp;(rare in modern beginner texts) sounds like “o”.
+                      Here we treat Kamatz as “ah”.
+                    </p>
+                  </div>
+
+                  {/* Patach */}
+                  <div className="rounded-xl border border-rose-200 bg-rose-50/60 p-5">
+                    <h4 className="text-xl font-bold text-rose-900 text-center">
+                      Patach — ַ
+                    </h4>
+                    <p className="mt-2 text-gray-700 text-sm text-center">
+                      A short, clear “ah”.
+                    </p>
+                    <div className="mt-4 rounded-lg bg-white border border-gray-200 p-4 text-center">
+                      <div className="text-xs uppercase tracking-wide text-gray-500">
+                        Symbol on Aleph
+                      </div>
+                      <div dir="rtl" className="mt-1 text-4xl leading-none">
+                        אַ
+                      </div>
+                      <div className="mt-2 text-xs text-gray-500">
+                        Aleph + Patach
+                      </div>
+                    </div>
+                    <div className="mt-3 text-sm text-gray-700">
+                      <div className="font-medium">Examples:</div>
+                      <ul className="list-disc ms-5 mt-1 space-y-1">
+                        <li dir="rtl" className="text-lg leading-none">
+                          אַבָּא
+                        </li>
+                        <li dir="rtl" className="text-lg leading-none">
+                          בַּיִת
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  {/* Khataf Patach */}
+                  <div className="rounded-xl border border-cyan-200 bg-cyan-50/60 p-5">
+                    <h4 className="text-xl font-bold text-cyan-900 text-center">
+                      Khataf Patach — ֲ
+                    </h4>
+                    <p className="mt-2 text-gray-700 text-sm text-center">
+                      A very short/reduced “ah”, most often under gutturals: א ה
+                      ח ע.
+                    </p>
+                    <div className="mt-4 rounded-lg bg-white border border-gray-200 p-4 text-center">
+                      <div className="text-xs uppercase tracking-wide text-gray-500">
+                        Symbol on Aleph
+                      </div>
+                      <div dir="rtl" className="mt-1 text-4xl leading-none">
+                        אֲ
+                      </div>
+                      <div className="mt-2 text-xs text-gray-500">
+                        Aleph + Khataf Patach
+                      </div>
+                    </div>
+                    <div className="mt-3 text-sm text-gray-700">
+                      <div className="font-medium">Examples:</div>
+                      <ul className="list-disc ms-5 mt-1 space-y-1">
+                        <li dir="rtl" className="text-lg leading-none">
+                          הֲיֵשׁ
+                        </li>
+                        <li dir="rtl" className="text-lg leading-none">
+                          עֲבוֹדָה
+                        </li>
+                      </ul>
+                    </div>
+                    <p className="mt-3 text-xs text-gray-600">
+                      In some modern prints, it may appear like a plain sheva;
+                      pronunciation stays a quick “ah”.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Ah visual comparison */}
+                <div className="mt-8 rounded-xl border border-indigo-200 bg-indigo-50/60 p-6">
+                  <h5 className="text-lg font-semibold text-indigo-900 text-center">
+                    “Ah” Vowels at a Glance
+                  </h5>
+                  <ul
+                    className="mt-4 grid gap-3 sm:grid-cols-3"
+                    aria-label="Ah vowels comparison grid"
+                  >
+                    <li className="rounded-lg bg-white border border-gray-200 p-3 text-center">
+                      <div className="text-xs uppercase tracking-wide text-gray-500">
+                        Kamatz
+                      </div>
+                      <div dir="rtl" className="mt-1 text-4xl leading-none">
+                        אָ
+                      </div>
+                      <div className="mt-1 text-xs text-gray-500">
+                        Full “ah”
+                      </div>
+                    </li>
+                    <li className="rounded-lg bg-white border border-gray-200 p-3 text-center">
+                      <div className="text-xs uppercase tracking-wide text-gray-500">
+                        Patach
+                      </div>
+                      <div dir="rtl" className="mt-1 text-4xl leading-none">
+                        אַ
+                      </div>
+                      <div className="mt-1 text-xs text-gray-500">
+                        Short “ah”
+                      </div>
+                    </li>
+                    <li className="rounded-lg bg-white border border-gray-200 p-3 text-center">
+                      <div className="text-xs uppercase tracking-wide text-gray-500">
+                        Khataf Patach
+                      </div>
+                      <div dir="rtl" className="mt-1 text-4xl leading-none">
+                        אֲ
+                      </div>
+                      <div className="mt-1 text-xs text-gray-500">
+                        Very short “ah”
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+                {/* ====== “Eh” family ====== */}
+                <h3 className="mt-12 text-2xl font-bold text-blue-800 text-center">
+                  “Eh” Vowels
+                </h3>
+                <p className="text-gray-700 text-center">
+                  Segol, Tsere, and Khataf Segol
+                </p>
+
+                <div className="mt-6 grid gap-6 md:grid-cols-3">
+                  {/* Segol */}
+                  <div className="rounded-xl border border-emerald-200 bg-emerald-50/60 p-5">
+                    <h4 className="text-xl font-bold text-emerald-900 text-center">
+                      Segol — ֶ
+                    </h4>
+                    <p className="mt-2 text-gray-700 text-sm text-center">
+                      Short “eh” (like in <i>bed</i>).
+                    </p>
+                    <div className="mt-4 rounded-lg bg-white border border-gray-200 p-4 text-center">
+                      <div className="text-xs uppercase tracking-wide text-gray-500">
+                        Symbol on Aleph
+                      </div>
+                      <div dir="rtl" className="mt-1 text-4xl leading-none">
+                        אֶ
+                      </div>
+                      <div className="mt-2 text-xs text-gray-500">
+                        Aleph + Segol
+                      </div>
+                    </div>
+                    <div className="mt-3 text-sm text-gray-700">
+                      <div className="font-medium">Examples:</div>
+                      <ul className="list-disc ms-5 mt-1 space-y-1">
+                        <li dir="rtl" className="text-lg leading-none">
+                          מֶלֶךְ
+                        </li>
+                        <li dir="rtl" className="text-lg leading-none">
+                          סֶפֶר
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  {/* Tsere */}
+                  <div className="rounded-xl border border-sky-200 bg-sky-50/60 p-5">
+                    <h4 className="text-xl font-bold text-sky-900 text-center">
+                      Tsere — ֵ
+                    </h4>
+                    <p className="mt-2 text-gray-700 text-sm text-center">
+                      Long “e/eh” (often like English “ay” in <i>they</i>).
+                    </p>
+                    <div className="mt-4 rounded-lg bg-white border border-gray-200 p-4 text-center">
+                      <div className="text-xs uppercase tracking-wide text-gray-500">
+                        Symbol on Aleph
+                      </div>
+                      <div dir="rtl" className="mt-1 text-4xl leading-none">
+                        אֵ
+                      </div>
+                      <div className="mt-2 text-xs text-gray-500">
+                        Aleph + Tsere
+                      </div>
+                    </div>
+                    <div className="mt-3 text-sm text-gray-700">
+                      <div className="font-medium">Examples:</div>
+                      <ul className="list-disc ms-5 mt-1 space-y-1">
+                        <li dir="rtl" className="text-lg leading-none">
+                          אֵם
+                        </li>
+                        <li dir="rtl" className="text-lg leading-none">
+                          עֵץ
+                        </li>
+                      </ul>
+                    </div>
+                    <p className="mt-3 text-xs text-gray-600">
+                      Often spelled with a helper{" "}
+                      <span className="font-medium">י</span> (tsere-yod) in
+                      unpointed text.
+                    </p>
+                  </div>
+
+                  {/* Khataf Segol */}
+                  <div className="rounded-xl border border-violet-200 bg-violet-50/60 p-5">
+                    <h4 className="text-xl font-bold text-violet-900 text-center">
+                      Khataf Segol — ֱ
+                    </h4>
+                    <p className="mt-2 text-gray-700 text-sm text-center">
+                      Very short/reduced “eh”, typically under gutturals: א ה ח
+                      ע.
+                    </p>
+                    <div className="mt-4 rounded-lg bg-white border border-gray-200 p-4 text-center">
+                      <div className="text-xs uppercase tracking-wide text-gray-500">
+                        Symbol on Aleph
+                      </div>
+                      <div dir="rtl" className="mt-1 text-4xl leading-none">
+                        אֱ
+                      </div>
+                      <div className="mt-2 text-xs text-gray-500">
+                        Aleph + Khataf Segol
+                      </div>
+                    </div>
+                    <div className="mt-3 text-sm text-gray-700">
+                      <div className="font-medium">Examples:</div>
+                      <ul className="list-disc ms-5 mt-1 space-y-1">
+                        <li dir="rtl" className="text-lg leading-none">
+                          אֱמֶת
+                        </li>
+                        <li dir="rtl" className="text-lg leading-none">
+                          אֱלֹהִים
+                        </li>
+                      </ul>
+                    </div>
+                    <p className="mt-3 text-xs text-gray-600">
+                      Like other “khataf” vowels, it’s a reduced vowel; some
+                      prints simplify it visually.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Eh visual comparison */}
+                <div className="mt-8 rounded-xl border border-teal-200 bg-teal-50/60 p-6">
+                  <h5 className="text-lg font-semibold text-teal-900 text-center">
+                    “Eh” Vowels at a Glance
+                  </h5>
+                  <ul
+                    className="mt-4 grid gap-3 sm:grid-cols-3"
+                    aria-label="Eh vowels comparison grid"
+                  >
+                    <li className="rounded-lg bg-white border border-gray-200 p-3 text-center">
+                      <div className="text-xs uppercase tracking-wide text-gray-500">
+                        Segol
+                      </div>
+                      <div dir="rtl" className="mt-1 text-4xl leading-none">
+                        אֶ
+                      </div>
+                      <div className="mt-1 text-xs text-gray-500">
+                        Short “eh”
+                      </div>
+                    </li>
+                    <li className="rounded-lg bg-white border border-gray-200 p-3 text-center">
+                      <div className="text-xs uppercase tracking-wide text-gray-500">
+                        Tsere
+                      </div>
+                      <div dir="rtl" className="mt-1 text-4xl leading-none">
+                        אֵ
+                      </div>
+                      <div className="mt-1 text-xs text-gray-500">
+                        Long “e/eh”
+                      </div>
+                    </li>
+                    <li className="rounded-lg bg-white border border-gray-200 p-3 text-center">
+                      <div className="text-xs uppercase tracking-wide text-gray-500">
+                        Khataf Segol
+                      </div>
+                      <div dir="rtl" className="mt-1 text-4xl leading-none">
+                        אֱ
+                      </div>
+                      <div className="mt-1 text-xs text-gray-500">
+                        Very short “eh”
+                      </div>
+                    </li>
+                  </ul>
+                  <p className="mt-4 text-xs text-gray-600 text-center">
+                    Spelling in unpointed text varies; beginners should learn
+                    the <span className="font-medium">sound first</span>, then
+                    common spellings (e.g., tsere-yod).
+                  </p>
+                </div>
+
+                {/* ====== “Ee” family ====== */}
+                <h3 className="mt-12 text-2xl font-bold text-blue-800 text-center">
+                  “Ee” Vowel
+                </h3>
+                <p className="text-gray-700 text-center">
+                  Hiriq (also spelled{" "}
+                  <span className="italic">Chirik/Hiriq</span>; you wrote
+                  “Kheerek”) makes the{" "}
+                  <span className="font-semibold text-blue-700">“ee”</span>{" "}
+                  sound. Learn these two forms and you’re set.
+                </p>
+
+                <div className="mt-6 grid gap-6 md:grid-cols-2">
+                  {/* Hiriq (ִ) */}
+                  <div className="rounded-xl border border-emerald-200 bg-emerald-50/60 p-5">
+                    <h4 className="text-xl font-bold text-emerald-900 text-center">
+                      Hiriq — ִ
+                    </h4>
+                    <p className="mt-2 text-gray-700 text-sm text-center">
+                      A single dot <span className="font-semibold">under</span>{" "}
+                      the consonant = “ee”.
+                    </p>
+                    <div className="mt-4 rounded-lg bg-white border border-gray-200 p-4 text-center">
+                      <div className="text-xs uppercase tracking-wide text-gray-500">
+                        Symbol on Aleph
+                      </div>
+                      <div dir="rtl" className="mt-1 text-4xl leading-none">
+                        אִ
+                      </div>
+                      <div className="mt-2 text-xs text-gray-500">
+                        Aleph + Hiriq
+                      </div>
+                    </div>
+                    <div className="mt-3 text-sm text-gray-700">
+                      <div className="font-medium">Examples:</div>
+                      <ul className="list-disc ms-5 mt-1 space-y-1">
+                        <li dir="rtl" className="text-lg leading-none">
+                          אִם
+                        </li>
+                        <li dir="rtl" className="text-lg leading-none">
+                          מִן
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  {/* Hiriq + Yod (ִי) */}
+                  <div className="rounded-xl border border-indigo-200 bg-indigo-50/60 p-5">
+                    <h4 className="text-xl font-bold text-indigo-900 text-center">
+                      Hiriq + Yod — ִי
+                    </h4>
+                    <p className="mt-2 text-gray-700 text-sm text-center">
+                      Hiriq followed by a{" "}
+                      <span className="font-semibold">Yod</span> (with no vowel)
+                      — the common way to spell long “ee” in everyday text.
+                    </p>
+                    <div className="mt-4 rounded-lg bg-white border border-gray-200 p-4 text-center">
+                      <div className="text-xs uppercase tracking-wide text-gray-500">
+                        On Aleph + Yod
+                      </div>
+                      <div dir="rtl" className="mt-1 text-4xl leading-none">
+                        אִי
+                      </div>
+                      <div className="mt-2 text-xs text-gray-500">
+                        Aleph + Hiriq + Yod
+                      </div>
+                    </div>
+                    <div className="mt-3 text-sm text-gray-700">
+                      <div className="font-medium">Examples:</div>
+                      <ul className="list-disc ms-5 mt-1 space-y-1">
+                        <li dir="rtl" className="text-lg leading-none">
+                          עִיר
+                        </li>
+                        <li dir="rtl" className="text-lg leading-none">
+                          שִׁיר
+                        </li>
+                      </ul>
+                    </div>
+                    <p className="mt-3 text-xs text-gray-600">
+                      In unpointed spelling, the “ee” is usually written with{" "}
+                      <span className="font-medium">י</span>.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Ee quick glance */}
+                <div className="mt-8 rounded-xl border border-teal-200 bg-teal-50/60 p-6">
+                  <h5 className="text-lg font-semibold text-teal-900 text-center">
+                    “Ee” at a Glance
+                  </h5>
+                  <ul
+                    className="mt-4 grid gap-3 sm:grid-cols-2"
+                    aria-label="Ee vowels comparison grid"
+                  >
+                    <li className="rounded-lg bg-white border border-gray-200 p-3 text-center">
+                      <div className="text-xs uppercase tracking-wide text-gray-500">
+                        Hiriq
+                      </div>
+                      <div dir="rtl" className="mt-1 text-4xl leading-none">
+                        אִ
+                      </div>
+                      <div className="mt-1 text-xs text-gray-500">
+                        EE under the letter
+                      </div>
+                    </li>
+                    <li className="rounded-lg bg-white border border-gray-200 p-3 text-center">
+                      <div className="text-xs uppercase tracking-wide text-gray-500">
+                        Hiriq + Yod
+                      </div>
+                      <div dir="rtl" className="mt-1 text-4xl leading-none">
+                        אִי
+                      </div>
+                      <div className="mt-1 text-xs text-gray-500">
+                        EE + helper Yod
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                {/* ====== “O” family ====== */}
+                <h3 className="mt-12 text-2xl font-bold text-blue-800 text-center">
+                  “O” Vowels
+                </h3>
+                <p className="text-gray-700 text-center">
+                  These vowels make the{" "}
+                  <span className="font-semibold text-blue-700">“o”</span>{" "}
+                  sound:
+                  <span className="font-medium"> Kholam Ḥaser</span> (dot only),
+                  <span className="font-medium"> Kholam Male</span> (dot on
+                  Vav), and
+                  <span className="font-medium"> Khataf Kamatz</span> (ֳ).
+                </p>
+
+                <div className="mt-6 grid gap-6 md:grid-cols-3">
+                  {/* Kholam Haser (ֹ) */}
+                  <div className="rounded-xl border border-amber-200 bg-amber-50/60 p-5">
+                    <h4 className="text-xl font-bold text-amber-900 text-center">
+                      Kholam Ḥaser — ֹ
+                    </h4>
+                    <p className="mt-2 text-gray-700 text-sm text-center">
+                      A single dot placed{" "}
+                      <span className="font-semibold">above-left</span> of the
+                      consonant = “o”.
+                    </p>
+                    <div className="mt-4 rounded-lg bg-white border border-gray-200 p-4 text-center">
+                      <div className="text-xs uppercase tracking-wide text-gray-500">
+                        Symbol on Aleph
+                      </div>
+                      <div dir="rtl" className="mt-1 text-4xl leading-none">
+                        אֹ
+                      </div>
+                      <div className="mt-2 text-xs text-gray-500">
+                        Aleph + Kholam Ḥaser
+                      </div>
+                    </div>
+                    <div className="mt-3 text-sm text-gray-700">
+                      <div className="font-medium">Examples:</div>
+                      <ul className="list-disc ms-5 mt-1 space-y-1">
+                        <li dir="rtl" className="text-lg leading-none">
+                          לֹא
+                        </li>
+                        <li dir="rtl" className="text-lg leading-none">
+                          חֹק
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  {/* Kholam Male (וֹ) */}
+                  <div className="rounded-xl border border-indigo-200 bg-indigo-50/60 p-5">
+                    <h4 className="text-xl font-bold text-indigo-900 text-center">
+                      Kholam Male — וֹ
+                    </h4>
+                    <p className="mt-2 text-gray-700 text-sm text-center">
+                      Dot placed above a{" "}
+                      <span dir="rtl" className="font-semibold">
+                        ו
+                      </span>{" "}
+                      (Vav). This is the most common “o” spelling in everyday
+                      Hebrew.
+                    </p>
+                    <div className="mt-4 rounded-lg bg-white border border-gray-200 p-4 text-center">
+                      <div className="text-xs uppercase tracking-wide text-gray-500">
+                        Vav with dot
+                      </div>
+                      <div dir="rtl" className="mt-1 text-4xl leading-none">
+                        וֹ
+                      </div>
+                      <div className="mt-2 text-xs text-gray-500">
+                        Vav + Kholam Male
+                      </div>
+                    </div>
+                    <div className="mt-3 text-sm text-gray-700">
+                      <div className="font-medium">Examples:</div>
+                      <ul className="list-disc ms-5 mt-1 space-y-1">
+                        <li dir="rtl" className="text-lg leading-none">
+                          קוֹל
+                        </li>
+                        <li dir="rtl" className="text-lg leading-none">
+                          דוֹד
+                        </li>
+                        <li dir="rtl" className="text-lg leading-none">
+                          חוֹל
+                        </li>
+                      </ul>
+                    </div>
+                    <p className="mt-3 text-xs text-gray-600">
+                      In unpointed text, this is usually written with just a
+                      plain ו.
+                    </p>
+                  </div>
+
+                  {/* Khataf Kamatz (ֳ) */}
+                  <div className="rounded-xl border border-teal-200 bg-teal-50/60 p-5">
+                    <h4 className="text-xl font-bold text-teal-900 text-center">
+                      Khataf Kamatz — ֳ
+                    </h4>
+                    <p className="mt-2 text-gray-700 text-sm text-center">
+                      A very short/reduced “o”, used mostly under gutturals (א,
+                      ה, ח, ע).
+                    </p>
+                    <div className="mt-4 rounded-lg bg-white border border-gray-200 p-4 text-center">
+                      <div className="text-xs uppercase tracking-wide text-gray-500">
+                        Symbol on Aleph
+                      </div>
+                      <div dir="rtl" className="mt-1 text-4xl leading-none">
+                        אֳ
+                      </div>
+                      <div className="mt-2 text-xs text-gray-500">
+                        Aleph + Khataf Kamatz
+                      </div>
+                    </div>
+                    <div className="mt-3 text-sm text-gray-700">
+                      <div className="font-medium">Examples:</div>
+                      <ul className="list-disc ms-5 mt-1 space-y-1">
+                        <li dir="rtl" className="text-lg leading-none">
+                          אֳנִיָּה
+                        </li>
+                        <li dir="rtl" className="text-lg leading-none">
+                          חֳלִי
+                        </li>
+                      </ul>
+                    </div>
+                    <p className="mt-3 text-xs text-gray-600">
+                      Like other <span className="font-medium">khataf</span>{" "}
+                      vowels, it’s a reduced form. In everyday speech, it’s
+                      heard simply as a quick “o”.
+                    </p>
+                  </div>
+                </div>
+
+                {/* O quick glance */}
+                <div className="mt-8 rounded-xl border border-purple-200 bg-purple-50/60 p-6">
+                  <h5 className="text-lg font-semibold text-purple-900 text-center">
+                    “O” at a Glance
+                  </h5>
+                  <ul
+                    className="mt-4 grid gap-3 sm:grid-cols-3"
+                    aria-label="O vowels comparison grid"
+                  >
+                    <li className="rounded-lg bg-white border border-gray-200 p-3 text-center">
+                      <div className="text-xs uppercase tracking-wide text-gray-500">
+                        Kholam Ḥaser
+                      </div>
+                      <div dir="rtl" className="mt-1 text-4xl leading-none">
+                        אֹ
+                      </div>
+                      <div className="mt-1 text-xs text-gray-500">
+                        Dot above letter
+                      </div>
+                    </li>
+                    <li className="rounded-lg bg-white border border-gray-200 p-3 text-center">
+                      <div className="text-xs uppercase tracking-wide text-gray-500">
+                        Kholam Male
+                      </div>
+                      <div dir="rtl" className="mt-1 text-4xl leading-none">
+                        וֹ
+                      </div>
+                      <div className="mt-1 text-xs text-gray-500">
+                        Dot on Vav
+                      </div>
+                    </li>
+                    <li className="rounded-lg bg-white border border-gray-200 p-3 text-center">
+                      <div className="text-xs uppercase tracking-wide text-gray-500">
+                        Khataf Kamatz
+                      </div>
+                      <div dir="rtl" className="mt-1 text-4xl leading-none">
+                        אֳ
+                      </div>
+                      <div className="mt-1 text-xs text-gray-500">
+                        Quick “o” under guttural
+                      </div>
+                    </li>
+                  </ul>
+                  <p className="mt-4 text-xs text-gray-600 text-center">
+                    Helpful to distinguish from{" "}
+                    <span className="font-medium">Shuruk/Qubutz</span> (“u/oo”).
+                  </p>
+                </div>
+
+                {/* ====== “U / OO” family ====== */}
+                <h3 className="mt-12 text-2xl font-bold text-blue-800 text-center">
+                  “OO” Vowels
+                </h3>
+                <p className="text-gray-700 text-center">
+                  These make the{" "}
+                  <span className="font-semibold text-blue-700">“oo”</span>{" "}
+                  sound:
+                  <span className="font-medium"> Shuruk</span> (dot in{" "}
+                  <span dir="rtl">וּ</span>) and
+                  <span className="font-medium"> Qubutz</span> (ֻ under the
+                  letter).
+                </p>
+
+                <div className="mt-6 grid gap-6 md:grid-cols-2">
+                  {/* Shuruk (ּו) */}
+                  <div className="rounded-xl border border-cyan-200 bg-cyan-50/60 p-5">
+                    <h4 className="text-xl font-bold text-cyan-900 text-center">
+                      Shuruk — וּ
+                    </h4>
+                    <p className="mt-2 text-gray-700 text-sm text-center">
+                      A dot <span className="font-semibold">inside</span> the{" "}
+                      <span dir="rtl">ו</span> (Vav) = “oo”. This is the most
+                      common “u” in everyday spelling.
+                    </p>
+                    <div className="mt-4 rounded-lg bg-white border border-gray-200 p-4 text-center">
+                      <div className="text-xs uppercase tracking-wide text-gray-500">
+                        Vav with dot
+                      </div>
+                      <div dir="rtl" className="mt-1 text-4xl leading-none">
+                        וּ
+                      </div>
+                      <div className="mt-2 text-xs text-gray-500">Shuruk</div>
+                    </div>
+                    <div className="mt-3 text-sm text-gray-700">
+                      <div className="font-medium">Examples:</div>
+                      <ul className="list-disc ms-5 mt-1 space-y-1">
+                        <li dir="rtl" className="text-lg leading-none">
+                          שׁוּק
+                        </li>
+                        <li dir="rtl" className="text-lg leading-none">
+                          לוּלָב
+                        </li>
+                      </ul>
+                    </div>
+                    <p className="mt-3 text-xs text-gray-600">
+                      In unpointed text, this sound is usually written with a
+                      plain <span dir="rtl">ו</span>.
+                    </p>
+                  </div>
+
+                  {/* Qubutz (ֻ) */}
+                  <div className="rounded-xl border border-violet-200 bg-violet-50/60 p-5">
+                    <h4 className="text-xl font-bold text-violet-900 text-center">
+                      Qubutz — ֻ
+                    </h4>
+                    <p className="mt-2 text-gray-700 text-sm text-center">
+                      Three diagonal dots{" "}
+                      <span className="font-semibold">under</span> the consonant
+                      = “u/oo”.
+                    </p>
+                    <div className="mt-4 rounded-lg bg-white border border-gray-200 p-4 text-center">
+                      <div className="text-xs uppercase tracking-wide text-gray-500">
+                        Symbol on Aleph
+                      </div>
+                      <div dir="rtl" className="mt-1 text-4xl leading-none">
+                        אֻ
+                      </div>
+                      <div className="mt-2 text-xs text-gray-500">
+                        Aleph + Qubutz
+                      </div>
+                    </div>
+                    <div className="mt-3 text-sm text-gray-700">
+                      <div className="font-medium">Examples:</div>
+                      <ul className="list-disc ms-5 mt-1 space-y-1">
+                        <li dir="rtl" className="text-lg leading-none">
+                          שֻׁלְחָן
+                        </li>
+                        <li dir="rtl" className="text-lg leading-none">
+                          סֻכָּר
+                        </li>
+                      </ul>
+                    </div>
+                    <p className="mt-3 text-xs text-gray-600">
+                      Functionally the same sound as Shuruk; Qubutz appears
+                      under the letter rather than in a Vav.
+                    </p>
+                  </div>
+                </div>
+
+                {/* U quick glance */}
+                <div className="mt-8 rounded-xl border border-teal-200 bg-teal-50/60 p-6">
+                  <h5 className="text-lg font-semibold text-teal-900 text-center">
+                    “OO” at a Glance
+                  </h5>
+                  <ul
+                    className="mt-4 grid gap-3 sm:grid-cols-2"
+                    aria-label="U vowels comparison grid"
+                  >
+                    <li className="rounded-lg bg-white border border-gray-200 p-3 text-center">
+                      <div className="text-xs uppercase tracking-wide text-gray-500">
+                        Shuruk
+                      </div>
+                      <div dir="rtl" className="mt-1 text-4xl leading-none">
+                        וּ
+                      </div>
+                      <div className="mt-1 text-xs text-gray-500">
+                        Dot inside Vav
+                      </div>
+                    </li>
+                    <li className="rounded-lg bg-white border border-gray-200 p-3 text-center">
+                      <div className="text-xs uppercase tracking-wide text-gray-500">
+                        Qubutz
+                      </div>
+                      <div dir="rtl" className="mt-1 text-4xl leading-none">
+                        אֻ
+                      </div>
+                      <div className="mt-1 text-xs text-gray-500">
+                        Three dots below
+                      </div>
+                    </li>
+                  </ul>
+                  <p className="mt-4 text-xs text-gray-600 text-center">
+                    Quick check: <span className="font-medium">וּ</span> is
+                    Shuruk (on Vav); <span className="font-medium">ֻ</span> is
+                    Qubutz (under a letter).
+                  </p>
+                </div>
+
+                {/* ====== Shva ====== */}
+                <h3 className="mt-12 text-2xl font-bold text-blue-800 text-center">
+                  Shva
+                </h3>
+                <p className="text-gray-700 text-center max-w-3xl mx-auto">
+                  The <span className="font-semibold text-blue-700">Shva</span>{" "}
+                  is two vertical dots under a letter. It can be either{" "}
+                  <span className="font-medium">silent (Shva Nach)</span> or{" "}
+                  <span className="font-medium">pronounced “eh” (Shva Na)</span>
+                  .
+                  <br />
+                  Usually Shva is silent, but below are the four cases where it
+                  makes the "eh" sound.
+                </p>
+
+                <div className="mt-8 rounded-xl border border-amber-200 bg-amber-50/60 p-6">
+                  <h4 className="text-lg font-bold text-amber-900 text-center">
+                    When is Shva pronounced “eh”?
+                  </h4>
+                  <p className="text-gray-700 text-sm text-center">
+                    Shva makes an <span className="font-semibold">“eh”</span>{" "}
+                    sound in these common cases:
+                  </p>
+                  <ul className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+                    {/* Case 1 */}
+                    <li className="rounded-lg bg-white border border-gray-200 p-4 text-center">
+                      <div className="text-xs uppercase tracking-wide text-gray-500">
+                        At start of word
+                      </div>
+                      <div dir="rtl" className="mt-2 text-3xl leading-none">
+                        בְּרֵאשִׁית
+                      </div>
+                      <div className="mt-1 text-xs text-gray-600">
+                        “bereshit” = in the beginning
+                      </div>
+                    </li>
+                    {/* Case 2 */}
+                    <li className="rounded-lg bg-white border border-gray-200 p-4 text-center">
+                      <div className="text-xs uppercase tracking-wide text-gray-500">
+                        After a prefix
+                      </div>
+                      <div dir="rtl" className="mt-2 text-3xl leading-none">
+                        וּרְאֵה
+                      </div>
+                      <div className="mt-1 text-xs text-gray-600">
+                        “u-re&amp;eh” = and see
+                      </div>
+                    </li>
+                    {/* Case 3 */}
+                    <li className="rounded-lg bg-white border border-gray-200 p-4 text-center">
+                      <div className="text-xs uppercase tracking-wide text-gray-500">
+                        Under dagesh letter
+                      </div>
+                      <div dir="rtl" className="mt-2 text-3xl leading-none">
+                        לַמְּדֵנִי
+                      </div>
+                      <div className="mt-1 text-xs text-gray-600">
+                        “lammedeni” = teach me
+                      </div>
+                    </li>
+                    {/* Case 4 */}
+                    <li className="rounded-lg bg-white border border-gray-200 p-4 text-center">
+                      <div className="text-xs uppercase tracking-wide text-gray-500">
+                        First of double letters
+                      </div>
+                      <div dir="rtl" className="mt-2 text-3xl leading-none">
+                        הַלְלוּיָהּ
+                      </div>
+                      <div className="mt-1 text-xs text-gray-600">
+                        “halleluyah”
+                      </div>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </section>
 
