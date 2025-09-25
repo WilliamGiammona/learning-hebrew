@@ -1171,8 +1171,7 @@ export default function PaalPage() {
                 </p>
 
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Let&amp;s use the root{" "}
-                  <span className="font-semibold">סגר</span>
+                  Lets use the root <span className="font-semibold">סגר </span>
                   (Sagar - “to close”) as our example. The infinitive is{" "}
                   <span className="font-semibold">לִסְגוֹר</span> (lisgor). In
                   the future tense, we attach the appropriate prefix to form
@@ -1223,16 +1222,10 @@ export default function PaalPage() {
                           You (f.s.) will close
                         </td>
                       </tr>
-                      <tr className="bg-indigo-50">
-                        <td className="border px-4 py-2 font-semibold">
-                          3rd sg. m. (הוּא)
-                        </td>
-                        <td className="border px-4 py-2 font-semibold">
-                          יִסְגוֹר
-                        </td>
-                        <td className="border px-4 py-2 font-semibold">
-                          Yisgor
-                        </td>
+                      <tr>
+                        <td className="border px-4 py-2 ">3rd sg. m. (הוּא)</td>
+                        <td className="border px-4 py-2 ">יִסְגוֹר</td>
+                        <td className="border px-4 py-2 ">Yisgor</td>
                         <td className="border px-4 py-2">He will close</td>
                       </tr>
                       <tr>
