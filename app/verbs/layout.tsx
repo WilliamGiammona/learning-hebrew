@@ -14,7 +14,7 @@ export default function VerbsLayout({ children }: { children: ReactNode }) {
         {/* Only show title + chart on child pages */}
         {!isIndex && (
           <div className="bg-white rounded-lg shadow-md p-8 border border-gray-200 mb-10">
-            <h2 className="text-3xl font-bold text-blue-800 mb-4">
+            <h2 className="text-3xl font-bold text-blue-800 mb-4 text-center">
               Seven Hebrew Verb Patterns (Binyanim)
             </h2>
             <div className="mt-8">
