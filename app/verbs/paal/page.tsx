@@ -13,7 +13,7 @@ export default function VerbPage() {
               <div className="relative w-full overflow-hidden rounded-lg border border-gray-300 shadow-sm">
                 <Image
                   src="/images/verbs/seven-verbs.png"
-                  alt="Hebrew Alphabet Numerical Values Chart"
+                  alt="Diagram of the seven Hebrew verb binyanim, showing active and passive patterns"
                   width={1200}
                   height={400}
                   className="w-full h-auto"
