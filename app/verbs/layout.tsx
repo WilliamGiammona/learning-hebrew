@@ -70,7 +70,7 @@ export default function VerbsLayout({ children }: { children: ReactNode }) {
                 pattern. This is especially common when the root:
               </p>
               <ul className="list-disc list-inside mt-3 space-y-2 text-gray-700">
-                <li>Starts with י (Yod)</li>
+                <li>Has י (Yod) in the middle</li>
                 <li>Has ו (Vav) in the middle</li>
                 <li>Ends with ה (Hey)</li>
               </ul>
