@@ -349,6 +349,250 @@ export default function PaalPage() {
               </li>
             </ul>
           </div>
+
+          {/* Past tense */}
+          <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6 mb-8">
+            <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+              The Past Tense (עבר)
+            </h2>
+            <p className="text-gray-700 leading-relaxed mb-4">
+              In Hebrew, the name of each binyan serves as a guide to the vowels
+              used in the{" "}
+              <span className="font-semibold">
+                3rd person masculine singular past tense
+              </span>{" "}
+              of its verbs. For Paal (פעל), the pattern is shown in the word{" "}
+              <span className="font-semibold">פָּעַל</span> (paʿal), with a{" "}
+              <span className="font-semibold">קמץ</span> (kamatz) under the
+              first letter פ and a <span className="font-semibold">פתח</span>{" "}
+              (patach) under the middle letter ע.
+            </p>
+
+            <p className="text-gray-700 leading-relaxed mb-4">
+              This vowel structure guides how the root is vocalized in the past
+              tense. Let’s look at two examples:
+            </p>
+
+            <ul className="list-disc list-inside mt-3 space-y-2 text-gray-700">
+              <li dir="ltr">
+                Root: פגש → פָּגַשׁ (
+                <span className="font-semibold">Pagash</span>) – he met
+              </li>
+              <li dir="ltr">
+                Root: סגר → סָגַר (<span className="font-semibold">Sagar</span>)
+                – he closed
+              </li>
+            </ul>
+
+            <p className="text-gray-700 leading-relaxed mt-4">
+              Both verbs follow the same vowel pattern from פָּעַל: the first
+              syllable takes a kamatz, and the second syllable takes a patach.
+              This makes the past tense form predictable for regular Paal verbs.
+            </p>
+          </div>
+
+          {/* Past tense full conjugation */}
+          <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6 mb-8">
+            <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+              Paal Past Tense Conjugation
+            </h2>
+
+            <p className="text-gray-700 leading-relaxed mb-4">
+              In the past tense, each subject pronoun has its own distinctive
+              ending. The 3rd person masculine singular form (הוּא – “he”) is
+              considered the
+              <span className="font-semibold"> root form</span>, since it does
+              not change from the base pattern.
+            </p>
+
+            <ul className="list-disc list-inside mt-3 space-y-2 text-gray-700">
+              <li dir="ltr">
+                <span className="font-semibold">אני</span> (ani, “I”) → ends
+                with <span className="font-semibold">תי</span> (<i>-ti</i>)
+              </li>
+              <li dir="ltr">
+                <span className="font-semibold">אתה</span> (ata, “you m.s.”) →
+                ends with <span className="font-semibold">תָ</span> (<i>-ta</i>)
+              </li>
+              <li dir="ltr">
+                <span className="font-semibold">את</span> (at, “you f.s.”) →
+                ends with <span className="font-semibold">תְ</span> (<i>-t</i>)
+              </li>
+              <li dir="ltr">
+                <span className="font-semibold">הוא</span> (hu, “he”) →
+                unchanged (root form)
+              </li>
+              <li dir="ltr">
+                <span className="font-semibold">היא</span> (hi, “she”) → adds{" "}
+                <span className="font-semibold">ה</span> (<i>-ah</i>)
+              </li>
+              <li dir="ltr">
+                <span className="font-semibold">אנחנו</span> (anachnu, “we”) →
+                ends with <span className="font-semibold">נוּ</span> (<i>-nu</i>
+                )
+              </li>
+              <li dir="ltr">
+                <span className="font-semibold">אתם</span> (atem, “you m.pl.”) →
+                ends with <span className="font-semibold">תֶם</span> (
+                <i>-tem</i>)
+              </li>
+              <li dir="ltr">
+                <span className="font-semibold">אתן</span> (aten, “you f.pl.”) →
+                ends with <span className="font-semibold">תֶן</span> (
+                <i>-ten</i>)
+              </li>
+              <li dir="ltr">
+                <span className="font-semibold">הם / הן</span> (hem/hen, “they”)
+                → ends with <span className="font-semibold">וּ</span> (<i>-u</i>
+                )
+              </li>
+            </ul>
+
+            <p className="text-gray-700 leading-relaxed mt-6 mb-4">
+              Let’s use the root <span className="font-semibold">למד</span>{" "}
+              (Lamad – “he learned”) as our example to see how these endings
+              attach in the past tense:
+            </p>
+
+            <div className="overflow-x-auto">
+              <table className="min-w-full border border-gray-300 text-gray-700">
+                <thead className="bg-gray-100">
+                  <tr>
+                    <th className="border border-gray-300 px-4 py-2 text-left">
+                      Person
+                    </th>
+                    <th className="border border-gray-300 px-4 py-2 text-left">
+                      Hebrew
+                    </th>
+                    <th className="border border-gray-300 px-4 py-2 text-left">
+                      Pronunciation
+                    </th>
+                    <th className="border border-gray-300 px-4 py-2 text-left">
+                      Meaning
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="border border-gray-300 px-4 py-2">
+                      1st sg. (אני)
+                    </td>
+                    <td className="border border-gray-300 px-4 py-2">
+                      לָמַדְתִּי
+                    </td>
+                    <td className="border border-gray-300 px-4 py-2">
+                      Lamadti
+                    </td>
+                    <td className="border border-gray-300 px-4 py-2">
+                      I learned
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 px-4 py-2">
+                      2nd sg. m. (אַתָּה)
+                    </td>
+                    <td className="border border-gray-300 px-4 py-2">
+                      לָמַדְתָּ
+                    </td>
+                    <td className="border border-gray-300 px-4 py-2">
+                      Lamadtá
+                    </td>
+                    <td className="border border-gray-300 px-4 py-2">
+                      You (m.s.) learned
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 px-4 py-2">
+                      2nd sg. f. (אַתְּ)
+                    </td>
+                    <td className="border border-gray-300 px-4 py-2">
+                      לָמַדְתְּ
+                    </td>
+                    <td className="border border-gray-300 px-4 py-2">Lamadt</td>
+                    <td className="border border-gray-300 px-4 py-2">
+                      You (f.s.) learned
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 px-4 py-2">
+                      3rd sg. m. (הוּא)
+                    </td>
+                    <td className="border border-gray-300 px-4 py-2">לָמַד</td>
+                    <td className="border border-gray-300 px-4 py-2">Lamad</td>
+                    <td className="border border-gray-300 px-4 py-2">
+                      He learned
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 px-4 py-2">
+                      3rd sg. f. (הִיא)
+                    </td>
+                    <td className="border border-gray-300 px-4 py-2">
+                      לָמְדָה
+                    </td>
+                    <td className="border border-gray-300 px-4 py-2">Lamda</td>
+                    <td className="border border-gray-300 px-4 py-2">
+                      She learned
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 px-4 py-2">
+                      1st pl. (אֲנַחְנוּ)
+                    </td>
+                    <td className="border border-gray-300 px-4 py-2">
+                      לָמַדְנוּ
+                    </td>
+                    <td className="border border-gray-300 px-4 py-2">
+                      Lamadnu
+                    </td>
+                    <td className="border border-gray-300 px-4 py-2">
+                      We learned
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 px-4 py-2">
+                      2nd pl. m. (אַתֶּם)
+                    </td>
+                    <td className="border border-gray-300 px-4 py-2">
+                      לְמַדְתֶּם
+                    </td>
+                    <td className="border border-gray-300 px-4 py-2">
+                      Lamadtém
+                    </td>
+                    <td className="border border-gray-300 px-4 py-2">
+                      You (m.pl.) learned
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 px-4 py-2">
+                      2nd pl. f. (אַתֵּן)
+                    </td>
+                    <td className="border border-gray-300 px-4 py-2">
+                      לְמַדְתֶּן
+                    </td>
+                    <td className="border border-gray-300 px-4 py-2">
+                      Lamadtén
+                    </td>
+                    <td className="border border-gray-300 px-4 py-2">
+                      You (f.pl.) learned
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 px-4 py-2">
+                      3rd pl. (הֵם / הֵן)
+                    </td>
+                    <td className="border border-gray-300 px-4 py-2">
+                      לָמְדוּ
+                    </td>
+                    <td className="border border-gray-300 px-4 py-2">Lamdu</td>
+                    <td className="border border-gray-300 px-4 py-2">
+                      They learned
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </section>
       </div>
     </div>
