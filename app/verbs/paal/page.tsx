@@ -513,12 +513,16 @@ export default function PaalPage() {
                       You (f.s.) learned
                     </td>
                   </tr>
-                  <tr>
-                    <td className="border border-gray-300 px-4 py-2">
-                      3rd sg. m. (הוּא)
+                  <tr className="bg-indigo-50">
+                    <td className="border border-gray-300 px-4 py-2 font-semibold">
+                      3rd sg. m. (הוּא) – Root Form
                     </td>
-                    <td className="border border-gray-300 px-4 py-2">לָמַד</td>
-                    <td className="border border-gray-300 px-4 py-2">Lamad</td>
+                    <td className="border border-gray-300 px-4 py-2 font-semibold">
+                      לָמַד
+                    </td>
+                    <td className="border border-gray-300 px-4 py-2 font-semibold">
+                      Lamad
+                    </td>
                     <td className="border border-gray-300 px-4 py-2">
                       He learned
                     </td>
