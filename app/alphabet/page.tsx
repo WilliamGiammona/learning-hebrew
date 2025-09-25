@@ -1845,12 +1845,55 @@ const Alphabet = () => {
               </div>
             </section>
 
+            {/* Hebrew Cursive Chart */}
             <section id="cursive" className="mb-12 scroll-mt-20">
               <div className="bg-white rounded-lg shadow-md p-8 border border-gray-200">
                 <h2 className="text-3xl font-bold text-blue-800 mb-4">
                   Cursive
                 </h2>
-                <p className="text-gray-700">Content coming soon...</p>
+
+                {/* Intro from Wikipedia (paraphrased and formatted) */}
+                <div className="prose max-w-none text-gray-700">
+                  <p>
+                    <span className="font-semibold">Cursive Hebrew</span> (כתב
+                    יד עברי, <i>ktav yad ivri</i>, “Hebrew handwriting,” often
+                    simply כתב <i>ktav</i>, “writing”) is a collective
+                    designation for several styles of handwriting the Hebrew
+                    alphabet. <span className="font-medium">Modern Hebrew</span>
+                    , especially in informal use in Israel, is commonly
+                    handwritten with the{" "}
+                    <span className="font-medium">Ashkenazi cursive</span>{" "}
+                    script.
+                  </p>
+                  <div className="mt-4 rounded-lg border border-amber-200 bg-amber-50/60 p-4">
+                    <p className="text-sm leading-relaxed text-amber-900">
+                      <span className="font-semibold">Historical note:</span>{" "}
+                      The Ashkenazi cursive style developed in{" "}
+                      <span className="font-medium">Central Europe</span> by the{" "}
+                      <span className="font-medium">13th century</span> and,
+                      with local variations, remains the most widely used
+                      everyday handwriting form for Hebrew today.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="mt-8">
+                  <div className="relative w-full overflow-hidden rounded-lg border border-gray-300 shadow-sm">
+                    <Image
+                      src="/images/alphabet/cursive/hebrew-cursive-alphabet.png"
+                      alt="Hebrew Cursive Alphabet Chart"
+                      width={1200}
+                      height={400}
+                      className="w-full h-auto"
+                      priority
+                      unoptimized
+                    />
+                  </div>
+                  <p className="text-sm text-gray-600 text-center mt-3">
+                    Representative forms of handwritten (cursive) Hebrew
+                    letters; shapes vary by region and writer.
+                  </p>
+                </div>
               </div>
             </section>
 
