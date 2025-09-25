@@ -1171,12 +1171,13 @@ export default function PaalPage() {
                 </p>
 
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Let’s use the root <span className="font-semibold">סגר</span>
-                  (Sagar – “to close”) as our example. The infinitive is{" "}
+                  Let&amp;s use the root{" "}
+                  <span className="font-semibold">סגר</span>
+                  (Sagar - “to close”) as our example. The infinitive is{" "}
                   <span className="font-semibold">לִסְגוֹר</span> (lisgor). In
                   the future tense, we attach the appropriate prefix to form
                   words like <span className="font-semibold">אֶסְגוֹר</span>{" "}
-                  (esgor – “I will close”).
+                  (esgor - “I will close”).
                 </p>
 
                 <div className="overflow-x-auto">
