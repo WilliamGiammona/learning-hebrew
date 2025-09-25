@@ -3,6 +3,7 @@
 const JewishHistory = () => {
   return (
     <>
+      <h1>Under Construction - Jewish History Page</h1>
       <h1>
         Brief Overview of Historical and Religious History of Jewish People and
         Judaism
