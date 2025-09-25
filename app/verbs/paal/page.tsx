@@ -16,32 +16,6 @@ export default function PaalPage() {
             eating, or going.
           </p>
 
-          {/* Root explanation */}
-          <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6 mb-8">
-            <h2 className="text-2xl font-semibold text-blue-700 mb-4">
-              The Root (שורש)
-            </h2>
-            <p className="text-gray-700 leading-relaxed">
-              Hebrew verbs are built from a{" "}
-              <span className="font-semibold">three-letter root</span> (שורש,{" "}
-              <i>shoresh</i>). Dictionaries list verbs in the{" "}
-              <span className="font-semibold">
-                3rd person masculine singular past tense
-              </span>
-              . For example:
-            </p>
-            <ul className="list-disc list-inside mt-3 space-y-2 text-gray-700">
-              <li dir="ltr">
-                Root: פגש → פָּגַשׁ (
-                <span className="font-semibold">Pagash</span>) – “he met”
-              </li>
-              <li dir="ltr">
-                Root: סגר → סָגַר (<span className="font-semibold">Sagar</span>)
-                – “he closed”
-              </li>
-            </ul>
-          </div>
-
           {/* Infinitive explanation */}
           <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6 mb-8">
             <h2 className="text-2xl font-semibold text-blue-700 mb-4">
