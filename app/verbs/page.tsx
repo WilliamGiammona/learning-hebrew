@@ -1,5 +1,5 @@
 // app/verbs/page.tsx
-export default function VerbsPage() {
+export default function VerbsIndex() {
   return (
     <section className="mb-12">
       <div className="bg-white rounded-lg shadow-md p-8 border border-gray-200">

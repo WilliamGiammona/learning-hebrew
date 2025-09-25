@@ -26,7 +26,7 @@ const verbTypes = [
 
 export default function VerbsLayout({ children }: { children: ReactNode }) {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8 border-2 border-dashed border-fuchsia-400">
       <div className="max-w-6xl mx-auto">
         <h1 className="text-4xl font-bold text-blue-800 mb-2 text-center">
           Hebrew Verb Types (Binyanim)
@@ -35,13 +35,13 @@ export default function VerbsLayout({ children }: { children: ReactNode }) {
           Explore the seven Hebrew verb patterns
         </p>
 
-        {/* Grid visible on EVERY verbs page */}
+        {/* Grid: will appear on /verbs and on every child page */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
           {verbTypes.map((verb) => (
             <Link
               key={verb.href}
               href={verb.href}
-              className="block bg-white rounded-lg shadow-md p-6 border border-gray-200 hover:shadow-lg hover:border-blue-300 transition-all duration-200"
+              className="block bg-white rounded-lg shadow-md p-6 border border-gray-200 hover:shadow-lg hover:border-blue-300 transition-all"
             >
               <h2 className="text-2xl font-semibold text-blue-700 mb-2">
                 {verb.label}
@@ -51,7 +51,7 @@ export default function VerbsLayout({ children }: { children: ReactNode }) {
           ))}
         </div>
 
-        {/* Child page content (paal/piel/…) */}
+        {/* Child route content renders here */}
         {children}
       </div>
     </div>
