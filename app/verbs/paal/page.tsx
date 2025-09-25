@@ -1548,6 +1548,91 @@ export default function PaalPage() {
                 </div>
               </div>
             </section>
+
+            {/* Imperative */}
+            <section id="imperative" className="mb-12 scroll-mt-20">
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  The Imperative (ציווי)
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  The imperative in Hebrew is derived from the{" "}
+                  <span className="font-semibold">infinitive</span> form of the
+                  verb. It gives commands or instructions (“Close!”).
+                </p>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  To form the imperative:
+                </p>
+
+                <ul className="list-disc list-inside text-gray-700 mb-6 space-y-2">
+                  <li>
+                    <span className="font-semibold">Masculine Singular:</span>{" "}
+                    Drop the <span className="font-semibold">ל</span> (lamed)
+                    from the infinitive.
+                  </li>
+                  <li>
+                    <span className="font-semibold">Feminine Singular:</span>{" "}
+                    Start from the masculine singular form and add{" "}
+                    <span className="font-semibold">י</span> (<i>-i</i>) at the
+                    end.
+                  </li>
+                  <li>
+                    <span className="font-semibold">Plural:</span> Start from
+                    the masculine singular form and add{" "}
+                    <span className="font-semibold">וּ</span> (<i>-u</i>).
+                  </li>
+                </ul>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Let’s use the root <span className="font-semibold">סגר</span>
+                  (“to close”) with its infinitive{" "}
+                  <span className="font-semibold">לִסְגוֹר</span> (lisgor).
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Form
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">Masculine Singular</td>
+                        <td className="border px-4 py-2">סְגוֹר</td>
+                        <td className="border px-4 py-2">Sgor</td>
+                        <td className="border px-4 py-2">Close! (m.s.)</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Feminine Singular</td>
+                        <td className="border px-4 py-2">סִגְרִי</td>
+                        <td className="border px-4 py-2">Sigri</td>
+                        <td className="border px-4 py-2">Close! (f.s.)</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Plural</td>
+                        <td className="border px-4 py-2">סִגְרוּ</td>
+                        <td className="border px-4 py-2">Sigru</td>
+                        <td className="border px-4 py-2">Close! (pl.)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </section>
           </main>
         </div>
       </div>
