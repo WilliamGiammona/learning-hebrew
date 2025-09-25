@@ -1780,7 +1780,7 @@ const Alphabet = () => {
                   .
                   <br />
                   Usually Shva is silent, but below are the four cases where it
-                  makes the "eh" sound.
+                  makes the &amp;eh&amp; sound.
                 </p>
 
                 <div className="mt-8 rounded-xl border border-amber-200 bg-amber-50/60 p-6">
@@ -1845,14 +1845,13 @@ const Alphabet = () => {
               </div>
             </section>
 
-            {/* Hebrew Cursive Chart */}
+            {/* Hebrew Cursive */}
             <section id="cursive" className="mb-12 scroll-mt-20">
               <div className="bg-white rounded-lg shadow-md p-8 border border-gray-200">
                 <h2 className="text-3xl font-bold text-blue-800 mb-4">
                   Cursive
                 </h2>
 
-                {/* Intro from Wikipedia (paraphrased and formatted) */}
                 <div className="prose max-w-none text-gray-700">
                   <p>
                     <span className="font-semibold">Cursive Hebrew</span> (כתב
@@ -1897,21 +1896,116 @@ const Alphabet = () => {
               </div>
             </section>
 
+            {/* Hebrew Number System */}
             <section id="numbers" className="mb-12 scroll-mt-20">
               <div className="bg-white rounded-lg shadow-md p-8 border border-gray-200">
                 <h2 className="text-3xl font-bold text-blue-800 mb-4">
                   Numbers
                 </h2>
-                <p className="text-gray-700">Content coming soon...</p>
+
+                {/* Explanation */}
+                <div className="prose max-w-none text-gray-700">
+                  <p>
+                    In Hebrew, letters of the alphabet are also used as{" "}
+                    <span className="font-semibold text-blue-700">numbers</span>{" "}
+                    — a system known as <i>Gematria</i>. Each letter has a
+                    numerical value:
+                  </p>
+                  <ul className="list-disc pl-6 mt-3 text-gray-700">
+                    <li>
+                      <span className="font-medium">Aleph (א)</span> = 1,{" "}
+                      <span className="font-medium">Bet (ב)</span> = 2,{" "}
+                      <span className="font-medium">Gimel (ג)</span> = 3 … up to{" "}
+                      <span className="font-medium">Yod (י)</span> = 10.
+                    </li>
+                    <li>
+                      After 10, the values increase by tens:{" "}
+                      <span className="font-medium">Kaf (כ)</span> = 20,{" "}
+                      <span className="font-medium">Lamed (ל)</span> = 30 … up
+                      to <span className="font-medium">Qof (ק)</span> = 100.
+                    </li>
+                    <li>
+                      After 100, the values increase by hundreds:{" "}
+                      <span className="font-medium">Resh (ר)</span> = 200,{" "}
+                      <span className="font-medium">Shin (ש)</span> = 300,{" "}
+                      <span className="font-medium">Tav (ת)</span> = 400.
+                    </li>
+                  </ul>
+                  <p className="mt-3">
+                    Numbers are formed by combining letters. For example:{" "}
+                    <span dir="rtl" className="font-medium">
+                      יא
+                    </span>{" "}
+                    = 11 (10 + 1),{" "}
+                    <span dir="rtl" className="font-medium">
+                      כה
+                    </span>{" "}
+                    = 25 (20 + 5).
+                  </p>
+                  <p className="mt-2">
+                    Larger numbers continue this pattern. For example:{" "}
+                    <span dir="rtl" className="font-medium">
+                      תצ״ט
+                    </span>{" "}
+                    = 499 (400 + 90 + 9).
+                  </p>
+                  <p className="mt-2 text-sm text-gray-600">
+                    Special spellings are used to avoid writing sacred names by
+                    accident — e.g., 15 is written as{" "}
+                    <span dir="rtl" className="font-medium">
+                      טו
+                    </span>{" "}
+                    instead of{" "}
+                    <span dir="rtl" className="font-medium">
+                      יה
+                    </span>
+                    . For 500–900, different traditions exist: some continue
+                    combining letters (e.g. ת״ק = 500), while others reuse the
+                    alphabet with marks.
+                  </p>
+                </div>
+
+                {/* Chart */}
+                <div className="mt-8">
+                  <div className="relative w-full overflow-hidden rounded-lg border border-gray-300 shadow-sm">
+                    <Image
+                      src="/images/alphabet/numerical-values.png"
+                      alt="Hebrew Alphabet Numerical Values Chart"
+                      width={1200}
+                      height={400}
+                      className="w-full h-auto"
+                      priority
+                      unoptimized
+                    />
+                  </div>
+                  <p className="text-sm text-gray-600 text-center mt-3">
+                    Hebrew letters and their corresponding numerical values.
+                  </p>
+                </div>
               </div>
             </section>
+
+            {/* Paleo Hebrew */}
 
             <section id="ancient-hebrew" className="mb-12 scroll-mt-20">
               <div className="bg-white rounded-lg shadow-md p-8 border border-gray-200">
                 <h2 className="text-3xl font-bold text-blue-800 mb-4">
                   Ancient Hebrew
                 </h2>
-                <p className="text-gray-700">Content coming soon...</p>
+                {/* Chart */}
+                <div className="mt-8">
+                  <div className="relative w-full overflow-hidden rounded-lg border border-gray-300 shadow-sm">
+                    <Image
+                      src="/images/alphabet/paleo/paleo-hebrew-alphabet.png"
+                      alt="Hebrew Alphabet Numerical Values Chart"
+                      width={1200}
+                      height={400}
+                      className="w-full h-auto"
+                      priority
+                      unoptimized
+                    />
+                  </div>
+                </div>
               </div>
             </section>
           </main>
