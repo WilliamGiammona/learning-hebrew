@@ -83,6 +83,14 @@ export default function PaalPage() {
                     Future Tense
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#future-exceptions"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    Future Tense Exceptions
+                  </a>
+                </li>
               </ul>
             </nav>
           </aside>
@@ -1277,6 +1285,263 @@ export default function PaalPage() {
                         <td className="border px-4 py-2">יִסְגְּרוּ</td>
                         <td className="border px-4 py-2">Yisgeru</td>
                         <td className="border px-4 py-2">They will close</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </section>
+
+            {/* Future tense exceptions */}
+            <section id="future-exceptions" className="mb-12 scroll-mt-20">
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  Future Tense Exceptions
+                </h2>
+                <p className="text-gray-700 leading-relaxed mb-6">
+                  Two common patterns affect how the future tense is formed in
+                  Paal: roots that{" "}
+                  <span className="font-semibold">start with י (yod)</span> and
+                  roots that{" "}
+                  <span className="font-semibold">end with ה (hey)</span>.
+                </p>
+
+                {/* 1) Root starts with Yod – ישב */}
+                <h3 className="text-xl font-semibold text-indigo-700 mt-2 mb-3">
+                  1) Root starts with י (yod) — ישב
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  When the root begins with{" "}
+                  <span className="font-semibold">י</span>, that initial yod of
+                  the root is <span className="font-semibold">dropped</span> in
+                  the future, because the person prefix already provides the
+                  needed letter (from the אֶתָ״ן prefixes: א / ת / י / נ).
+                  Example with <span className="font-semibold">יָשַׁב</span>{" "}
+                  (“he sat”): the future forms use only the prefix letter (no
+                  double yod).
+                </p>
+
+                <div className="overflow-x-auto mb-8">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Person
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">1st sg. (אני)</td>
+                        <td className="border px-4 py-2">אֵשֵׁב</td>
+                        <td className="border px-4 py-2">Eshev</td>
+                        <td className="border px-4 py-2">I will sit</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          2nd sg. m. (אַתָּה)
+                        </td>
+                        <td className="border px-4 py-2">תֵּשֵׁב</td>
+                        <td className="border px-4 py-2">Teshev</td>
+                        <td className="border px-4 py-2">
+                          You (m.s.) will sit
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">2nd sg. f. (אַתְּ)</td>
+                        <td className="border px-4 py-2">תֵּשְׁבִי</td>
+                        <td className="border px-4 py-2">Teshvi</td>
+                        <td className="border px-4 py-2">
+                          You (f.s.) will sit
+                        </td>
+                      </tr>
+                      <tr className="bg-indigo-50">
+                        <td className="border px-4 py-2 font-semibold">
+                          3rd sg. m. (הוּא)
+                        </td>
+                        <td className="border px-4 py-2 font-semibold">
+                          יֵשֵׁב
+                        </td>
+                        <td className="border px-4 py-2 font-semibold">
+                          Yeshev
+                        </td>
+                        <td className="border px-4 py-2">He will sit</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">3rd sg. f. (הִיא)</td>
+                        <td className="border px-4 py-2">תֵּשֵׁב</td>
+                        <td className="border px-4 py-2">Teshev</td>
+                        <td className="border px-4 py-2">She will sit</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          1st pl. (אֲנַחְנוּ)
+                        </td>
+                        <td className="border px-4 py-2">נֵשֵׁב</td>
+                        <td className="border px-4 py-2">Neshev</td>
+                        <td className="border px-4 py-2">We will sit</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          2nd pl. m. (אַתֶּם)
+                        </td>
+                        <td className="border px-4 py-2">תֵּשְׁבוּ</td>
+                        <td className="border px-4 py-2">Teshvu</td>
+                        <td className="border px-4 py-2">
+                          You (m.pl.) will sit
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          2nd pl. f. (אַתֵּן)
+                        </td>
+                        <td className="border px-4 py-2">תֵּשֹׁבְנָה</td>
+                        <td className="border px-4 py-2">Teshovna</td>
+                        <td className="border px-4 py-2">
+                          You (f.pl.) will sit
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          3rd pl. (הֵם / הֵן)
+                        </td>
+                        <td className="border px-4 py-2">יֵשְׁבוּ</td>
+                        <td className="border px-4 py-2">Yeshvu</td>
+                        <td className="border px-4 py-2">They will sit</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                {/* 2) Root ends with Hey – קנה */}
+                <h3 className="text-xl font-semibold text-indigo-700 mt-2 mb-3">
+                  2) Root ends with ה (hey) — קנה
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  For roots ending with <span className="font-semibold">ה</span>
+                  , the final hey is{" "}
+                  <span className="font-semibold">dropped</span> in several
+                  future forms: specifically for{" "}
+                  <span className="font-semibold">אַתְּ (you f.s.)</span>,
+                  <span className="font-semibold">
+                    {" "}
+                    אַתֶּם / אַתֵּן (you pl.)
+                  </span>
+                  , and
+                  <span className="font-semibold"> הֵם / הֵן (they)</span>. You
+                  will see endings like{" "}
+                  <span className="font-semibold">-י</span> (-i) and{" "}
+                  <span className="font-semibold">-וּ</span> (-u) attach after
+                  the drop. Below is the full picture with{" "}
+                  <span className="font-semibold">קנה</span>
+                  (“to buy”).
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Person
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Note
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">1st sg. (אני)</td>
+                        <td className="border px-4 py-2">אֶקְנֶה</td>
+                        <td className="border px-4 py-2">Ekné</td>
+                        <td className="border px-4 py-2">Hey retained</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          2nd sg. m. (אַתָּה)
+                        </td>
+                        <td className="border px-4 py-2">תִּקְנֶה</td>
+                        <td className="border px-4 py-2">Tikné</td>
+                        <td className="border px-4 py-2">Hey retained</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">2nd sg. f. (אַתְּ)</td>
+                        <td className="border px-4 py-2">תִּקְנִי</td>
+                        <td className="border px-4 py-2">Tikní</td>
+                        <td className="border px-4 py-2">
+                          Hey dropped → -י (-i)
+                        </td>
+                      </tr>
+                      <tr className="bg-indigo-50">
+                        <td className="border px-4 py-2 font-semibold">
+                          3rd sg. m. (הוּא)
+                        </td>
+                        <td className="border px-4 py-2 font-semibold">
+                          יִקְנֶה
+                        </td>
+                        <td className="border px-4 py-2 font-semibold">
+                          Yikné
+                        </td>
+                        <td className="border px-4 py-2">Root form (future)</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">3rd sg. f. (הִיא)</td>
+                        <td className="border px-4 py-2">תִּקְנֶה</td>
+                        <td className="border px-4 py-2">Tikné</td>
+                        <td className="border px-4 py-2">Hey retained</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          1st pl. (אֲנַחְנוּ)
+                        </td>
+                        <td className="border px-4 py-2">נִקְנֶה</td>
+                        <td className="border px-4 py-2">Nikné</td>
+                        <td className="border px-4 py-2">Hey retained</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          2nd pl. m. (אַתֶּם)
+                        </td>
+                        <td className="border px-4 py-2">תִּקְנוּ</td>
+                        <td className="border px-4 py-2">Tiknú</td>
+                        <td className="border px-4 py-2">
+                          Hey dropped → -וּ (-u)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          2nd pl. f. (אַתֵּן)
+                        </td>
+                        <td className="border px-4 py-2">תִּקְנוּ</td>
+                        <td className="border px-4 py-2">Tiknú</td>
+                        <td className="border px-4 py-2">
+                          Hey dropped → -וּ (-u)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          3rd pl. (הֵם / הֵן)
+                        </td>
+                        <td className="border px-4 py-2">יִקְנוּ</td>
+                        <td className="border px-4 py-2">Yiknú</td>
+                        <td className="border px-4 py-2">
+                          Hey dropped → -וּ (-u)
+                        </td>
                       </tr>
                     </tbody>
                   </table>
