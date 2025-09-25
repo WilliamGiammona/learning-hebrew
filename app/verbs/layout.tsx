@@ -1,57 +1,39 @@
 // app/verbs/layout.tsx
-import Link from "next/link";
+"use client";
+import Image from "next/image";
+import { useSelectedLayoutSegments } from "next/navigation";
 import type { ReactNode } from "react";
 
-const verbTypes = [
-  { href: "/verbs/paal", label: "Paal", description: "Simple active verbs" },
-  { href: "/verbs/piel", label: "Piel", description: "Intensive active verbs" },
-  {
-    href: "/verbs/hifil",
-    label: "Hifil",
-    description: "Causative active verbs",
-  },
-  { href: "/verbs/hitpael", label: "Hitpael", description: "Reflexive verbs" },
-  {
-    href: "/verbs/hufal",
-    label: "Hufal",
-    description: "Causative passive verbs",
-  },
-  {
-    href: "/verbs/pual",
-    label: "Pual",
-    description: "Intensive passive verbs",
-  },
-  { href: "/verbs/nifal", label: "Nifal", description: "Simple passive verbs" },
-];
-
 export default function VerbsLayout({ children }: { children: ReactNode }) {
+  const segments = useSelectedLayoutSegments(); // [] on /verbs, ["paal"] on /verbs/paal, etc.
+  const isIndex = segments.length === 0;
+
   return (
-    <div className="container mx-auto px-4 py-8 border-2 border-dashed border-fuchsia-400">
+    <div className="container mx-auto px-4 py-8">
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-4xl font-bold text-blue-800 mb-2 text-center">
-          Hebrew Verb Types (Binyanim)
-        </h1>
-        <p className="text-xl text-gray-600 mb-8 text-center">
-          Explore the seven Hebrew verb patterns
-        </p>
+        {/* Only show title + chart on child pages */}
+        {!isIndex && (
+          <div className="bg-white rounded-lg shadow-md p-8 border border-gray-200 mb-10">
+            <h2 className="text-3xl font-bold text-blue-800 mb-4">
+              Seven Hebrew Verb Patterns (Binyanim)
+            </h2>
+            <div className="mt-8">
+              <div className="relative w-full overflow-hidden rounded-lg border border-gray-300 shadow-sm">
+                <Image
+                  src="/images/verbs/seven-verbs.png"
+                  alt="Diagram of the seven Hebrew verb patterns (binyanim), showing active and passive branches"
+                  width={1200}
+                  height={400}
+                  className="w-full h-auto"
+                  priority
+                  unoptimized
+                />
+              </div>
+            </div>
+          </div>
+        )}
 
-        {/* Grid: will appear on /verbs and on every child page */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
-          {verbTypes.map((verb) => (
-            <Link
-              key={verb.href}
-              href={verb.href}
-              className="block bg-white rounded-lg shadow-md p-6 border border-gray-200 hover:shadow-lg hover:border-blue-300 transition-all"
-            >
-              <h2 className="text-2xl font-semibold text-blue-700 mb-2">
-                {verb.label}
-              </h2>
-              <p className="text-gray-600">{verb.description}</p>
-            </Link>
-          ))}
-        </div>
-
-        {/* Child route content renders here */}
+        {/* Child page content (paal/piel/hifil/…) */}
         {children}
       </div>
     </div>
