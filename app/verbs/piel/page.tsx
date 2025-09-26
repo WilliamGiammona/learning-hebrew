@@ -99,6 +99,14 @@ export default function PielPage() {
                     Imperative
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#imperative-exceptions-piel"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    Imperative Exceptions
+                  </a>
+                </li>
               </ul>
             </nav>
           </aside>
