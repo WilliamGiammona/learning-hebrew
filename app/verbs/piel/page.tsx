@@ -91,6 +91,14 @@ export default function PielPage() {
                     Future Tense Exceptions
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#imperative-piel"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    Imperative
+                  </a>
+                </li>
               </ul>
             </nav>
           </aside>
@@ -1136,16 +1144,10 @@ export default function PielPage() {
                           You (f.s.) will clean
                         </td>
                       </tr>
-                      <tr className="bg-indigo-50">
-                        <td className="border px-4 py-2 font-semibold">
-                          3rd sg. m. (הוּא)
-                        </td>
-                        <td className="border px-4 py-2 font-semibold">
-                          יְנַקֶּה
-                        </td>
-                        <td className="border px-4 py-2 font-semibold">
-                          Yenaqeh
-                        </td>
+                      <tr>
+                        <td className="border px-4 py-2">3rd sg. m. (הוּא)</td>
+                        <td className="border px-4 py-2">יְנַקֶּה</td>
+                        <td className="border px-4 py-2">Yenaqeh</td>
                         <td className="border px-4 py-2">He will clean</td>
                       </tr>
                       <tr>
@@ -1180,6 +1182,94 @@ export default function PielPage() {
                       </tr>
                     </tbody>
                   </table>
+                </div>
+              </div>
+            </section>
+
+            {/* Imperative – Piel */}
+            <section id="imperative-piel" className="mb-12 scroll-mt-20">
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  Imperative (ציווי) – Piel
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  In <span className="font-semibold">Piel</span>, the imperative
+                  is built from the core Piel stem (no person prefix). Use the
+                  root pattern directly for the{" "}
+                  <span className="font-semibold">masculine singular</span>,
+                  then attach:
+                </p>
+                <ul className="list-disc list-inside text-gray-700 mb-6 space-y-1">
+                  <li>
+                    <span className="font-semibold">Masculine singular:</span>{" "}
+                    the Piel stem (looks like the bare root in this binyan).
+                  </li>
+                  <li>
+                    <span className="font-semibold">Feminine singular:</span>{" "}
+                    add <span className="font-semibold">י</span> (<i>-i</i>) to
+                    the masc. sg.
+                  </li>
+                  <li>
+                    <span className="font-semibold">Plural:</span> add{" "}
+                    <span className="font-semibold">וּ</span> (<i>-u</i>) to the
+                    masc. sg.
+                  </li>
+                </ul>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Example with <span className="font-semibold">דבר</span> (“to
+                  speak”) → Piel stem:{" "}
+                  <span className="font-semibold">דַּבֵּר</span> (daber).
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Form
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">Masculine Singular</td>
+                        <td className="border px-4 py-2">דַּבֵּר</td>
+                        <td className="border px-4 py-2">Daber</td>
+                        <td className="border px-4 py-2">Speak! (m.s.)</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Feminine Singular</td>
+                        <td className="border px-4 py-2">דַּבְּרִי</td>
+                        <td className="border px-4 py-2">Dabri</td>
+                        <td className="border px-4 py-2">Speak! (f.s.)</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Plural</td>
+                        <td className="border px-4 py-2">דַּבְּרוּ</td>
+                        <td className="border px-4 py-2">Dabru</td>
+                        <td className="border px-4 py-2">Speak! (pl.)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div className="mt-4 p-4 bg-indigo-50 border-l-4 border-indigo-400 rounded">
+                  <p className="text-gray-700">
+                    Tip: Negative commands use{" "}
+                    <span className="font-semibold">אַל</span> + the future form
+                    (e.g., אַל תְּדַבֵּר “don’t speak”).
+                  </p>
                 </div>
               </div>
             </section>
