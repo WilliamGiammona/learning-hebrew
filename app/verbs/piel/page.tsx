@@ -1273,6 +1273,137 @@ export default function PielPage() {
                 </div>
               </div>
             </section>
+
+            <section
+              id="imperative-exceptions-piel"
+              className="mb-12 scroll-mt-20"
+            >
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  Imperative Exceptions – Piel
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-6">
+                  While most Piel verbs form the imperative regularly, two
+                  patterns need special handling:
+                </p>
+
+                <ul className="list-disc list-inside text-gray-700 mb-6">
+                  <li>
+                    <span className="font-semibold">
+                      Roots starting with י (yod):
+                    </span>{" "}
+                    keep the initial י in the imperative base. For the{" "}
+                    <span className="font-semibold">feminine singular</span>,
+                    replace the last letter with{" "}
+                    <span className="font-semibold">י</span>. For the{" "}
+                    <span className="font-semibold">plural</span>, replace the
+                    last letter with <span className="font-semibold">ו</span>.
+                  </li>
+                  <li>
+                    <span className="font-semibold">
+                      Roots ending with ה (hey):
+                    </span>{" "}
+                    for the{" "}
+                    <span className="font-semibold">feminine singular</span>,
+                    replace the final ה with{" "}
+                    <span className="font-semibold">י</span>; for the{" "}
+                    <span className="font-semibold">plural</span>, replace it
+                    with <span className="font-semibold">ו</span>.
+                  </li>
+                </ul>
+
+                {/* Example Table – יבש */}
+                <h3 className="text-xl font-semibold text-indigo-700 mt-6 mb-2">
+                  Example 1: יבש (to dry)
+                </h3>
+                <div className="overflow-x-auto mb-6">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Form
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">Masculine Singular</td>
+                        <td className="border px-4 py-2">יבש</td>
+                        <td className="border px-4 py-2">Yabesh</td>
+                        <td className="border px-4 py-2">Dry! (m.s.)</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Feminine Singular</td>
+                        <td className="border px-4 py-2">יבשי</td>
+                        <td className="border px-4 py-2">Yabsí</td>
+                        <td className="border px-4 py-2">Dry! (f.s.)</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Plural</td>
+                        <td className="border px-4 py-2">יבשו</td>
+                        <td className="border px-4 py-2">Yabshú</td>
+                        <td className="border px-4 py-2">Dry! (pl.)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                {/* Example Table – שנה */}
+                <h3 className="text-xl font-semibold text-indigo-700 mt-6 mb-2">
+                  Example 2: שנה (to change)
+                </h3>
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Form
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">Masculine Singular</td>
+                        <td className="border px-4 py-2">שַׁנֵּה</td>
+                        <td className="border px-4 py-2">Shané</td>
+                        <td className="border px-4 py-2">Change! (m.s.)</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Feminine Singular</td>
+                        <td className="border px-4 py-2">שַׁנִּי</td>
+                        <td className="border px-4 py-2">Shaní</td>
+                        <td className="border px-4 py-2">Change! (f.s.)</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Plural</td>
+                        <td className="border px-4 py-2">שַׁנוּ</td>
+                        <td className="border px-4 py-2">Shanú</td>
+                        <td className="border px-4 py-2">Change! (pl.)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </section>
           </main>
         </div>
       </div>
