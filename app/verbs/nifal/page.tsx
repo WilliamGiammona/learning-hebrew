@@ -96,9 +96,9 @@ export default function NifalPage() {
                   Infinitive — Exceptions
                 </h2>
 
-                {/* 1) Root begins with Yod */}
+                {/* 1) Root starts with Yod */}
                 <h3 className="text-xl font-semibold text-indigo-700 mt-2 mb-2">
-                  1) Root begins with י (yod)
+                  1) Root starts with י (yod)
                 </h3>
                 <p className="text-gray-700 leading-relaxed mb-3">
                   When the root starts with{" "}
@@ -125,8 +125,8 @@ export default function NifalPage() {
                   2) Root ends with ה (hey)
                 </h3>
                 <p className="text-gray-700 leading-relaxed mb-3">
-                  When the root’s last letter is{" "}
-                  <span className="font-semibold">ה</span>, that final hey is
+                  When the root ends in <span className="font-semibold">ה</span>
+                  , that final hey is
                   <span className="font-semibold"> replaced by ו + ת</span> in
                   the Nifal infinitive.
                 </p>
@@ -137,13 +137,6 @@ export default function NifalPage() {
                     <i>lehibanot</i>) – “to be built”
                   </li>
                 </ul>
-
-                <div className="mt-4 p-4 bg-amber-50 border-l-4 border-amber-400 rounded text-gray-700">
-                  Why it&amp;s useful: these two patterns—initial י and final
-                  ה—are among the most common edge cases you&amp;ll meet in
-                  Nifal infinitives. Spotting them quickly makes reading and
-                  building forms much easier.
-                </div>
               </div>
             </section>
           </main>
