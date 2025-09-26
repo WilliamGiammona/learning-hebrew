@@ -495,8 +495,8 @@ export default function PielPage() {
                 </ul>
 
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Now let’s conjugate <span className="font-semibold">דבר</span>{" "}
-                  in Piel:
+                  Now let&amp;s conjugate{" "}
+                  <span className="font-semibold">דבר</span> in Piel:
                   <span className="font-semibold ml-1">דיבר</span> (“he spoke”)
                   as the base.
                 </p>
@@ -542,7 +542,7 @@ export default function PielPage() {
                       </tr>
                       <tr className="bg-indigo-50">
                         <td className="border px-4 py-2 font-semibold">
-                          3rd sg. m. (הוּא) – Root Form
+                          3rd sg. m. (הוּא) - Root Form
                         </td>
                         <td className="border px-4 py-2 font-semibold">דיבר</td>
                         <td className="border px-4 py-2 font-semibold">
