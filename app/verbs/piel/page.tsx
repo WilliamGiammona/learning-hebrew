@@ -69,9 +69,7 @@ export default function PielPage() {
                     iterative/causative-like
                   </span>{" "}
                   nuance compared with
-                  <span className="font-semibold"> Paal</span>, and is sometimes
-                  described as “casual” in modern usage when its the frequent,
-                  everyday form.
+                  <span className="font-semibold"> Paal</span>.
                 </p>
 
                 <p className="text-gray-700 leading-relaxed">
