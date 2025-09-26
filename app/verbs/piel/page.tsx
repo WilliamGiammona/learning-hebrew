@@ -51,6 +51,14 @@ export default function PielPage() {
                     Present Tense (הווה)
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#present-tense-exceptions"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    Present Tense Exceptions
+                  </a>
+                </li>
               </ul>
             </nav>
           </aside>
@@ -340,6 +348,70 @@ export default function PielPage() {
                     מְסַדֵּר →{" "}
                     <span className="font-semibold">מְסַדְּרוֹת</span> (
                     <i>mesadrot</i>) — they (f.) arrange
+                  </li>
+                </ul>
+              </div>
+            </section>
+
+            {/* Present Tense Exceptions */}
+            <section
+              id="present-tense-exceptions"
+              className="mb-12 scroll-mt-20"
+            >
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  Present Tense Exceptions
+                </h2>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  In Piel, the main exception in the present tense occurs when
+                  the{" "}
+                  <span className="font-semibold">root ends in ה (hey)</span>.
+                </p>
+
+                <h3 className="text-xl font-semibold text-indigo-700 mt-4 mb-2">
+                  Feminine Singular
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Normally, a <span className="font-semibold">ת</span> (tav) is
+                  added at the end to form the feminine singular. However, with
+                  roots ending in <span className="font-semibold">ה</span>,{" "}
+                  <span className="font-semibold">no tav is added</span>.
+                  Instead, the form is identical to the masculine singular.
+                </p>
+                <ul className="list-disc list-inside mt-2 text-gray-700">
+                  <li dir="ltr">
+                    נקה → <span className="font-semibold">מְנַקֶּה</span> (
+                    <i>menake</i> /<i>menaka</i>) — he/she cleans
+                  </li>
+                  <li dir="ltr">
+                    שנה → <span className="font-semibold">מְשַׁנֶּה</span> (
+                    <i>meshane</i> /<i>meshana</i>) — he/she changes
+                  </li>
+                </ul>
+
+                <h3 className="text-xl font-semibold text-indigo-700 mt-6 mb-2">
+                  Plural Forms
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  In the plural, the final{" "}
+                  <span className="font-semibold">ה</span> of the root is{" "}
+                  <span className="font-semibold">dropped</span> before the
+                  standard plural endings (
+                  <span className="font-semibold">ים</span> or{" "}
+                  <span className="font-semibold">וֹת</span>) are attached.
+                </p>
+                <ul className="list-disc list-inside mt-2 text-gray-700">
+                  <li dir="ltr">
+                    נקה →{" "}
+                    <span className="font-semibold">מְנַקִּים / מְנַקּוֹת</span>{" "}
+                    (<i>menakim / menakot</i>) — they clean
+                  </li>
+                  <li dir="ltr">
+                    שנה →{" "}
+                    <span className="font-semibold">
+                      מְשַׁנִּים / מְשַׁנוֹת
+                    </span>{" "}
+                    (<i>meshanim / meshanot</i>) — they change
                   </li>
                 </ul>
               </div>
