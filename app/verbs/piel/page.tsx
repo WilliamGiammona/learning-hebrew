@@ -1345,7 +1345,7 @@ export default function PielPage() {
                       <tr>
                         <td className="border px-4 py-2">Feminine Singular</td>
                         <td className="border px-4 py-2">יבשי</td>
-                        <td className="border px-4 py-2">Yabshi</td>
+                        <td className="border px-4 py-2">Yabshí</td>
                         <td className="border px-4 py-2">Dry! (f.s.)</td>
                       </tr>
                       <tr>
