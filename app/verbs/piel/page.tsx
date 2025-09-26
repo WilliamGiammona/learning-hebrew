@@ -83,6 +83,14 @@ export default function PielPage() {
                     Future Tense
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#future-tense-exceptions"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    Future Tense Exceptions
+                  </a>
+                </li>
               </ul>
             </nav>
           </aside>
@@ -1038,6 +1046,140 @@ export default function PielPage() {
                     adds its distinctive sound pattern (the
                     “intensive/iterative” feel) on top of those prefixes.
                   </p>
+                </div>
+              </div>
+            </section>
+
+            {/* Future Tense Exceptions – Piel */}
+            <section
+              id="future-tense-exceptions"
+              className="mb-12 scroll-mt-20"
+            >
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  Future Tense Exceptions – Roots Ending in ה (Hey)
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-6">
+                  In Piel, when the root ends with{" "}
+                  <span className="font-semibold">ה</span>, the future tense
+                  forms undergo predictable changes:
+                </p>
+
+                <ul className="list-disc list-inside text-gray-700 mb-6">
+                  <li>
+                    <span className="font-semibold">1st and 2nd persons:</span>{" "}
+                    the final ה is dropped and a{" "}
+                    <span className="font-semibold">י</span> (yod) is added
+                    before the ending.
+                  </li>
+                  <li>
+                    <span className="font-semibold">
+                      3rd person feminine singular:
+                    </span>{" "}
+                    the ה is replaced with{" "}
+                    <span className="font-semibold">ת</span> (tav).
+                  </li>
+                  <li>
+                    <span className="font-semibold">3rd person plurals:</span>{" "}
+                    the final ה is dropped completely, and plural endings are
+                    attached.
+                  </li>
+                </ul>
+
+                <p className="text-gray-700 mb-4">
+                  Example with the root{" "}
+                  <span className="font-semibold">נקה</span>
+                  (“to clean”):
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Person
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">1st sg. (אני)</td>
+                        <td className="border px-4 py-2">אֲנַקֶּה</td>
+                        <td className="border px-4 py-2">Anaqeh</td>
+                        <td className="border px-4 py-2">I will clean</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          2nd sg. m. (אַתָּה)
+                        </td>
+                        <td className="border px-4 py-2">תְּנַקֶּה</td>
+                        <td className="border px-4 py-2">Tenaqeh</td>
+                        <td className="border px-4 py-2">
+                          You (m.s.) will clean
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">2nd sg. f. (אַתְּ)</td>
+                        <td className="border px-4 py-2">תְּנַקִּי</td>
+                        <td className="border px-4 py-2">Tenaqi</td>
+                        <td className="border px-4 py-2">
+                          You (f.s.) will clean
+                        </td>
+                      </tr>
+                      <tr className="bg-indigo-50">
+                        <td className="border px-4 py-2 font-semibold">
+                          3rd sg. m. (הוּא)
+                        </td>
+                        <td className="border px-4 py-2 font-semibold">
+                          יְנַקֶּה
+                        </td>
+                        <td className="border px-4 py-2 font-semibold">
+                          Yenaqeh
+                        </td>
+                        <td className="border px-4 py-2">He will clean</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">3rd sg. f. (הִיא)</td>
+                        <td className="border px-4 py-2">תְּנַקֶּה</td>
+                        <td className="border px-4 py-2">Tenaqeh</td>
+                        <td className="border px-4 py-2">She will clean</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          1st pl. (אֲנַחְנוּ)
+                        </td>
+                        <td className="border px-4 py-2">נְנַקֶּה</td>
+                        <td className="border px-4 py-2">Nenaqeh</td>
+                        <td className="border px-4 py-2">We will clean</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          2nd pl. (אַתֶּם/אַתֵּן)
+                        </td>
+                        <td className="border px-4 py-2">תְּנַקּוּ</td>
+                        <td className="border px-4 py-2">Tenaqu</td>
+                        <td className="border px-4 py-2">
+                          You (pl.) will clean
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">3rd pl. (הֵם/הֵן)</td>
+                        <td className="border px-4 py-2">יְנַקּוּ</td>
+                        <td className="border px-4 py-2">Yenaqu</td>
+                        <td className="border px-4 py-2">They will clean</td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
               </div>
             </section>
