@@ -52,7 +52,7 @@ export default function PielPage() {
             {/* Overview */}
             <section id="piel-verb" className="mb-12 scroll-mt-20">
               <h1 className="text-3xl font-bold text-blue-800 mb-6 text-center">
-                Piel (פִּעֵל) – Intensive/Iterative Active Verb
+                Piel (פִּעֵל) - Intensive/Iterative Active Verb
               </h1>
 
               <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
@@ -70,7 +70,7 @@ export default function PielPage() {
                   </span>{" "}
                   nuance compared with
                   <span className="font-semibold"> Paal</span>, and is sometimes
-                  described as “casual” in modern usage when it’s the frequent,
+                  described as “casual” in modern usage when its the frequent,
                   everyday form.
                 </p>
 
