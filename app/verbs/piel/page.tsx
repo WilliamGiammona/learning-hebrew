@@ -107,8 +107,8 @@ export default function PielPage() {
                     middle root letter is doubled
                   </span>
                   (marked by a dagesh), creating a stronger sound and a
-                  characteristic vowel pattern. This is why you’ll hear forms
-                  like <span className="font-semibold">דִּבֵּר</span> (
+                  characteristic vowel pattern. This is why you&amp;ll hear
+                  forms like <span className="font-semibold">דִּבֵּר</span> (
                   <i>diber</i>, “he spoke” from{" "}
                   <span className="font-semibold">דבר</span>) and{" "}
                   <span className="font-semibold">בִּקֵּר</span> (<i>biker</i>,
