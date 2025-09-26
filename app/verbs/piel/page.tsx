@@ -891,6 +891,148 @@ export default function PielPage() {
                 </div>
               </div>
             </section>
+
+            {/* Future tense – Piel */}
+            <section id="future-tense" className="mb-12 scroll-mt-20">
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  The Future Tense (עתיד)
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Like all binyanim, Piel uses the same set of future prefixes
+                  remembered by the acronym{" "}
+                  <span className="font-semibold">אֶתָין (Eitan)</span> —{" "}
+                  <span className="font-semibold">Aleph</span> (I),{" "}
+                  <span className="font-semibold">Tav</span> (you m.s./you
+                  f.s./she), <span className="font-semibold">Yod</span>{" "}
+                  (he/they), <span className="font-semibold">Nun</span> (we).
+                  These prefixes attach to the root to mark the subject. What
+                  makes <span className="font-semibold">Piel</span> special is
+                  its internal vocalization (usually
+                  <span className="font-semibold"> a</span> under the prefix and
+                  a <span className="font-semibold">dagesh</span> in the middle
+                  root letter), e.g.,{" "}
+                  <i>
+                    y<u>d</u>abér
+                  </i>
+                  .
+                </p>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Using the Piel verb{" "}
+                  <span className="font-semibold">דִּבֵּר</span> (to speak),
+                  here are the future forms. (Niqqud shown for clarity; in
+                  everyday writing you’ll often see them without vowels.)
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Person
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">1st sg. (אני)</td>
+                        <td className="border px-4 py-2">אֲדַבֵּר</td>
+                        <td className="border px-4 py-2">Adaber</td>
+                        <td className="border px-4 py-2">I will speak</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          2nd sg. m. (אַתָּה)
+                        </td>
+                        <td className="border px-4 py-2">תְּדַבֵּר</td>
+                        <td className="border px-4 py-2">Tedaber</td>
+                        <td className="border px-4 py-2">
+                          You (m.s.) will speak
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">2nd sg. f. (אַתְּ)</td>
+                        <td className="border px-4 py-2">תְּדַבְּרִי</td>
+                        <td className="border px-4 py-2">Tedabri</td>
+                        <td className="border px-4 py-2">
+                          You (f.s.) will speak
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">3rd sg. m. (הוּא)</td>
+                        <td className="border px-4 py-2">יְדַבֵּר</td>
+                        <td className="border px-4 py-2">Yedaber</td>
+                        <td className="border px-4 py-2">He will speak</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">3rd sg. f. (הִיא)</td>
+                        <td className="border px-4 py-2">תְּדַבֵּר</td>
+                        <td className="border px-4 py-2">Tedaber</td>
+                        <td className="border px-4 py-2">She will speak</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          1st pl. (אֲנַחְנוּ)
+                        </td>
+                        <td className="border px-4 py-2">נְדַבֵּר</td>
+                        <td className="border px-4 py-2">Nedaber</td>
+                        <td className="border px-4 py-2">We will speak</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          2nd pl. m. (אַתֶּם)
+                        </td>
+                        <td className="border px-4 py-2">תְּדַבְּרוּ</td>
+                        <td className="border px-4 py-2">Tedabru</td>
+                        <td className="border px-4 py-2">
+                          You (m.pl.) will speak
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          2nd pl. f. (אַתֵּן)
+                        </td>
+                        <td className="border px-4 py-2">תְּדַבֵּרְנָה</td>
+                        <td className="border px-4 py-2">Tedabérna</td>
+                        <td className="border px-4 py-2">
+                          You (f.pl.) will speak{" "}
+                          <span className="text-gray-500">(formal/rare)</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          3rd pl. (הֵם / הֵן)
+                        </td>
+                        <td className="border px-4 py-2">יְדַבְּרוּ</td>
+                        <td className="border px-4 py-2">Yedabru</td>
+                        <td className="border px-4 py-2">They will speak</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div className="mt-4 p-4 bg-indigo-50 border-l-4 border-indigo-400 rounded">
+                  <p className="text-gray-700">
+                    <span className="font-semibold">Why Eitan helps:</span>{" "}
+                    remembering the four subject prefixes — א / ת / י / נ — lets
+                    you recognize at a glance who is doing the action. Piel then
+                    adds its distinctive sound pattern (the
+                    “intensive/iterative” feel) on top of those prefixes.
+                  </p>
+                </div>
+              </div>
+            </section>
           </main>
         </div>
       </div>
