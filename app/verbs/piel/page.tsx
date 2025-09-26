@@ -67,6 +67,14 @@ export default function PielPage() {
                     Past Tense (עבר)
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#past-tense-exceptions"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    Past Tense Exceptions
+                  </a>
+                </li>
               </ul>
             </nav>
           </aside>
@@ -587,6 +595,296 @@ export default function PielPage() {
                         <td className="border px-4 py-2">דיברו</td>
                         <td className="border px-4 py-2">Dibru</td>
                         <td className="border px-4 py-2">They spoke</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </section>
+
+            {/* Piel – Past Tense Exceptions */}
+            <section id="past-tense-exceptions" className="mb-12 scroll-mt-20">
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  Past Tense Exceptions
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-6">
+                  While most Piel verbs follow the regular pattern (י inserted
+                  between the first and second root letters), some groups of
+                  roots behave differently. These exceptions are important to
+                  recognize.
+                </p>
+
+                {/* 1. Middle letter Vav */}
+                <h3 className="text-xl font-semibold text-indigo-700 mt-4 mb-2">
+                  1. Middle Letter ו (Vav)
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-3">
+                  If the middle root letter is{" "}
+                  <span className="font-semibold">ו</span>, it is replaced by{" "}
+                  <span className="font-semibold">two י (yods)</span>. Example:{" "}
+                  <span className="font-semibold">חוב → חִיֵּב</span> (
+                  <i>chiyév</i>, “he obligated”).
+                </p>
+
+                <div className="overflow-x-auto mb-8">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border px-4 py-2 text-left">Person</th>
+                        <th className="border px-4 py-2 text-left">Hebrew</th>
+                        <th className="border px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border px-4 py-2 text-left">Meaning</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">אני</td>
+                        <td className="border px-4 py-2">חִיֵּבתי</td>
+                        <td className="border px-4 py-2">Chiyávti</td>
+                        <td className="border px-4 py-2">I obligated</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתה</td>
+                        <td className="border px-4 py-2">חִיֵּבתָ</td>
+                        <td className="border px-4 py-2">Chiyávta</td>
+                        <td className="border px-4 py-2">
+                          You (m.s.) obligated
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">את</td>
+                        <td className="border px-4 py-2">חִיֵּבתְ</td>
+                        <td className="border px-4 py-2">Chiyávt</td>
+                        <td className="border px-4 py-2">
+                          You (f.s.) obligated
+                        </td>
+                      </tr>
+                      <tr className="bg-indigo-50">
+                        <td className="border px-4 py-2 font-semibold">הוא</td>
+                        <td className="border px-4 py-2 font-semibold">
+                          חִיֵּב
+                        </td>
+                        <td className="border px-4 py-2 font-semibold">
+                          Chiyév
+                        </td>
+                        <td className="border px-4 py-2">He obligated</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">היא</td>
+                        <td className="border px-4 py-2">חִיֵּבה</td>
+                        <td className="border px-4 py-2">Chiyvá</td>
+                        <td className="border px-4 py-2">She obligated</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אנחנו</td>
+                        <td className="border px-4 py-2">חִיֵּבנוּ</td>
+                        <td className="border px-4 py-2">Chiyávnu</td>
+                        <td className="border px-4 py-2">We obligated</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתם</td>
+                        <td className="border px-4 py-2">חִיֵּבתם</td>
+                        <td className="border px-4 py-2">Chiyávtem</td>
+                        <td className="border px-4 py-2">
+                          You (m.pl.) obligated
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתן</td>
+                        <td className="border px-4 py-2">חִיֵּבתן</td>
+                        <td className="border px-4 py-2">Chiyávten</td>
+                        <td className="border px-4 py-2">
+                          You (f.pl.) obligated
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">הם/הן</td>
+                        <td className="border px-4 py-2">חִיֵּבוּ</td>
+                        <td className="border px-4 py-2">Chiyévu</td>
+                        <td className="border px-4 py-2">They obligated</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                {/* 2. Ending with Hey */}
+                <h3 className="text-xl font-semibold text-indigo-700 mt-4 mb-2">
+                  2. Roots Ending in ה (Hey)
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-3">
+                  If the root ends with <span className="font-semibold">ה</span>
+                  :
+                </p>
+                <ul className="list-disc list-inside text-gray-700 mb-3">
+                  <li>1st & 2nd persons drop the ה and add י</li>
+                  <li>3rd feminine singular exchanges ה for ת</li>
+                  <li>3rd person plurals drop the ה</li>
+                </ul>
+                <p className="text-gray-700 mb-2">Conjugations of נקה:</p>
+
+                <div className="overflow-x-auto mb-8">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border px-4 py-2 text-left">Person</th>
+                        <th className="border px-4 py-2 text-left">Hebrew</th>
+                        <th className="border px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border px-4 py-2 text-left">Meaning</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">אני</td>
+                        <td className="border px-4 py-2">נִקֵּיתי</td>
+                        <td className="border px-4 py-2">Niquéyti</td>
+                        <td className="border px-4 py-2">I cleaned</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתה</td>
+                        <td className="border px-4 py-2">נִקֵּיתָ</td>
+                        <td className="border px-4 py-2">Niquéyta</td>
+                        <td className="border px-4 py-2">You (m.s.) cleaned</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">את</td>
+                        <td className="border px-4 py-2">נִקֵּיתְ</td>
+                        <td className="border px-4 py-2">Niquéyt</td>
+                        <td className="border px-4 py-2">You (f.s.) cleaned</td>
+                      </tr>
+                      <tr className="bg-indigo-50">
+                        <td className="border px-4 py-2 font-semibold">הוא</td>
+                        <td className="border px-4 py-2 font-semibold">
+                          נִקָּה
+                        </td>
+                        <td className="border px-4 py-2 font-semibold">Niká</td>
+                        <td className="border px-4 py-2">He cleaned</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">היא</td>
+                        <td className="border px-4 py-2">נִקְּתָה</td>
+                        <td className="border px-4 py-2">Niktá</td>
+                        <td className="border px-4 py-2">She cleaned</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אנחנו</td>
+                        <td className="border px-4 py-2">נִקֵּינוּ</td>
+                        <td className="border px-4 py-2">Niquéynu</td>
+                        <td className="border px-4 py-2">We cleaned</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתם</td>
+                        <td className="border px-4 py-2">נִקֵּיתם</td>
+                        <td className="border px-4 py-2">Niquéytem</td>
+                        <td className="border px-4 py-2">
+                          You (m.pl.) cleaned
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתן</td>
+                        <td className="border px-4 py-2">נִקֵּיתן</td>
+                        <td className="border px-4 py-2">Niquéyten</td>
+                        <td className="border px-4 py-2">
+                          You (f.pl.) cleaned
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">הם/הן</td>
+                        <td className="border px-4 py-2">נִקּוּ</td>
+                        <td className="border px-4 py-2">Nikkú</td>
+                        <td className="border px-4 py-2">They cleaned</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                {/* 3. Four-letter roots */}
+                <h3 className="text-xl font-semibold text-indigo-700 mt-4 mb-2">
+                  3. Four-Letter Roots
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-3">
+                  For roots with{" "}
+                  <span className="font-semibold">four letters</span> instead of
+                  the usual three, no extra י is added. They follow the Piel
+                  pattern but keep all four consonants.
+                </p>
+                <p className="text-gray-700 mb-2">Conjugations of צלצל:</p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border px-4 py-2 text-left">Person</th>
+                        <th className="border px-4 py-2 text-left">Hebrew</th>
+                        <th className="border px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border px-4 py-2 text-left">Meaning</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">אני</td>
+                        <td className="border px-4 py-2">צִלצֵּלתי</td>
+                        <td className="border px-4 py-2">Tsiltsálti</td>
+                        <td className="border px-4 py-2">I rang</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתה</td>
+                        <td className="border px-4 py-2">צִלצֵּלתָ</td>
+                        <td className="border px-4 py-2">Tsiltsálta</td>
+                        <td className="border px-4 py-2">You (m.s.) rang</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">את</td>
+                        <td className="border px-4 py-2">צִלצֵּלתְ</td>
+                        <td className="border px-4 py-2">Tsiltsált</td>
+                        <td className="border px-4 py-2">You (f.s.) rang</td>
+                      </tr>
+                      <tr className="bg-indigo-50">
+                        <td className="border px-4 py-2 font-semibold">הוא</td>
+                        <td className="border px-4 py-2 font-semibold">
+                          צִלצֵּל
+                        </td>
+                        <td className="border px-4 py-2 font-semibold">
+                          Tsiltsél
+                        </td>
+                        <td className="border px-4 py-2">He rang</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">היא</td>
+                        <td className="border px-4 py-2">צִלצְּלָה</td>
+                        <td className="border px-4 py-2">Tsiltslá</td>
+                        <td className="border px-4 py-2">She rang</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אנחנו</td>
+                        <td className="border px-4 py-2">צִלצֵּלנוּ</td>
+                        <td className="border px-4 py-2">Tsiltsálnu</td>
+                        <td className="border px-4 py-2">We rang</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתם</td>
+                        <td className="border px-4 py-2">צִלצֵּלתם</td>
+                        <td className="border px-4 py-2">Tsiltsáltem</td>
+                        <td className="border px-4 py-2">You (m.pl.) rang</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתן</td>
+                        <td className="border px-4 py-2">צִלצֵּלתן</td>
+                        <td className="border px-4 py-2">Tsiltsálten</td>
+                        <td className="border px-4 py-2">You (f.pl.) rang</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">הם/הן</td>
+                        <td className="border px-4 py-2">צִלצְּלוּ</td>
+                        <td className="border px-4 py-2">Tsiltslú</td>
+                        <td className="border px-4 py-2">They rang</td>
                       </tr>
                     </tbody>
                   </table>
