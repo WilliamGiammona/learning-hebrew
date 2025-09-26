@@ -43,6 +43,14 @@ export default function NifalPage() {
                     The Present Tense (הווה)
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#present-tense-exceptions"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    Present Tense — Exceptions
+                  </a>
+                </li>
               </ul>
             </nav>
           </aside>
@@ -245,6 +253,92 @@ export default function NifalPage() {
                     Root: שאר → נִשְׁאֲרוֹת (
                     <span className="font-semibold">Nish&apos;arot</span>) –
                     they (f.) remain
+                  </li>
+                </ul>
+              </div>
+            </section>
+
+            {/* Present Tense Exceptions */}
+            <section
+              id="present-tense-exceptions"
+              className="mb-12 scroll-mt-20"
+            >
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  Present Tense — Exceptions
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  While most Nifal present tense verbs are formed regularly with
+                  a <span className="font-semibold">נ</span> (nun) at the front,
+                  there are two common exceptions:
+                </p>
+
+                {/* 1) Root starts with Yod */}
+                <h3 className="text-xl font-semibold text-indigo-700 mt-4 mb-2">
+                  1) Root starts with י (Yod)
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-3">
+                  When the root begins with{" "}
+                  <span className="font-semibold">י</span> (yod), that letter is
+                  replaced with a <span className="font-semibold">ו</span> (vav)
+                  in the present tense.
+                </p>
+                <ul className="list-disc list-inside mt-2 text-gray-700">
+                  <li dir="ltr">
+                    Root: ילד → נוֹלָד (
+                    <span className="font-semibold">Nolad</span>) – he is born
+                  </li>
+                  <li dir="ltr">
+                    Root: ילד → נוֹלֶדֶת (
+                    <span className="font-semibold">Noledet</span>) – she is
+                    born
+                  </li>
+                  <li dir="ltr">
+                    Root: ילד → נוֹלָדִים (
+                    <span className="font-semibold">Noladim</span>) – they (m.)
+                    are born
+                  </li>
+                  <li dir="ltr">
+                    Root: ילד → נוֹלָדוֹת (
+                    <span className="font-semibold">Noladot</span>) – they (f.)
+                    are born
+                  </li>
+                </ul>
+
+                {/* 2) Root ends with Hey */}
+                <h3 className="text-xl font-semibold text-indigo-700 mt-6 mb-2">
+                  2) Root ends with ה (Hey)
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-3">
+                  When the root ends in <span className="font-semibold">ה</span>
+                  , it is replaced with a{" "}
+                  <span className="font-semibold">י</span> (yod) in certain
+                  forms: the{" "}
+                  <span className="font-semibold">feminine singular</span>,{" "}
+                  <span className="font-semibold">masculine plural</span>, and{" "}
+                  <span className="font-semibold">feminine plural</span>.
+                </p>
+                <ul className="list-disc list-inside mt-2 text-gray-700">
+                  <li dir="ltr">
+                    Root: ראה → נִרְאֶה (
+                    <span className="font-semibold">Nir&apos;eh</span>) – he is
+                    seen
+                  </li>
+                  <li dir="ltr">
+                    Root: ראה → נִרְאִית (
+                    <span className="font-semibold">Nir&apos;it</span>) – she is
+                    seen
+                  </li>
+                  <li dir="ltr">
+                    Root: ראה → נִרְאִים (
+                    <span className="font-semibold">Nir&apos;im</span>) – they
+                    (m.) are seen
+                  </li>
+                  <li dir="ltr">
+                    Root: ראה → נִרְאִיוֹת (
+                    <span className="font-semibold">Nir&apos;iyot</span>) – they
+                    (f.) are seen
                   </li>
                 </ul>
               </div>
