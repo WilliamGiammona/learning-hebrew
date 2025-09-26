@@ -1194,7 +1194,7 @@ export default function PaalPage() {
                   In Hebrew, the future tense is built using special{" "}
                   <span className="font-semibold">prefixes</span> attached to
                   the root. These prefixes are remembered by the acronym{" "}
-                  <span className="font-semibold">אֶתָ״ן (Eitan)</span> —
+                  <span className="font-semibold">אֶתָין (Eitan)</span> —
                   <span className="font-semibold">Aleph</span>,{" "}
                   <span className="font-semibold">Tav</span>,{" "}
                   <span className="font-semibold">Yod</span>,{" "}
