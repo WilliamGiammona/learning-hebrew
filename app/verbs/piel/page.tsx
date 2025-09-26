@@ -59,6 +59,14 @@ export default function PielPage() {
                     Present Tense Exceptions
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#past-tense"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    Past Tense (עבר)
+                  </a>
+                </li>
               </ul>
             </nav>
           </aside>
@@ -414,6 +422,175 @@ export default function PielPage() {
                     (<i>meshanim / meshanot</i>) — they change
                   </li>
                 </ul>
+              </div>
+            </section>
+
+            {/* Piel – Past Tense */}
+            <section id="past-tense" className="mb-12 scroll-mt-20">
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  The Past Tense (עבר) – Piel
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  In <span className="font-semibold">Piel</span>, the past tense
+                  of the{" "}
+                  <span className="font-semibold">
+                    3rd person masculine singular
+                  </span>{" "}
+                  (the “root form”) is built by inserting a{" "}
+                  <span className="font-semibold">י</span> (yod) between the
+                  first and second letters of the root (in modern full
+                  spelling), and doubling the middle consonant sound (you’ll
+                  often see a dagesh in pointed texts). For example:
+                  <span className="ml-1 font-semibold">דיבר</span> (<i>diber</i>
+                  ), <span className="font-semibold">ביקר</span> (<i>biker</i>).
+                </p>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  The personal endings in the past tense are the same pattern
+                  you already know:
+                </p>
+
+                <ul className="list-disc list-inside mt-2 mb-4 text-gray-700">
+                  <li>
+                    <span className="font-semibold">אני</span> (ani, “I”) →{" "}
+                    <span className="font-semibold">-תי</span> (<i>-ti</i>)
+                  </li>
+                  <li>
+                    <span className="font-semibold">אתה</span> (ata, “you m.s.”)
+                    → <span className="font-semibold">-תָ</span> (<i>-ta</i>)
+                  </li>
+                  <li>
+                    <span className="font-semibold">את</span> (at, “you f.s.”) →{" "}
+                    <span className="font-semibold">-תְ</span> (<i>-t</i>)
+                  </li>
+                  <li>
+                    <span className="font-semibold">הוּא</span> (hu, “he”) →{" "}
+                    <span className="font-semibold">unchanged</span> (root form)
+                  </li>
+                  <li>
+                    <span className="font-semibold">הִיא</span> (hi, “she”) →{" "}
+                    <span className="font-semibold">-ה</span> (<i>-ah</i>)
+                  </li>
+                  <li>
+                    <span className="font-semibold">אנחנו</span> (anachnu, “we”)
+                    → <span className="font-semibold">-נוּ</span> (<i>-nu</i>)
+                  </li>
+                  <li>
+                    <span className="font-semibold">אתם</span> (atem, “you
+                    m.pl.”) → <span className="font-semibold">-תֶם</span> (
+                    <i>-tem</i>)
+                  </li>
+                  <li>
+                    <span className="font-semibold">אתן</span> (aten, “you
+                    f.pl.”) → <span className="font-semibold">-תֶן</span> (
+                    <i>-ten</i>)
+                  </li>
+                  <li>
+                    <span className="font-semibold">הם / הן</span> (hem/hen,
+                    “they”) → <span className="font-semibold">-וּ</span> (
+                    <i>-u</i>)
+                  </li>
+                </ul>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Now let’s conjugate <span className="font-semibold">דבר</span>{" "}
+                  in Piel:
+                  <span className="font-semibold ml-1">דיבר</span> (“he spoke”)
+                  as the base.
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Person
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew (ktiv maleh)
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">1st sg. (אני)</td>
+                        <td className="border px-4 py-2">דיברתי</td>
+                        <td className="border px-4 py-2">Dibárti</td>
+                        <td className="border px-4 py-2">I spoke</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          2nd sg. m. (אַתָּה)
+                        </td>
+                        <td className="border px-4 py-2">דיברת</td>
+                        <td className="border px-4 py-2">Dibárta</td>
+                        <td className="border px-4 py-2">You (m.s.) spoke</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">2nd sg. f. (אַתְּ)</td>
+                        <td className="border px-4 py-2">דיברת</td>
+                        <td className="border px-4 py-2">Dibárt</td>
+                        <td className="border px-4 py-2">You (f.s.) spoke</td>
+                      </tr>
+                      <tr className="bg-indigo-50">
+                        <td className="border px-4 py-2 font-semibold">
+                          3rd sg. m. (הוּא) – Root Form
+                        </td>
+                        <td className="border px-4 py-2 font-semibold">דיבר</td>
+                        <td className="border px-4 py-2 font-semibold">
+                          Dibér
+                        </td>
+                        <td className="border px-4 py-2">He spoke</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">3rd sg. f. (הִיא)</td>
+                        <td className="border px-4 py-2">דיברה</td>
+                        <td className="border px-4 py-2">Dibrá</td>
+                        <td className="border px-4 py-2">She spoke</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          1st pl. (אֲנַחְנוּ)
+                        </td>
+                        <td className="border px-4 py-2">דיברנו</td>
+                        <td className="border px-4 py-2">Dibárnu</td>
+                        <td className="border px-4 py-2">We spoke</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          2nd pl. m. (אַתֶּם)
+                        </td>
+                        <td className="border px-4 py-2">דיברתם</td>
+                        <td className="border px-4 py-2">Dibártem</td>
+                        <td className="border px-4 py-2">You (m.pl.) spoke</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          2nd pl. f. (אַתֵּן)
+                        </td>
+                        <td className="border px-4 py-2">דיברתן</td>
+                        <td className="border px-4 py-2">Dibárten</td>
+                        <td className="border px-4 py-2">You (f.pl.) spoke</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          3rd pl. (הֵם / הֵן)
+                        </td>
+                        <td className="border px-4 py-2">דיברו</td>
+                        <td className="border px-4 py-2">Dibru</td>
+                        <td className="border px-4 py-2">They spoke</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </section>
           </main>
