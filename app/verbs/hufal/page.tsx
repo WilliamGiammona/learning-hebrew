@@ -849,7 +849,7 @@ export default function HufalPage() {
                           You (f.s.) will be permitted
                         </td>
                       </tr>
-                      <tr className="bg-indigo-50">
+                      <tr>
                         <td className="border px-4 py-2">הוא</td>
                         <td className="border px-4 py-2" dir="rtl">
                           יוּרְשֶׁה
