@@ -144,19 +144,6 @@ export default function HifilPage() {
                     </tbody>
                   </table>
                 </div>
-
-                <div className="mt-6 p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded">
-                  <p className="text-gray-700 leading-relaxed">
-                    Quick check: If you see an infinitive that starts with{" "}
-                    <span className="font-semibold" dir="rtl">
-                      לה
-                    </span>
-                    - and includes a <span className="font-semibold">י</span>{" "}
-                    before the third root letter, there&apos;s a good chance
-                    you&apos;re looking at a{" "}
-                    <span className="font-semibold">Hifil</span> verb.
-                  </p>
-                </div>
               </div>
             </section>
           </main>
