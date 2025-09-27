@@ -27,6 +27,14 @@ export default function HitpaelPage() {
                     The Infinitive (שם הפועל)
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#infinitive-exceptions"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    Infinitive — Exceptions
+                  </a>
+                </li>
               </ul>
             </nav>
           </aside>
@@ -108,6 +116,161 @@ export default function HitpaelPage() {
                     (to advance).
                   </p>
                 </div>
+              </div>
+            </section>
+
+            {/* Infinitive — Exceptions */}
+            <section id="infinitive-exceptions" className="mb-12 scroll-mt-20">
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  Infinitive — Exceptions
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Most Hitpael infinitives use the fixed prefix{" "}
+                  <span className="font-semibold">להת־</span>. In a few root
+                  patterns, the spelling/shape of the infinitive shifts as
+                  follows:
+                </p>
+
+                {/* 1) Root starts with Yod */}
+                <h3 className="text-xl font-semibold text-indigo-700 mt-4 mb-2">
+                  1) Root starts with י (yod) — extra י is added
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-2">
+                  When the root begins with{" "}
+                  <span className="font-semibold">י</span>, an extra{" "}
+                  <span className="font-semibold">י</span> appears after the
+                  prefix.
+                </p>
+                <ul className="list-disc list-inside text-gray-700 mb-4">
+                  <li dir="ltr">
+                    Example:{" "}
+                    <span className="font-semibold" dir="rtl">
+                      להתייבש
+                    </span>{" "}
+                    (<i>lehityabesh</i>) — “to dry oneself”
+                  </li>
+                </ul>
+
+                {/* 2) Vav is the 2nd root letter */}
+                <h3 className="text-xl font-semibold text-indigo-700 mt-4 mb-2">
+                  2) ו (vav) as the middle root letter — last letter doubles
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-2">
+                  If the second root letter is{" "}
+                  <span className="font-semibold">ו</span>, the last root letter
+                  is doubled in writing.
+                </p>
+                <ul className="list-disc list-inside text-gray-700 mb-4">
+                  <li dir="ltr">
+                    Example:{" "}
+                    <span className="font-semibold" dir="rtl">
+                      להתגורר
+                    </span>{" "}
+                    (<i>lehitgorer</i>) — “to reside”
+                  </li>
+                </ul>
+
+                {/* 3) Yod is the middle root letter */}
+                <h3 className="text-xl font-semibold text-indigo-700 mt-4 mb-2">
+                  3) י (yod) as the middle root letter — doubled
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-2">
+                  When <span className="font-semibold">י</span> is the second
+                  root letter, it behaves as doubled in the pattern.
+                </p>
+                <ul className="list-disc list-inside text-gray-700 mb-4">
+                  <li dir="ltr">
+                    Example:{" "}
+                    <span className="font-semibold" dir="rtl">
+                      להתגייס
+                    </span>{" "}
+                    (<i>lehitgayes</i>, “to mobilize/enlist”)
+                  </li>
+                </ul>
+
+                {/* 4) Root ends with Hey */}
+                <h3 className="text-xl font-semibold text-indigo-700 mt-4 mb-2">
+                  4) Root ends with ה (hey) — replace with ו + ת
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-2">
+                  If the root ends in <span className="font-semibold">ה</span>,
+                  the final <span className="font-semibold">ה</span> is replaced
+                  by <span className="font-semibold">ו</span> +{" "}
+                  <span className="font-semibold">ת</span> in the infinitive.
+                </p>
+                <ul className="list-disc list-inside text-gray-700 mb-4">
+                  <li dir="ltr">
+                    Example:{" "}
+                    <span className="font-semibold" dir="rtl">
+                      להתגלות
+                    </span>{" "}
+                    (<i>lehitgalot</i>) — “to be revealed / to reveal oneself”
+                  </li>
+                </ul>
+
+                {/* 5) Root starts with Zayin */}
+                <h3 className="text-xl font-semibold text-indigo-700 mt-4 mb-2">
+                  5) Root starts with ז (zayin) — prefix becomes להזד־
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-2">
+                  With initial <span className="font-semibold">ז</span>, the
+                  Hitpael prefix assimilates to{" "}
+                  <span className="font-semibold">הזד־</span>, followed by the
+                  last two root letters.
+                </p>
+                <ul className="list-disc list-inside text-gray-700 mb-4">
+                  <li dir="ltr">
+                    Example:{" "}
+                    <span className="font-semibold" dir="rtl">
+                      להזדרק
+                    </span>{" "}
+                    (<i>lehizdarek</i>)
+                  </li>
+                </ul>
+
+                {/* 6) Root starts with Shin */}
+                <h3 className="text-xl font-semibold text-indigo-700 mt-4 mb-2">
+                  6) Root starts with ש (shin) — prefix becomes להשת־
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-2">
+                  With initial <span className="font-semibold">ש</span>, the
+                  prefix appears as <span className="font-semibold">השת־</span>,
+                  followed by the last two root letters.
+                </p>
+                <ul className="list-disc list-inside text-gray-700 mb-4">
+                  <li dir="ltr">
+                    Example:{" "}
+                    <span className="font-semibold" dir="rtl">
+                      להשתעל
+                    </span>{" "}
+                    (<i>lehishtael</i> ≈{" "}
+                    <i>
+                      lehishta<span className="underline">ʔ</span>el
+                    </i>
+                    , “to cough”)
+                  </li>
+                </ul>
+
+                {/* 7) Root starts with Samech */}
+                <h3 className="text-xl font-semibold text-indigo-700 mt-4 mb-2">
+                  7) Root starts with ס (samech) — prefix becomes להסת־
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-2">
+                  With initial <span className="font-semibold">ס</span>, the
+                  prefix appears as <span className="font-semibold">הסת־</span>,
+                  followed by the last two root letters.
+                </p>
+                <ul className="list-disc list-inside text-gray-700">
+                  <li dir="ltr">
+                    Example:{" "}
+                    <span className="font-semibold" dir="rtl">
+                      להסתכל
+                    </span>{" "}
+                    (<i>lehistakel</i>) — “to look”
+                  </li>
+                </ul>
               </div>
             </section>
           </main>
