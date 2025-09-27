@@ -67,6 +67,14 @@ export default function NifalPage() {
                     Past Tense — Exceptions
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#future-tense"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    The Future Tense (עתיד)
+                  </a>
+                </li>
               </ul>
             </nav>
           </aside>
