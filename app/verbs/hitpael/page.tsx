@@ -91,6 +91,14 @@ export default function HitpaelPage() {
                     The Imperative (ציווי)
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#imperative-exceptions"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    Imperative — Exceptions
+                  </a>
+                </li>
               </ul>
             </nav>
           </aside>
@@ -1233,6 +1241,102 @@ export default function HitpaelPage() {
                         </td>
                         <td className="border px-4 py-2">Hishtatfu</td>
                         <td className="border px-4 py-2">Participate! (pl.)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </section>
+            {/* Imperative — Exceptions */}
+            <section id="imperative-exceptions" className="mb-12 scroll-mt-20">
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  Imperative — Exceptions
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  For Hitpael verbs whose root ends in{" "}
+                  <span className="font-semibold">ה</span> (hey), the imperative
+                  has special forms. The initial{" "}
+                  <span className="font-semibold">הת־</span> prefix is still
+                  present, but the final{" "}
+                  <span className="font-semibold">ה</span> of the root is
+                  deleted and replaced differently depending on the
+                  gender/number:
+                </p>
+
+                <ul className="list-disc list-inside text-gray-700 mb-4">
+                  <li>
+                    <span className="font-semibold">Singular masculine</span> —
+                    replace ה with <span className="font-semibold">ו + ת</span>.
+                  </li>
+                  <li>
+                    <span className="font-semibold">Singular feminine</span> —
+                    replace ה with <span className="font-semibold">י</span>.
+                  </li>
+                  <li>
+                    <span className="font-semibold">Plural</span> — replace ה
+                    with <span className="font-semibold">ו</span>.
+                  </li>
+                </ul>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Example with root <span className="font-semibold">ג־ל־ה</span>{" "}
+                  →
+                  <span className="font-semibold" dir="rtl">
+                    להתגלות
+                  </span>{" "}
+                  (“to reveal oneself”):
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Form
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">Singular masculine</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִתְגַּלֵּו
+                        </td>
+                        <td className="border px-4 py-2">Hitgalev</td>
+                        <td className="border px-4 py-2">
+                          Reveal yourself! (m.s.)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Singular feminine</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִתְגַּלִּי
+                        </td>
+                        <td className="border px-4 py-2">Hitgali</td>
+                        <td className="border px-4 py-2">
+                          Reveal yourself! (f.s.)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Plural</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִתְגַּלּוּ
+                        </td>
+                        <td className="border px-4 py-2">Hitgalu</td>
+                        <td className="border px-4 py-2">
+                          Reveal yourselves! (pl.)
+                        </td>
                       </tr>
                     </tbody>
                   </table>
