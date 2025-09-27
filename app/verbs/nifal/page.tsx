@@ -71,9 +71,9 @@ export default function NifalPage() {
                   is the primary <span className="font-semibold">passive</span>{" "}
                   (and often reflexive/“middle”) counterpart of{" "}
                   <span className="font-semibold">Paal</span>. Where Paal
-                  typically means “to do X,” Nifal often means “to be X’ed” or
-                  “to get/become X.” For example, “to close” (Paal) versus “to
-                  be closed” (Nifal).
+                  typically means “to do X,” Nifal often means “to be X&apos;ed”
+                  or “to get/become X.” For example, “to close” (Paal) versus
+                  “to be closed” (Nifal).
                 </p>
               </div>
             </section>
@@ -524,7 +524,7 @@ export default function NifalPage() {
                       </tr>
                       <tr className="bg-indigo-50">
                         <td className="border border-gray-300 px-4 py-2 font-semibold">
-                          3rd sg. m. (הוּא) – Root Form
+                          3rd sg. m. (הוּא) - Root Form
                         </td>
                         <td className="border border-gray-300 px-4 py-2 font-semibold">
                           נִכְנַס
@@ -613,8 +613,8 @@ export default function NifalPage() {
                 <div className="mt-6 p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded">
                   <p className="text-gray-700 leading-relaxed">
                     <span className="font-semibold">Spelling note:</span>{" "}
-                    Without vowels, both past (נכנס – “entered”) and present
-                    m.s. (נכנס – “enters”) look the same. Context (or niqqud)
+                    Without vowels, both past (נכנס - “entered”) and present
+                    m.s. (נכנס - “enters”) look the same. Context (or niqqud)
                     disambiguates: past{" "}
                     <span className="font-semibold">נִכְנַס</span> vs. present{" "}
                     <span className="font-semibold">נִכְנָס</span>.
