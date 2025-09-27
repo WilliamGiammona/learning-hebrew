@@ -993,6 +993,84 @@ export default function NifalPage() {
                 </div>
               </div>
             </section>
+
+            {/* Imperative */}
+            <section id="imperative" className="mb-12 scroll-mt-20">
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  The Imperative (ציווי)
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  In Nifal, the imperative (command form) is derived from the{" "}
+                  <span className="font-semibold">2nd-person future tense</span>{" "}
+                  — but with the prefix (ת) removed. This leaves the form
+                  beginning with the <span className="font-semibold">נ</span> of
+                  the Nifal root pattern.
+                </p>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Example with <span className="font-semibold">להימלט</span>{" "}
+                  (“to escape”):
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Person
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          Singular Masculine (אַתָּה)
+                        </td>
+                        <td className="border px-4 py-2">הִמָּלֵט</td>
+                        <td className="border px-4 py-2">Himalét</td>
+                        <td className="border px-4 py-2">Escape! (m.s.)</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          Singular Feminine (אַתְּ)
+                        </td>
+                        <td className="border px-4 py-2">הִמָּלְטִי</td>
+                        <td className="border px-4 py-2">Himaltí</td>
+                        <td className="border px-4 py-2">Escape! (f.s.)</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">
+                          Plural (אַתֶּם / אַתֵּן)
+                        </td>
+                        <td className="border px-4 py-2">הִמָּלְטוּ</td>
+                        <td className="border px-4 py-2">Himaltú</td>
+                        <td className="border px-4 py-2">Escape! (pl.)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div className="mt-6 p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded">
+                  <p className="text-gray-700 leading-relaxed">
+                    <span className="font-semibold">Note:</span> Nifal
+                    imperatives often carry the sense of urgency or necessity,
+                    like “Save yourself!” or “Escape!” rather than a neutral
+                    command.
+                  </p>
+                </div>
+              </div>
+            </section>
           </main>
         </div>
       </div>
