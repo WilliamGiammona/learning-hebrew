@@ -343,6 +343,285 @@ export default function NifalPage() {
                 </ul>
               </div>
             </section>
+            {/* Past tense */}
+            <section id="past-tense" className="mb-12 scroll-mt-20">
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  The Past Tense (עבר)
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  In Nifal, the past tense is built by placing a prefixed{" "}
+                  <span className="font-semibold">נִ־</span> (nun with{" "}
+                  <i>hiriq</i>) in front of the root and then attaching the
+                  standard Hebrew past endings. Think of the base (3rd person
+                  masculine singular) pattern as{" "}
+                  <span className="font-semibold">נִפְעַל</span>.
+                </p>
+
+                <div className="p-4 bg-indigo-50 border-l-4 border-indigo-400 rounded mb-6">
+                  <p className="text-gray-700 font-semibold mb-3">
+                    Past-tense endings (same as Paal):
+                  </p>
+                  <div className="overflow-x-auto">
+                    <table className="min-w-full border border-gray-300 text-gray-700">
+                      <thead className="bg-gray-100">
+                        <tr>
+                          <th className="border border-gray-300 px-3 py-2 text-left">
+                            Person
+                          </th>
+                          <th className="border border-gray-300 px-3 py-2 text-left">
+                            Ending
+                          </th>
+                          <th className="border border-gray-300 px-3 py-2 text-left">
+                            Hebrew
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td className="border px-3 py-2">אני</td>
+                          <td className="border px-3 py-2">-ti</td>
+                          <td className="border px-3 py-2" dir="rtl">
+                            ־תי
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="border px-3 py-2">אתה</td>
+                          <td className="border px-3 py-2">-ta</td>
+                          <td className="border px-3 py-2" dir="rtl">
+                            ־תָ
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="border px-3 py-2">את</td>
+                          <td className="border px-3 py-2">-t</td>
+                          <td className="border px-3 py-2" dir="rtl">
+                            ־תְ
+                          </td>
+                        </tr>
+                        <tr className="bg-indigo-50">
+                          <td className="border px-3 py-2 font-semibold">
+                            הוא
+                          </td>
+                          <td className="border px-3 py-2 font-semibold">—</td>
+                          <td
+                            className="border px-3 py-2 font-semibold"
+                            dir="rtl"
+                          >
+                            (ללא סיומת)
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="border px-3 py-2">היא</td>
+                          <td className="border px-3 py-2">-ah</td>
+                          <td className="border px-3 py-2" dir="rtl">
+                            ־ה
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="border px-3 py-2">אנחנו</td>
+                          <td className="border px-3 py-2">-nu</td>
+                          <td className="border px-3 py-2" dir="rtl">
+                            ־נוּ
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="border px-3 py-2">אתם</td>
+                          <td className="border px-3 py-2">-tem</td>
+                          <td className="border px-3 py-2" dir="rtl">
+                            ־תֶּם
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="border px-3 py-2">אתן</td>
+                          <td className="border px-3 py-2">-ten</td>
+                          <td className="border px-3 py-2" dir="rtl">
+                            ־תֶּן
+                          </td>
+                        </tr>
+                        <tr>
+                          <td className="border px-3 py-2">הם/הן</td>
+                          <td className="border px-3 py-2">-u</td>
+                          <td className="border px-3 py-2" dir="rtl">
+                            ־וּ
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Example with the root{" "}
+                  <span className="font-semibold">כנס</span> (“to enter” →{" "}
+                  <span className="font-semibold">להיכנס</span>): the base
+                  3rd-masc-singular past is{" "}
+                  <span className="font-semibold">נִכְנַס</span> (<i>Nichnas</i>
+                  ).
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Person
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2">
+                          1st sg. (אני)
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          נִכְנַסְתִּי
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          Nichnás­ti
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          I entered
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2">
+                          2nd sg. m. (אַתָּה)
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          נִכְנַסְתָּ
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          Nichnás­ta
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          You (m.s.) entered
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2">
+                          2nd sg. f. (אַתְּ)
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          נִכְנַסְתְּ
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          Nichnást
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          You (f.s.) entered
+                        </td>
+                      </tr>
+                      <tr className="bg-indigo-50">
+                        <td className="border border-gray-300 px-4 py-2 font-semibold">
+                          3rd sg. m. (הוּא) – Root Form
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2 font-semibold">
+                          נִכְנַס
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2 font-semibold">
+                          Nichnás
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          He entered
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2">
+                          3rd sg. f. (הִיא)
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          נִכְנְסָה
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          Nichnesá
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          She entered
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2">
+                          1st pl. (אֲנַחְנוּ)
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          נִכְנַסְנוּ
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          Nichnásnu
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          We entered
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2">
+                          2nd pl. m. (אַתֶּם)
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          נִכְנַסְתֶּם
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          Nichnastém
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          You (m.pl.) entered
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2">
+                          2nd pl. f. (אַתֵּן)
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          נִכְנַסְתֶּן
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          Nichnastén
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          You (f.pl.) entered
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2">
+                          3rd pl. (הֵם / הֵן)
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          נִכְנְסוּ
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          Nichnesú
+                        </td>
+                        <td className="border border-gray-300 px-4 py-2">
+                          They entered
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div className="mt-6 p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded">
+                  <p className="text-gray-700 leading-relaxed">
+                    <span className="font-semibold">Spelling note:</span>{" "}
+                    Without vowels, both past (נכנס – “entered”) and present
+                    m.s. (נכנס – “enters”) look the same. Context (or niqqud)
+                    disambiguates: past{" "}
+                    <span className="font-semibold">נִכְנַס</span> vs. present{" "}
+                    <span className="font-semibold">נִכְנָס</span>.
+                  </p>
+                </div>
+              </div>
+            </section>
           </main>
         </div>
       </div>
