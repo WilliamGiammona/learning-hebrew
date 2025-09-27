@@ -597,8 +597,8 @@ export default function PualPage() {
 
                 <p className="text-gray-700 leading-relaxed mb-4">
                   In Pual, future forms use the standard{" "}
-                  <span className="font-semibold">אֵיתָ"ן (EITaN)</span>{" "}
-                  prefixes (א / ת / י / נ), and a literal{" "}
+                  <span className="font-semibold">אֵיתָן (EITaN)</span> prefixes
+                  (א / ת / י / נ), and a literal{" "}
                   <span className="font-semibold">וּ</span> is inserted between
                   the first and second letters of the root. Example root:{" "}
                   <span className="font-semibold">ב־ק־ר</span> → “to be
