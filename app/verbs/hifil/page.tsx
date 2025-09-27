@@ -361,6 +361,106 @@ export default function HifilPage() {
                 </div>
               </div>
             </section>
+
+            {/* Present Tense — Exceptions */}
+            <section
+              id="present-tense-exceptions"
+              className="mb-12 scroll-mt-20"
+            >
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  Present Tense — Exceptions
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  For Hifil verbs whose root ends in{" "}
+                  <span className="font-semibold">ה</span> (hey), the present
+                  tense has several special rules:
+                </p>
+
+                <ul className="list-disc list-inside text-gray-700 mb-4">
+                  <li>
+                    In the <span className="font-semibold">singular</span>{" "}
+                    forms,{" "}
+                    <span className="font-semibold">no extra ה is added</span>{" "}
+                    at the end.
+                  </li>
+                  <li>
+                    The{" "}
+                    <span className="font-semibold">masculine singular</span>{" "}
+                    and <span className="font-semibold">feminine singular</span>{" "}
+                    look the same in spelling, and only differ in{" "}
+                    <span className="font-semibold">nikud (vowels)</span>.
+                  </li>
+                  <li>
+                    In the <span className="font-semibold">plural</span> forms,
+                    the final <span className="font-semibold">ה</span> is{" "}
+                    <span className="font-semibold">dropped</span> entirely.
+                  </li>
+                </ul>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Example with the root{" "}
+                  <span className="font-semibold">ר־ש־ה</span> → “to permit /
+                  allow”:
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Form
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">Masculine Singular</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          מַרְשֶׁה
+                        </td>
+                        <td className="border px-4 py-2">Marsheh</td>
+                        <td className="border px-4 py-2">He permits</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Feminine Singular</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          מַרְשָׁה
+                        </td>
+                        <td className="border px-4 py-2">Marshah</td>
+                        <td className="border px-4 py-2">She permits</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Masculine Plural</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          מַרְשִׁים
+                        </td>
+                        <td className="border px-4 py-2">Marshim</td>
+                        <td className="border px-4 py-2">They (m.) permit</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Feminine Plural</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          מַרְשׁוֹת
+                        </td>
+                        <td className="border px-4 py-2">Marshot</td>
+                        <td className="border px-4 py-2">They (f.) permit</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </section>
           </main>
         </div>
       </div>
