@@ -17,7 +17,6 @@ const verbTypes = [
 const navigationItems = [
   { href: "/", label: "Home" },
   { href: "/jewish-history", label: "Jewish History" },
-  { href: "/religious-history", label: "Religious History" },
   { href: "/alphabet", label: "Alphabet" },
   { href: "/verbs", label: "Verbs", hasDropdown: true },
 ];
