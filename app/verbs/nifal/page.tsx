@@ -881,9 +881,8 @@ export default function NifalPage() {
 
                 <p className="text-gray-700 leading-relaxed mb-4">
                   In Hebrew, the future tense is often remembered using the
-                  acronym <span className="font-semibold">אֵיתָ"ן</span>{" "}
-                  (EITaN). Each letter represents the prefix used for different
-                  persons:
+                  acronym <span className="font-semibold">אֵיתָן</span> (EITaN).
+                  Each letter represents the prefix used for different persons:
                 </p>
 
                 <ul className="list-disc list-inside text-gray-700 mb-4">
