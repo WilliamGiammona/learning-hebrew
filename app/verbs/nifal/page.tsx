@@ -832,7 +832,7 @@ export default function NifalPage() {
                         <td className="border px-4 py-2 font-semibold">הוא</td>
                         <td className="border px-4 py-2 font-semibold">נענה</td>
                         <td className="border px-4 py-2 font-semibold">
-                          Ne’enáh
+                          Ne&apos;enáh
                         </td>
                         <td className="border px-4 py-2">He responded</td>
                       </tr>
