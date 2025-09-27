@@ -51,6 +51,14 @@ export default function HitpaelPage() {
                     Present Tense — Exceptions
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#past-tense"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    The Past Tense (עבר)
+                  </a>
+                </li>
               </ul>
             </nav>
           </aside>
