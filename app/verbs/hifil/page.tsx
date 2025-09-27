@@ -35,6 +35,14 @@ export default function HifilPage() {
                     The Infinitive Exceptions
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#present-tense"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    The Present Tense (הווה)
+                  </a>
+                </li>
               </ul>
             </nav>
           </aside>
@@ -251,6 +259,106 @@ export default function HifilPage() {
                     (→ ו + ת)
                   </li>
                 </ul>
+              </div>
+            </section>
+
+            {/* Present Tense */}
+            <section id="present-tense" className="mb-12 scroll-mt-20">
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  The Present Tense (הווה)
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Hifil present tense forms are built in a consistent way:
+                </p>
+
+                <ul className="list-disc list-inside text-gray-700 mb-4">
+                  <li>
+                    They{" "}
+                    <span className="font-semibold">always begin with מ</span>{" "}
+                    (mem).
+                  </li>
+                  <li>
+                    A <span className="font-semibold">י</span> (yod) appears
+                    before the third root letter, just like in the infinitive.
+                  </li>
+                  <li>
+                    For the{" "}
+                    <span className="font-semibold">feminine singular</span>, a{" "}
+                    <span className="font-semibold">ה</span> (hey) is added at
+                    the end.
+                  </li>
+                  <li>
+                    The <span className="font-semibold">masculine plural</span>{" "}
+                    ends in <span className="font-semibold">ים</span> (-im).
+                  </li>
+                  <li>
+                    The <span className="font-semibold">feminine plural</span>{" "}
+                    ends in <span className="font-semibold">ות</span> (-ot).
+                  </li>
+                </ul>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Example with the root{" "}
+                  <span className="font-semibold">פ־ס־ק</span> → “to stop / to
+                  interrupt”:
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Form
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">Masculine Singular</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          מַפְסִיק
+                        </td>
+                        <td className="border px-4 py-2">Mafsik</td>
+                        <td className="border px-4 py-2">He stops</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Feminine Singular</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          מַפְסִיקָה
+                        </td>
+                        <td className="border px-4 py-2">Mafsika</td>
+                        <td className="border px-4 py-2">She stops</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Masculine Plural</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          מַפְסִיקִים
+                        </td>
+                        <td className="border px-4 py-2">Mafsikim</td>
+                        <td className="border px-4 py-2">They (m.) stop</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Feminine Plural</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          מַפְסִיקוֹת
+                        </td>
+                        <td className="border px-4 py-2">Mafsikot</td>
+                        <td className="border px-4 py-2">They (f.) stop</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </section>
           </main>
