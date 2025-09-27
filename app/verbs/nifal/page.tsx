@@ -51,6 +51,14 @@ export default function NifalPage() {
                     Present Tense — Exceptions
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#past-tense"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    The Past Tense (עבר)
+                  </a>
+                </li>
               </ul>
             </nav>
           </aside>
@@ -619,6 +627,223 @@ export default function NifalPage() {
                     <span className="font-semibold">נִכְנַס</span> vs. present{" "}
                     <span className="font-semibold">נִכְנָס</span>.
                   </p>
+                </div>
+              </div>
+            </section>
+
+            {/* Past Tense Exceptions */}
+            <section id="past-tense-exceptions" className="mb-12 scroll-mt-20">
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  Past Tense — Exceptions
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  While most Nifal verbs in the past follow the regular pattern
+                  (נִפְעַל + standard endings), there are two main exceptions:
+                  roots that begin with <span className="font-semibold">י</span>{" "}
+                  (yod), and roots that end with{" "}
+                  <span className="font-semibold">ה</span> (hey).
+                </p>
+
+                {/* 1) Root starts with Yod */}
+                <h3 className="text-xl font-semibold text-indigo-700 mt-4 mb-2">
+                  1) Root starts with י (Yod)
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-3">
+                  When the root begins with{" "}
+                  <span className="font-semibold">י</span> (yod), that letter is
+                  replaced with a <span className="font-semibold">נ</span> (nun)
+                  in the past tense. For example, with the root{" "}
+                  <span className="font-semibold">ילד</span> (“to be born” →{" "}
+                  <span className="font-semibold">להיוולד</span>), the past
+                  tense uses the base{" "}
+                  <span className="font-semibold">נולד</span>.
+                </p>
+
+                <div className="overflow-x-auto mb-6">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border px-4 py-2 text-left">Person</th>
+                        <th className="border px-4 py-2 text-left">Hebrew</th>
+                        <th className="border px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border px-4 py-2 text-left">Meaning</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">אני</td>
+                        <td className="border px-4 py-2">נולַדְתּי</td>
+                        <td className="border px-4 py-2">Noládti</td>
+                        <td className="border px-4 py-2">I was born</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתה</td>
+                        <td className="border px-4 py-2">נולַדְתָּ</td>
+                        <td className="border px-4 py-2">Noládta</td>
+                        <td className="border px-4 py-2">
+                          You (m.s.) were born
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">את</td>
+                        <td className="border px-4 py-2">נולַדְתְּ</td>
+                        <td className="border px-4 py-2">Noládt</td>
+                        <td className="border px-4 py-2">
+                          You (f.s.) were born
+                        </td>
+                      </tr>
+                      <tr className="bg-indigo-50">
+                        <td className="border px-4 py-2 font-semibold">הוא</td>
+                        <td className="border px-4 py-2 font-semibold">נולד</td>
+                        <td className="border px-4 py-2 font-semibold">
+                          Nolád
+                        </td>
+                        <td className="border px-4 py-2">He was born</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">היא</td>
+                        <td className="border px-4 py-2">נולְדָה</td>
+                        <td className="border px-4 py-2">Noldá</td>
+                        <td className="border px-4 py-2">She was born</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אנחנו</td>
+                        <td className="border px-4 py-2">נולַדְנוּ</td>
+                        <td className="border px-4 py-2">Noládnu</td>
+                        <td className="border px-4 py-2">We were born</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתם/אתן</td>
+                        <td className="border px-4 py-2">
+                          נולַדְתֶּם / נולַדְתֶּן
+                        </td>
+                        <td className="border px-4 py-2">
+                          Noládtém / Noládtén
+                        </td>
+                        <td className="border px-4 py-2">
+                          You (pl.) were born
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">הם/הן</td>
+                        <td className="border px-4 py-2">נולְדוּ</td>
+                        <td className="border px-4 py-2">Noldú</td>
+                        <td className="border px-4 py-2">They were born</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                {/* 2) Root ends with Hey */}
+                <h3 className="text-xl font-semibold text-indigo-700 mt-6 mb-2">
+                  2) Root ends with ה (Hey)
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-3">
+                  When the root ends in <span className="font-semibold">ה</span>
+                  , the conjugation changes depending on the person:
+                </p>
+                <ul className="list-disc list-inside text-gray-700 mb-4">
+                  <li>3rd person masculine singular keeps the final ה.</li>
+                  <li>
+                    1st and 2nd persons replace the ה with a{" "}
+                    <span className="font-semibold">י</span> (yod).
+                  </li>
+                  <li>
+                    3rd person feminine singular adds a{" "}
+                    <span className="font-semibold">ת</span> before the ה.
+                  </li>
+                  <li>
+                    3rd person plural drops the ה completely (no replacement).
+                  </li>
+                </ul>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Example with <span className="font-semibold">ענה</span> (“to
+                  respond, comply” →{" "}
+                  <span className="font-semibold">להיעָנוֹת</span>):
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border px-4 py-2 text-left">Person</th>
+                        <th className="border px-4 py-2 text-left">Hebrew</th>
+                        <th className="border px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border px-4 py-2 text-left">Meaning</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">אני</td>
+                        <td className="border px-4 py-2">נענִיתִי</td>
+                        <td className="border px-4 py-2">Ne&apos;eníti</td>
+                        <td className="border px-4 py-2">
+                          I responded / complied
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתה</td>
+                        <td className="border px-4 py-2">נענִיתָ</td>
+                        <td className="border px-4 py-2">Ne&apos;eníta</td>
+                        <td className="border px-4 py-2">
+                          You (m.s.) responded
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">את</td>
+                        <td className="border px-4 py-2">נענִיתְ</td>
+                        <td className="border px-4 py-2">Ne&apos;enít</td>
+                        <td className="border px-4 py-2">
+                          You (f.s.) responded
+                        </td>
+                      </tr>
+                      <tr className="bg-indigo-50">
+                        <td className="border px-4 py-2 font-semibold">הוא</td>
+                        <td className="border px-4 py-2 font-semibold">נענה</td>
+                        <td className="border px-4 py-2 font-semibold">
+                          Ne’enáh
+                        </td>
+                        <td className="border px-4 py-2">He responded</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">היא</td>
+                        <td className="border px-4 py-2">נענְתָה</td>
+                        <td className="border px-4 py-2">Ne&apos;entáh</td>
+                        <td className="border px-4 py-2">She responded</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אנחנו</td>
+                        <td className="border px-4 py-2">נענִינוּ</td>
+                        <td className="border px-4 py-2">Ne&apos;enínu</td>
+                        <td className="border px-4 py-2">We responded</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתם/אתן</td>
+                        <td className="border px-4 py-2">
+                          נענִיתֶם / נענִיתֶן
+                        </td>
+                        <td className="border px-4 py-2">
+                          Ne&apos;enítem / Ne&apos;eníten
+                        </td>
+                        <td className="border px-4 py-2">
+                          You (pl.) responded
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">הם/הן</td>
+                        <td className="border px-4 py-2">נענוּ</td>
+                        <td className="border px-4 py-2">Ne&apos;enu</td>
+                        <td className="border px-4 py-2">They responded</td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
               </div>
             </section>
