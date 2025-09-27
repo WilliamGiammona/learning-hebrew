@@ -35,6 +35,22 @@ export default function HufalPage() {
                     Present Tense — Exceptions
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#past-tense"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    The Past Tense (עבר)
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#past-tense-exceptions"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    Past Tense — Exceptions
+                  </a>
+                </li>
               </ul>
             </nav>
           </aside>
@@ -268,6 +284,297 @@ export default function HufalPage() {
                         <td className="border px-4 py-2">Murshot</td>
                         <td className="border px-4 py-2">
                           are authorized (f.pl.)
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </section>
+
+            {/* Past Tense */}
+            <section id="past-tense" className="mb-12 scroll-mt-20">
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  The Past Tense (עבר)
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  In Hufal, past tense forms are built by adding{" "}
+                  <span className="font-semibold">ה</span> (hey) and{" "}
+                  <span className="font-semibold">ו</span> (vav) before the
+                  root. From this base, the standard past tense suffixes are
+                  attached: <span className="font-semibold">-תי</span> (ani),{" "}
+                  <span className="font-semibold">-תָ</span> (ata),{" "}
+                  <span className="font-semibold">-תְּ</span> (at),{" "}
+                  <span className="font-semibold">-ה</span> (hu),{" "}
+                  <span className="font-semibold">-ה</span> (hi),{" "}
+                  <span className="font-semibold">-נוּ</span> (anachnu),{" "}
+                  <span className="font-semibold">-תם</span> (atem),{" "}
+                  <span className="font-semibold">-תן</span> (aten),{" "}
+                  <span className="font-semibold">-וּ</span> (hem/hen).
+                </p>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Example with root <span className="font-semibold">ז־מ־ן</span>{" "}
+                  →
+                  <span className="font-semibold" dir="rtl">
+                    הֻזְמַן
+                  </span>{" "}
+                  (“was invited”):
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Person
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">אני</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הוּזְמַנְתִּי
+                        </td>
+                        <td className="border px-4 py-2">Huzmánti</td>
+                        <td className="border px-4 py-2">I was invited</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתה</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הוּזְמַנְתָּ
+                        </td>
+                        <td className="border px-4 py-2">Huzmanta</td>
+                        <td className="border px-4 py-2">
+                          You (m.s.) were invited
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">את</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הוּזְמַנְתְּ
+                        </td>
+                        <td className="border px-4 py-2">Huzmant</td>
+                        <td className="border px-4 py-2">
+                          You (f.s.) were invited
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">הוא</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הוּזְמַן
+                        </td>
+                        <td className="border px-4 py-2">Huzmán</td>
+                        <td className="border px-4 py-2">He was invited</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">היא</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הוּזְמְנָה
+                        </td>
+                        <td className="border px-4 py-2">Huzmená</td>
+                        <td className="border px-4 py-2">She was invited</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אנחנו</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הוּזְמַנּוּ
+                        </td>
+                        <td className="border px-4 py-2">Huzmánu</td>
+                        <td className="border px-4 py-2">We were invited</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתם</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הוּזְמַנְתֶּם
+                        </td>
+                        <td className="border px-4 py-2">Huzmantem</td>
+                        <td className="border px-4 py-2">
+                          You (m.pl.) were invited
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתן</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הוּזְמַנְתֶּן
+                        </td>
+                        <td className="border px-4 py-2">Huzmanten</td>
+                        <td className="border px-4 py-2">
+                          You (f.pl.) were invited
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">הם / הן</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הוּזְמְנוּ
+                        </td>
+                        <td className="border px-4 py-2">Huzmenu</td>
+                        <td className="border px-4 py-2">They were invited</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </section>
+
+            {/* Past Tense — Exceptions */}
+            <section id="past-tense-exceptions" className="mb-12 scroll-mt-20">
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  Past Tense — Exceptions
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  For Hufal verbs whose root ends in{" "}
+                  <span className="font-semibold">ה</span> (hey), the past tense
+                  endings trigger special changes:
+                </p>
+
+                <ul className="list-disc list-inside text-gray-700 mb-4">
+                  <li>
+                    <span className="font-semibold">1st and 2nd persons</span> —
+                    replace <span className="font-semibold">ה</span> with{" "}
+                    <span className="font-semibold">י</span>.
+                  </li>
+                  <li>
+                    <span className="font-semibold">
+                      3rd person feminine singular
+                    </span>{" "}
+                    — add <span className="font-semibold">ת</span> before the{" "}
+                    <span className="font-semibold">ה</span>.
+                  </li>
+                  <li>
+                    <span className="font-semibold">3rd person plural</span> —
+                    drop the <span className="font-semibold">ה</span>.
+                  </li>
+                  <li>
+                    <span className="font-semibold">
+                      3rd person masculine singular
+                    </span>{" "}
+                    — keeps the final <span className="font-semibold">ה</span>.
+                  </li>
+                </ul>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Example with root <span className="font-semibold">ר־ש־ה</span>{" "}
+                  →
+                  <span className="font-semibold" dir="rtl">
+                    הוּרְשָׁה
+                  </span>{" "}
+                  (“was permitted”):
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Person
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">אני</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הוּרְשֵׁיתִי
+                        </td>
+                        <td className="border px-4 py-2">Hurshéiti</td>
+                        <td className="border px-4 py-2">I was permitted</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתה</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הוּרְשֵׁיתָ
+                        </td>
+                        <td className="border px-4 py-2">Hurshéita</td>
+                        <td className="border px-4 py-2">
+                          You (m.s.) were permitted
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">את</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הוּרְשֵׁיתְ
+                        </td>
+                        <td className="border px-4 py-2">Hurshéit</td>
+                        <td className="border px-4 py-2">
+                          You (f.s.) were permitted
+                        </td>
+                      </tr>
+                      <tr className="bg-indigo-50">
+                        <td className="border px-4 py-2">הוא</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הוּרְשָׁה
+                        </td>
+                        <td className="border px-4 py-2">Hurshah</td>
+                        <td className="border px-4 py-2">He was permitted</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">היא</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הוּרְשְׁתָה
+                        </td>
+                        <td className="border px-4 py-2">Hurshtah</td>
+                        <td className="border px-4 py-2">She was permitted</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אנחנו</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הוּרְשֵׁינוּ
+                        </td>
+                        <td className="border px-4 py-2">Hurshéinu</td>
+                        <td className="border px-4 py-2">We were permitted</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתם</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הוּרְשֵׁיתֶם
+                        </td>
+                        <td className="border px-4 py-2">Hurshéitem</td>
+                        <td className="border px-4 py-2">
+                          You (m.pl.) were permitted
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתן</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הוּרְשֵׁיתֶן
+                        </td>
+                        <td className="border px-4 py-2">Hurshéiten</td>
+                        <td className="border px-4 py-2">
+                          You (f.pl.) were permitted
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">הם / הן</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הוּרְשׁוּ
+                        </td>
+                        <td className="border px-4 py-2">Hurshu</td>
+                        <td className="border px-4 py-2">
+                          They were permitted
                         </td>
                       </tr>
                     </tbody>
