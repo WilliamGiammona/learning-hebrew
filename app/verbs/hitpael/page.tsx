@@ -1126,7 +1126,7 @@ export default function HitpaelPage() {
                           You (f.pl.) will try
                         </td>
                       </tr>
-                      <tr className="bg-yellow-50">
+                      <tr>
                         <td className="border px-4 py-2">הם / הן</td>
                         <td className="border px-4 py-2" dir="rtl">
                           יִתְנַסּוּ
