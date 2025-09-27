@@ -600,7 +600,7 @@ export default function HufalPage() {
 
                 <p className="text-gray-700 leading-relaxed mb-4">
                   In Hufal, future tense forms are built with the{" "}
-                  <span className="font-semibold">אֵיתָ"ן (EITaN)</span>{" "}
+                  <span className="font-semibold">אֵיתָן (EITaN)</span>{" "}
                   prefixes: <span className="font-semibold">א</span> (ani),{" "}
                   <span className="font-semibold">ת</span>{" "}
                   (ata/at/atem/aten/hi),{" "}
