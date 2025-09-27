@@ -1148,6 +1148,24 @@ export default function HifilPage() {
                     </tbody>
                   </table>
                 </div>
+
+                <div className="mt-6 p-4 bg-indigo-50 border-l-4 border-indigo-400 rounded">
+                  <p className="text-gray-700 leading-relaxed">
+                    <span className="font-semibold">Note:</span> In Modern
+                    Hebrew, true imperative forms are relatively rare in
+                    everyday speech. Instead, speakers often use the{" "}
+                    <span className="font-semibold">future tense</span> as a
+                    polite or softer imperative (e.g.,{" "}
+                    <span className="font-semibold" dir="rtl">
+                      תַּפְסִיק
+                    </span>{" "}
+                    instead of{" "}
+                    <span className="font-semibold" dir="rtl">
+                      הַפְסֵק
+                    </span>
+                    ).
+                  </p>
+                </div>
               </div>
             </section>
           </main>
