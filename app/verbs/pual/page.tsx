@@ -705,6 +705,171 @@ export default function PualPage() {
                 </div>
               </div>
             </section>
+
+            {/* Future Tense — Exceptions */}
+            <section
+              id="future-tense-exceptions"
+              className="mb-12 scroll-mt-20"
+            >
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  Future Tense — Exceptions
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  For Pual roots that end in{" "}
+                  <span className="font-semibold">ה</span> (hey), the future
+                  tense shows a special change: the final ה is{" "}
+                  <span className="font-semibold">dropped</span> in certain
+                  persons.
+                </p>
+
+                <ul className="list-disc list-inside text-gray-700 mb-4">
+                  <li>
+                    <span className="font-semibold">את (At)</span> — drops the
+                    final ה
+                  </li>
+                  <li>
+                    <span className="font-semibold">
+                      אתם / אתן (Atem / Aten)
+                    </span>{" "}
+                    — drop the final ה
+                  </li>
+                  <li>
+                    <span className="font-semibold">הם / הן (Hem / Hen)</span> —
+                    drop the final ה
+                  </li>
+                  <li>
+                    All other forms (אני, אתה, הוא, היא, אנחנו) keep the ה.
+                  </li>
+                </ul>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Example with the root{" "}
+                  <span className="font-semibold">נ־ק־ה</span> (“to be
+                  cleaned”):
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Person
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">אני</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          אֲנוּקֶּה
+                        </td>
+                        <td className="border px-4 py-2">Anuke</td>
+                        <td className="border px-4 py-2">I will be cleaned</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתה</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          תְּנוּקֶּה
+                        </td>
+                        <td className="border px-4 py-2">Tenuke</td>
+                        <td className="border px-4 py-2">
+                          You (m.s.) will be cleaned
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">את</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          תְּנוּקְּרִי
+                        </td>
+                        <td className="border px-4 py-2">Tenukri</td>
+                        <td className="border px-4 py-2">
+                          You (f.s.) will be cleaned
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">הוא</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          יְנוּקֶּה
+                        </td>
+                        <td className="border px-4 py-2">Yenuke</td>
+                        <td className="border px-4 py-2">He will be cleaned</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">היא</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          תְּנוּקֶּה
+                        </td>
+                        <td className="border px-4 py-2">Tenuke</td>
+                        <td className="border px-4 py-2">
+                          She will be cleaned
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אנחנו</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          נְנוּקֶּה
+                        </td>
+                        <td className="border px-4 py-2">Nenuke</td>
+                        <td className="border px-4 py-2">We will be cleaned</td>
+                      </tr>
+                      <tr className="bg-yellow-50">
+                        <td className="border px-4 py-2">אתם</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          תְּנוּקְּרוּ
+                        </td>
+                        <td className="border px-4 py-2">Tenukru</td>
+                        <td className="border px-4 py-2">
+                          You (m.pl.) will be cleaned
+                        </td>
+                      </tr>
+                      <tr className="bg-yellow-50">
+                        <td className="border px-4 py-2">אתן</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          תְּנוּקְּרוּ
+                        </td>
+                        <td className="border px-4 py-2">Tenukru</td>
+                        <td className="border px-4 py-2">
+                          You (f.pl.) will be cleaned
+                        </td>
+                      </tr>
+                      <tr className="bg-yellow-50">
+                        <td className="border px-4 py-2">הם / הן</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          יְנוּקְּרוּ
+                        </td>
+                        <td className="border px-4 py-2">Yenukru</td>
+                        <td className="border px-4 py-2">
+                          They will be cleaned
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div className="mt-6 p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded">
+                  <p className="text-gray-700 leading-relaxed">
+                    <span className="font-semibold">Summary:</span> In Pual
+                    roots ending in ה, the forms for{" "}
+                    <span className="font-semibold">את</span>,{" "}
+                    <span className="font-semibold">אתם / אתן</span>, and{" "}
+                    <span className="font-semibold">הם / הן</span> drop the
+                    final <span className="font-semibold">ה</span>. Other forms
+                    retain it.
+                  </p>
+                </div>
+              </div>
+            </section>
           </main>
         </div>
       </div>
