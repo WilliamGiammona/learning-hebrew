@@ -75,6 +75,14 @@ export default function NifalPage() {
                     The Future Tense (עתיד)
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#imperative"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    The Imperative (ציווי)
+                  </a>
+                </li>
               </ul>
             </nav>
           </aside>
@@ -1059,15 +1067,6 @@ export default function NifalPage() {
                       </tr>
                     </tbody>
                   </table>
-                </div>
-
-                <div className="mt-6 p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded">
-                  <p className="text-gray-700 leading-relaxed">
-                    <span className="font-semibold">Note:</span> Nifal
-                    imperatives often carry the sense of urgency or necessity,
-                    like “Save yourself!” or “Escape!” rather than a neutral
-                    command.
-                  </p>
                 </div>
               </div>
             </section>
