@@ -59,6 +59,14 @@ export default function HifilPage() {
                     Past Tense — Exceptions
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#future-tense"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    The Future Tense (עתיד)
+                  </a>
+                </li>
               </ul>
             </nav>
           </aside>
@@ -737,7 +745,7 @@ export default function HifilPage() {
                           You (f.pl.) permitted
                         </td>
                       </tr>
-                      <tr className="bg-yellow-50">
+                      <tr>
                         <td className="border px-4 py-2">הם / הן</td>
                         <td className="border px-4 py-2" dir="rtl">
                           הִרְשׁוּ
@@ -748,16 +756,160 @@ export default function HifilPage() {
                     </tbody>
                   </table>
                 </div>
+              </div>
+            </section>
 
-                <div className="mt-6 p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded">
+            {/* Future Tense */}
+            <section id="future-tense" className="mb-12 scroll-mt-20">
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  The Future Tense (עתיד)
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Hifil future forms use the standard{" "}
+                  <span className="font-semibold">אֵיתָן (EITaN)</span>{" "}
+                  prefixes:
+                  <span className="font-semibold mx-1">א</span> (אני),
+                  <span className="font-semibold mx-1">ת</span>{" "}
+                  (אתה/את/אתם/אתן),
+                  <span className="font-semibold mx-1">י</span> (הוא/הם/הן),
+                  <span className="font-semibold mx-1">נ</span> (אנחנו). As in
+                  other Hifil forms, a <span className="font-semibold">י</span>{" "}
+                  (yod) appears before the third root letter.
+                </p>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Example with root <span className="font-semibold">ז־מ־ן</span>{" "}
+                  →
+                  <span className="font-semibold" dir="rtl">
+                    לְהַזְמִין
+                  </span>{" "}
+                  (“to invite / to order”):
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Person
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">אני</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          אַזְמִין
+                        </td>
+                        <td className="border px-4 py-2">Azmin</td>
+                        <td className="border px-4 py-2">
+                          I will invite / order
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתה</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          תַּזְמִין
+                        </td>
+                        <td className="border px-4 py-2">Tazmin</td>
+                        <td className="border px-4 py-2">
+                          You (m.s.) will invite / order
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">את</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          תַּזְמִינִי
+                        </td>
+                        <td className="border px-4 py-2">Tazmini</td>
+                        <td className="border px-4 py-2">
+                          You (f.s.) will invite / order
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">הוא</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          יַזְמִין
+                        </td>
+                        <td className="border px-4 py-2">Yazmin</td>
+                        <td className="border px-4 py-2">
+                          He will invite / order
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">היא</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          תַּזְמִין
+                        </td>
+                        <td className="border px-4 py-2">Tazmin</td>
+                        <td className="border px-4 py-2">
+                          She will invite / order
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אנחנו</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          נַזְמִין
+                        </td>
+                        <td className="border px-4 py-2">Nazmin</td>
+                        <td className="border px-4 py-2">
+                          We will invite / order
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתם</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          תַּזְמִינוּ
+                        </td>
+                        <td className="border px-4 py-2">Tazminu</td>
+                        <td className="border px-4 py-2">
+                          You (m.pl.) will invite / order
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתן</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          תַּזְמֵנָה
+                        </td>
+                        <td className="border px-4 py-2">Tazmena</td>
+                        <td className="border px-4 py-2">
+                          You (f.pl.) will invite / order
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">הם / הן</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          יַזְמִינוּ
+                        </td>
+                        <td className="border px-4 py-2">Yazminu</td>
+                        <td className="border px-4 py-2">
+                          They will invite / order
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div className="mt-6 p-4 bg-indigo-50 border-l-4 border-indigo-400 rounded">
                   <p className="text-gray-700 leading-relaxed">
-                    <span className="font-semibold">Summary:</span> In Hifil
-                    past tense, roots ending with{" "}
-                    <span className="font-semibold">ה</span> adapt depending on
-                    person: 1st & 2nd persons →{" "}
-                    <span className="font-semibold">י</span>, 3rd f.s. →{" "}
-                    <span className="font-semibold">ת</span> before ה, 3rd
-                    plural → drop ה, 3rd m.s. → keep ה.
+                    Note: In everyday Modern Hebrew, the feminine plural future
+                    (
+                    <span className="font-semibold" dir="rtl">
+                      תַּזְמֵנָה / יַזְמֵנָה
+                    </span>
+                    ) is rare; speakers often use the common plural{" "}
+                    <span className="font-semibold">-וּ</span> forms instead.
                   </p>
                 </div>
               </div>
