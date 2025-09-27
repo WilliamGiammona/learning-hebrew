@@ -1067,6 +1067,81 @@ export default function HifilPage() {
                 </div>
               </div>
             </section>
+
+            {/* Imperative */}
+            <section id="imperative" className="mb-12 scroll-mt-20">
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  The Imperative (ציווי)
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  In Hifil, imperative forms are based on the{" "}
+                  <span className="font-semibold">future tense</span> but
+                  without the{" "}
+                  <span className="font-semibold">אֵיתָן (EITaN)</span>{" "}
+                  prefixes. Instead, the root begins with a{" "}
+                  <span className="font-semibold">ה</span> (hey), and suffixes
+                  are added depending on gender and number.
+                </p>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Example with the root{" "}
+                  <span className="font-semibold">פ־ס־ק</span> →
+                  <span className="font-semibold" dir="rtl">
+                    לְהַפְסִיק
+                  </span>{" "}
+                  (“to stop”):
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Form
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">Masculine Singular</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הַפְסֵק
+                        </td>
+                        <td className="border px-4 py-2">Hafsek</td>
+                        <td className="border px-4 py-2">Stop! (m.s.)</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Feminine Singular</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הַפְסִיקִי
+                        </td>
+                        <td className="border px-4 py-2">Hafsiki</td>
+                        <td className="border px-4 py-2">Stop! (f.s.)</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Plural</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הַפְסִיקוּ
+                        </td>
+                        <td className="border px-4 py-2">Hafsiku</td>
+                        <td className="border px-4 py-2">Stop! (pl.)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </section>
           </main>
         </div>
       </div>
