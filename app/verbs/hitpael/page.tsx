@@ -59,6 +59,14 @@ export default function HitpaelPage() {
                     The Past Tense (עבר)
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#past-tense-exceptions"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    Past Tense — Exceptions
+                  </a>
+                </li>
               </ul>
             </nav>
           </aside>
@@ -651,6 +659,158 @@ export default function HitpaelPage() {
                         </td>
                         <td className="border px-4 py-2">Hit&apos;ahavu</td>
                         <td className="border px-4 py-2">They fell in love</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </section>
+
+            {/* Past Tense — Exceptions */}
+            <section id="past-tense-exceptions" className="mb-12 scroll-mt-20">
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  Past Tense — Exceptions
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  For Hitpael verbs whose root ends in{" "}
+                  <span className="font-semibold">ה</span> (hey), the past tense
+                  endings trigger special changes:
+                </p>
+
+                <ul className="list-disc list-inside text-gray-700 mb-4">
+                  <li>
+                    <span className="font-semibold">1st &amp; 2nd persons</span>{" "}
+                    — replace <span className="font-semibold">ה</span> with{" "}
+                    <span className="font-semibold">י</span>.
+                  </li>
+                  <li>
+                    <span className="font-semibold">
+                      3rd person feminine singular
+                    </span>{" "}
+                    — add <span className="font-semibold">ת</span> before the{" "}
+                    <span className="font-semibold">ה</span>.
+                  </li>
+                  <li>
+                    <span className="font-semibold">3rd person plural</span> —
+                    drop the <span className="font-semibold">ה</span>.
+                  </li>
+                  <li>
+                    <span className="font-semibold">
+                      3rd person masculine singular
+                    </span>{" "}
+                    — keeps the final <span className="font-semibold">ה</span>.
+                  </li>
+                </ul>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Example with root <span className="font-semibold">נ־ס־ה</span>{" "}
+                  →
+                  <span className="font-semibold" dir="rtl">
+                    התנסה
+                  </span>{" "}
+                  (“experienced”):
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Person
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">אני</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִתְנַסִּיתִי
+                        </td>
+                        <td className="border px-4 py-2">Hitnasiti</td>
+                        <td className="border px-4 py-2">I experienced</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתה</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִתְנַסִּיתָ
+                        </td>
+                        <td className="border px-4 py-2">Hitnasita</td>
+                        <td className="border px-4 py-2">
+                          You (m.s.) experienced
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">את</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִתְנַסִּיתְ
+                        </td>
+                        <td className="border px-4 py-2">Hitnasit</td>
+                        <td className="border px-4 py-2">
+                          You (f.s.) experienced
+                        </td>
+                      </tr>
+                      <tr className="bg-indigo-50">
+                        <td className="border px-4 py-2">הוא</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִתְנַסָּה
+                        </td>
+                        <td className="border px-4 py-2">Hitnasah</td>
+                        <td className="border px-4 py-2">He experienced</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">היא</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִתְנַסְּתָה
+                        </td>
+                        <td className="border px-4 py-2">Hitnastah</td>
+                        <td className="border px-4 py-2">She experienced</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אנחנו</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִתְנַסִּינוּ
+                        </td>
+                        <td className="border px-4 py-2">Hitnasinu</td>
+                        <td className="border px-4 py-2">We experienced</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתם</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִתְנַסִּיתֶם
+                        </td>
+                        <td className="border px-4 py-2">Hitnasitem</td>
+                        <td className="border px-4 py-2">
+                          You (m.pl.) experienced
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתן</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִתְנַסִּיתֶן
+                        </td>
+                        <td className="border px-4 py-2">Hitnasiten</td>
+                        <td className="border px-4 py-2">
+                          You (f.pl.) experienced
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">הם / הן</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִתְנַסּוּ
+                        </td>
+                        <td className="border px-4 py-2">Hitnasu</td>
+                        <td className="border px-4 py-2">They experienced</td>
                       </tr>
                     </tbody>
                   </table>
