@@ -51,6 +51,14 @@ export default function HifilPage() {
                     Present Tense — Exceptions
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#past-tense-exceptions"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    Past Tense — Exceptions
+                  </a>
+                </li>
               </ul>
             </nav>
           </aside>
@@ -589,6 +597,168 @@ export default function HifilPage() {
                       </tr>
                     </tbody>
                   </table>
+                </div>
+              </div>
+            </section>
+
+            {/* Past Tense — Exceptions */}
+            <section id="past-tense-exceptions" className="mb-12 scroll-mt-20">
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  Past Tense — Exceptions
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  For Hifil verbs whose root ends in{" "}
+                  <span className="font-semibold">ה</span> (hey), the past tense
+                  endings cause special changes:
+                </p>
+
+                <ul className="list-disc list-inside text-gray-700 mb-4">
+                  <li>
+                    <span className="font-semibold">1st and 2nd persons</span>{" "}
+                    overwrite the <span className="font-semibold">ה</span> with{" "}
+                    <span className="font-semibold">י</span>.
+                  </li>
+                  <li>
+                    <span className="font-semibold">
+                      3rd person feminine singular
+                    </span>{" "}
+                    inserts a <span className="font-semibold">ת</span> (tav)
+                    before the <span className="font-semibold">ה</span>.
+                  </li>
+                  <li>
+                    <span className="font-semibold">3rd person plural</span>{" "}
+                    drops the <span className="font-semibold">ה</span>{" "}
+                    completely.
+                  </li>
+                  <li>
+                    <span className="font-semibold">
+                      3rd person masculine singular
+                    </span>{" "}
+                    keeps the final ה.
+                  </li>
+                </ul>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Example with the root{" "}
+                  <span className="font-semibold">ר־ש־ה</span> → “to permit /
+                  allow”:
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Person
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">אני</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִרְשֵׁיתִי
+                        </td>
+                        <td className="border px-4 py-2">Hirsheiti</td>
+                        <td className="border px-4 py-2">I permitted</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתה</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִרְשֵׁיתָ
+                        </td>
+                        <td className="border px-4 py-2">Hirsheita</td>
+                        <td className="border px-4 py-2">
+                          You (m.s.) permitted
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">את</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִרְשֵׁיתְ
+                        </td>
+                        <td className="border px-4 py-2">Hirsheit</td>
+                        <td className="border px-4 py-2">
+                          You (f.s.) permitted
+                        </td>
+                      </tr>
+                      <tr className="bg-indigo-50">
+                        <td className="border px-4 py-2">הוא</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִרְשָׁה
+                        </td>
+                        <td className="border px-4 py-2">Hirshah</td>
+                        <td className="border px-4 py-2">He permitted</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">היא</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִרְשְׁתָה
+                        </td>
+                        <td className="border px-4 py-2">Hirshtah</td>
+                        <td className="border px-4 py-2">She permitted</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אנחנו</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִרְשֵׁינוּ
+                        </td>
+                        <td className="border px-4 py-2">Hirsheinu</td>
+                        <td className="border px-4 py-2">We permitted</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתם</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִרְשֵׁיתֶם
+                        </td>
+                        <td className="border px-4 py-2">Hirsheitem</td>
+                        <td className="border px-4 py-2">
+                          You (m.pl.) permitted
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתן</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִרְשֵׁיתֶן
+                        </td>
+                        <td className="border px-4 py-2">Hirsheiten</td>
+                        <td className="border px-4 py-2">
+                          You (f.pl.) permitted
+                        </td>
+                      </tr>
+                      <tr className="bg-yellow-50">
+                        <td className="border px-4 py-2">הם / הן</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִרְשׁוּ
+                        </td>
+                        <td className="border px-4 py-2">Hirshu</td>
+                        <td className="border px-4 py-2">They permitted</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div className="mt-6 p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded">
+                  <p className="text-gray-700 leading-relaxed">
+                    <span className="font-semibold">Summary:</span> In Hifil
+                    past tense, roots ending with{" "}
+                    <span className="font-semibold">ה</span> adapt depending on
+                    person: 1st & 2nd persons →{" "}
+                    <span className="font-semibold">י</span>, 3rd f.s. →{" "}
+                    <span className="font-semibold">ת</span> before ה, 3rd
+                    plural → drop ה, 3rd m.s. → keep ה.
+                  </p>
                 </div>
               </div>
             </section>
