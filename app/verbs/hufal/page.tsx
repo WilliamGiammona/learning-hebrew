@@ -27,6 +27,14 @@ export default function HufalPage() {
                     The Present Tense (הווה)
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#present-tense-exceptions"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    Present Tense — Exceptions
+                  </a>
+                </li>
               </ul>
             </nav>
           </aside>
@@ -159,6 +167,107 @@ export default function HufalPage() {
                         <td className="border px-4 py-2">Mufsakot</td>
                         <td className="border px-4 py-2">
                           are stopped (f.pl.)
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </section>
+
+            {/* Present Tense — Exceptions */}
+            <section
+              id="present-tense-exceptions"
+              className="mb-12 scroll-mt-20"
+            >
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  Present Tense — Exceptions
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  For Hufal roots that end with{" "}
+                  <span className="font-semibold">ה</span> (hey):
+                </p>
+                <ul className="list-disc list-inside text-gray-700 mb-4">
+                  <li>
+                    <span className="font-semibold">Feminine singular</span> —{" "}
+                    <u>no</u> <span className="font-semibold">ת</span> is added.
+                    The masculine and feminine singular have the{" "}
+                    <span className="font-semibold">same spelling</span>; only
+                    the <span className="font-semibold">nikud</span> (vowels)
+                    differs.
+                  </li>
+                  <li>
+                    In the <span className="font-semibold">plurals</span>, the
+                    final <span className="font-semibold">ה</span> is{" "}
+                    <span className="font-semibold">dropped</span>.
+                  </li>
+                </ul>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Example with <span className="font-semibold">מוּרְשֶׁה</span>{" "}
+                  / <span className="font-semibold">מוּרְשָׁה</span> (“is
+                  authorized / permitted”):
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Form
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">Masculine Singular</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          מוּרְשֶׁה
+                        </td>
+                        <td className="border px-4 py-2">Mursheh</td>
+                        <td className="border px-4 py-2">
+                          is authorized (m.s.)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Feminine Singular</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          מוּרְשָׁה
+                        </td>
+                        <td className="border px-4 py-2">Murshah</td>
+                        <td className="border px-4 py-2">
+                          is authorized (f.s.)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Masculine Plural</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          מוּרְשִׁים
+                        </td>
+                        <td className="border px-4 py-2">Murshim</td>
+                        <td className="border px-4 py-2">
+                          are authorized (m.pl.)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Feminine Plural</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          מוּרְשׁוֹת
+                        </td>
+                        <td className="border px-4 py-2">Murshot</td>
+                        <td className="border px-4 py-2">
+                          are authorized (f.pl.)
                         </td>
                       </tr>
                     </tbody>
