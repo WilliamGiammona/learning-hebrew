@@ -571,6 +571,132 @@ export default function PualPage() {
                 </div>
               </div>
             </section>
+
+            {/* Future Tense */}
+            <section id="future-tense" className="mb-12 scroll-mt-20">
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  The Future Tense (עתיד)
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  In Pual, future forms use the standard{" "}
+                  <span className="font-semibold">אֵיתָ"ן (EITaN)</span>{" "}
+                  prefixes (א / ת / י / נ), and a literal{" "}
+                  <span className="font-semibold">וּ</span> is inserted between
+                  the first and second letters of the root. Example root:{" "}
+                  <span className="font-semibold">ב־ק־ר</span> → “to be
+                  visited”.
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Person
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">אני</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          אֲבוּקַּר
+                        </td>
+                        <td className="border px-4 py-2">Avukar</td>
+                        <td className="border px-4 py-2">I will be visited</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתה</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          תְּבוּקַּר
+                        </td>
+                        <td className="border px-4 py-2">Tevukar</td>
+                        <td className="border px-4 py-2">
+                          You (m.s.) will be visited
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">את</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          תְּבוּקְּרִי
+                        </td>
+                        <td className="border px-4 py-2">Tevukri</td>
+                        <td className="border px-4 py-2">
+                          You (f.s.) will be visited
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">הוא</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          יְבוּקַּר
+                        </td>
+                        <td className="border px-4 py-2">Yevukar</td>
+                        <td className="border px-4 py-2">He will be visited</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">היא</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          תְּבוּקַּר
+                        </td>
+                        <td className="border px-4 py-2">Tevukar</td>
+                        <td className="border px-4 py-2">
+                          She will be visited
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אנחנו</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          נְבוּקַּר
+                        </td>
+                        <td className="border px-4 py-2">Nevukar</td>
+                        <td className="border px-4 py-2">We will be visited</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתם</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          תְּבוּקְּרוּ
+                        </td>
+                        <td className="border px-4 py-2">Tevukru</td>
+                        <td className="border px-4 py-2">
+                          You (m.pl.) will be visited
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתן</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          תְּבוּקְּרוּ
+                        </td>
+                        <td className="border px-4 py-2">Tevukru</td>
+                        <td className="border px-4 py-2">
+                          You (f.pl.) will be visited
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">הם / הן</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          יְבוּקְּרוּ
+                        </td>
+                        <td className="border px-4 py-2">Yevukru</td>
+                        <td className="border px-4 py-2">
+                          They will be visited
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </section>
           </main>
         </div>
       </div>
