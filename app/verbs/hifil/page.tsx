@@ -75,6 +75,14 @@ export default function HifilPage() {
                     The Imperative (ציווי)
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#imperative-exceptions"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    Imperative — Exceptions
+                  </a>
+                </li>
               </ul>
             </nav>
           </aside>
@@ -1165,6 +1173,94 @@ export default function HifilPage() {
                     </span>
                     ).
                   </p>
+                </div>
+              </div>
+            </section>
+
+            {/* Imperative — Exceptions */}
+            <section id="imperative-exceptions" className="mb-12 scroll-mt-20">
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  Imperative — Exceptions
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  For Hifil verbs whose root ends with{" "}
+                  <span className="font-semibold">ה</span> (hey), the imperative
+                  endings modify the last letter:
+                </p>
+
+                <ul className="list-disc list-inside text-gray-700 mb-4">
+                  <li>
+                    <span className="font-semibold">Masculine singular</span> —
+                    keeps the <span className="font-semibold">ה</span>.
+                  </li>
+                  <li>
+                    <span className="font-semibold">Feminine singular</span> —
+                    replaces the <span className="font-semibold">ה</span> with{" "}
+                    <span className="font-semibold">י</span>.
+                  </li>
+                  <li>
+                    <span className="font-semibold">Plural</span> — replaces the{" "}
+                    <span className="font-semibold">ה</span> with{" "}
+                    <span className="font-semibold">ו</span>.
+                  </li>
+                </ul>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Example with root <span className="font-semibold">ר־צ־ה</span>{" "}
+                  →
+                  <span className="font-semibold" dir="rtl">
+                    לְהַרְצוֹת
+                  </span>{" "}
+                  (“to present / to lecture”):
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Form
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">Masculine Singular</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הַרְצֵה
+                        </td>
+                        <td className="border px-4 py-2">Hartzé</td>
+                        <td className="border px-4 py-2">Present! (m.s.)</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Feminine Singular</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הַרְצִי
+                        </td>
+                        <td className="border px-4 py-2">Hartzí</td>
+                        <td className="border px-4 py-2">Present! (f.s.)</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Plural</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הַרְצוּ
+                        </td>
+                        <td className="border px-4 py-2">Hartzú</td>
+                        <td className="border px-4 py-2">Present! (pl.)</td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
               </div>
             </section>
