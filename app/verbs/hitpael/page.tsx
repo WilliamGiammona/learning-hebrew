@@ -511,6 +511,144 @@ export default function HitpaelPage() {
                 </div>
               </div>
             </section>
+
+            {/* Past Tense */}
+            <section id="past-tense" className="mb-12 scroll-mt-20">
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  The Past Tense (עבר)
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  In Hitpael, the past tense is formed by adding{" "}
+                  <span className="font-semibold">ה</span> (hey) and{" "}
+                  <span className="font-semibold">ת</span> (tav) before the root
+                  — giving the prefix <span className="font-semibold">הת־</span>
+                  . Standard past tense suffixes are then added:
+                  <span className="font-semibold"> -תי</span> (ani),{" "}
+                  <span className="font-semibold">-תָ</span> (ata),{" "}
+                  <span className="font-semibold">-תְּ</span> (at),{" "}
+                  <span className="font-semibold">-ה</span> (hu),{" "}
+                  <span className="font-semibold">-ה</span> (hi),{" "}
+                  <span className="font-semibold">-נוּ</span> (anachnu),{" "}
+                  <span className="font-semibold">-תם</span> (atem),{" "}
+                  <span className="font-semibold">-תן</span> (aten),{" "}
+                  <span className="font-semibold">-וּ</span> (hem/hen).
+                </p>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Example with root <span className="font-semibold">א־ה־ב</span>{" "}
+                  →
+                  <span className="font-semibold" dir="rtl">
+                    התאהב
+                  </span>{" "}
+                  (“to fall in love”):
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Person
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">אני</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִתְאַהַבְתִּי
+                        </td>
+                        <td className="border px-4 py-2">Hit&apos;ahavti</td>
+                        <td className="border px-4 py-2">I fell in love</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתה</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִתְאַהַבְתָּ
+                        </td>
+                        <td className="border px-4 py-2">Hit&apos;ahavta</td>
+                        <td className="border px-4 py-2">
+                          You (m.s.) fell in love
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">את</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִתְאַהַבְתְּ
+                        </td>
+                        <td className="border px-4 py-2">Hit&apos;ahavt</td>
+                        <td className="border px-4 py-2">
+                          You (f.s.) fell in love
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">הוא</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִתְאַהֵב
+                        </td>
+                        <td className="border px-4 py-2">Hit&apos;ahev</td>
+                        <td className="border px-4 py-2">He fell in love</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">היא</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִתְאַהֲבָה
+                        </td>
+                        <td className="border px-4 py-2">Hit&apos;ahavah</td>
+                        <td className="border px-4 py-2">She fell in love</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אנחנו</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִתְאַהַבְנוּ
+                        </td>
+                        <td className="border px-4 py-2">Hit&apos;ahavnu</td>
+                        <td className="border px-4 py-2">We fell in love</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתם</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִתְאַהַבְתֶּם
+                        </td>
+                        <td className="border px-4 py-2">Hit&apos;ahavtem</td>
+                        <td className="border px-4 py-2">
+                          You (m.pl.) fell in love
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתן</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִתְאַהַבְתֶּן
+                        </td>
+                        <td className="border px-4 py-2">Hit&apos;ahavten</td>
+                        <td className="border px-4 py-2">
+                          You (f.pl.) fell in love
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">הם / הן</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִתְאַהֲבוּ
+                        </td>
+                        <td className="border px-4 py-2">Hit&apos;ahavu</td>
+                        <td className="border px-4 py-2">They fell in love</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </section>
           </main>
         </div>
       </div>
