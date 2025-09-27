@@ -271,6 +271,26 @@ export default function HitpaelPage() {
                     (<i>lehistakel</i>) — “to look”
                   </li>
                 </ul>
+
+                {/* 8) Root starts with Tsadi */}
+                <h3 className="text-xl font-semibold text-indigo-700 mt-4 mb-2">
+                  8) Root starts with צ (tsadi) — prefix becomes להצט־
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-2">
+                  With initial <span className="font-semibold">צ</span>, the
+                  Hitpael prefix appears as{" "}
+                  <span className="font-semibold">הצט־</span>, followed by the
+                  last two root letters.
+                </p>
+                <ul className="list-disc list-inside text-gray-700 mb-4">
+                  <li dir="ltr">
+                    Example:{" "}
+                    <span className="font-semibold" dir="rtl">
+                      להצטער
+                    </span>{" "}
+                    (<i>lehitzta&apos;er</i>) — “to feel sorry / regret”
+                  </li>
+                </ul>
               </div>
             </section>
           </main>
