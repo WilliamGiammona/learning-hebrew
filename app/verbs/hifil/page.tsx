@@ -43,6 +43,14 @@ export default function HifilPage() {
                     The Present Tense (הווה)
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#present-tense-exceptions"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    Present Tense — Exceptions
+                  </a>
+                </li>
               </ul>
             </nav>
           </aside>
