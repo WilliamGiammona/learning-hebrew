@@ -35,6 +35,22 @@ export default function HitpaelPage() {
                     Infinitive — Exceptions
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#present-tense"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    The Present Tense (הווה)
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#present-tense-exceptions"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    Present Tense — Exceptions
+                  </a>
+                </li>
               </ul>
             </nav>
           </aside>
@@ -291,6 +307,208 @@ export default function HitpaelPage() {
                     (<i>lehitzta&apos;er</i>) — “to feel sorry / regret”
                   </li>
                 </ul>
+              </div>
+            </section>
+            {/* Present Tense */}
+            <section id="present-tense" className="mb-12 scroll-mt-20">
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  The Present Tense (הווה)
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  In Hitpael, the present tense is formed by adding{" "}
+                  <span className="font-semibold">מ</span> (mem) and{" "}
+                  <span className="font-semibold">ת</span> (tav) in front of the
+                  root. The ending then changes depending on gender and number:
+                </p>
+
+                <ul className="list-disc list-inside text-gray-700 mb-4">
+                  <li>
+                    <span className="font-semibold">Masculine Singular</span> —
+                    prefix <span className="font-semibold">מת־</span>.
+                  </li>
+                  <li>
+                    <span className="font-semibold">Feminine Singular</span> —
+                    prefix <span className="font-semibold">מת־</span> and add{" "}
+                    <span className="font-semibold">ת</span> at the end.
+                  </li>
+                  <li>
+                    <span className="font-semibold">Masculine Plural</span> —
+                    prefix <span className="font-semibold">מת־</span> and add{" "}
+                    <span className="font-semibold">ים</span> (<i>-im</i>) at
+                    the end.
+                  </li>
+                  <li>
+                    <span className="font-semibold">Feminine Plural</span> —
+                    prefix <span className="font-semibold">מת־</span> and add{" "}
+                    <span className="font-semibold">ות</span> (<i>-ot</i>) at
+                    the end.
+                  </li>
+                </ul>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Example with root <span className="font-semibold">ס־כ־ל</span>{" "}
+                  →
+                  <span className="font-semibold" dir="rtl">
+                    מִסְתַּכֵּל
+                  </span>{" "}
+                  (“to look / observe”):
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Form
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">Masculine Singular</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          מִסְתַּכֵּל
+                        </td>
+                        <td className="border px-4 py-2">Mistakel</td>
+                        <td className="border px-4 py-2">He looks</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Feminine Singular</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          מִסְתַּכֶּלֶת
+                        </td>
+                        <td className="border px-4 py-2">Mistaqelet</td>
+                        <td className="border px-4 py-2">She looks</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Masculine Plural</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          מִסְתַּכְּלִים
+                        </td>
+                        <td className="border px-4 py-2">Mistaklim</td>
+                        <td className="border px-4 py-2">They (m.) look</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Feminine Plural</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          מִסְתַּכְּלוֹת
+                        </td>
+                        <td className="border px-4 py-2">Mistaklot</td>
+                        <td className="border px-4 py-2">They (f.) look</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </section>
+
+            {/* Present Tense — Exceptions */}
+            <section
+              id="present-tense-exceptions"
+              className="mb-12 scroll-mt-20"
+            >
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  Present Tense — Exceptions
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  For Hitpael verbs whose root ends in{" "}
+                  <span className="font-semibold">ה</span> (hey), the following
+                  changes occur:
+                </p>
+
+                <ul className="list-disc list-inside text-gray-700 mb-4">
+                  <li>
+                    <span className="font-semibold">Feminine singular</span> —
+                    no <span className="font-semibold">ת</span> is added. The
+                    only difference between masculine and feminine singular is
+                    in the <span className="font-semibold">nikud</span>.
+                  </li>
+                  <li>
+                    <span className="font-semibold">Plurals</span> — the final{" "}
+                    <span className="font-semibold">ה</span> is dropped.
+                  </li>
+                </ul>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Example with root <span className="font-semibold">נ־ש־ה</span>{" "}
+                  →
+                  <span className="font-semibold" dir="rtl">
+                    מִתְנַשֶּׂה
+                  </span>{" "}
+                  (“to act superior”):
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Form
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">Masculine Singular</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          מִתְנַשֶּׂה
+                        </td>
+                        <td className="border px-4 py-2">Mitnaseh</td>
+                        <td className="border px-4 py-2">He acts superior</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Feminine Singular</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          מִתְנַשָּׂה
+                        </td>
+                        <td className="border px-4 py-2">Mitnasah</td>
+                        <td className="border px-4 py-2">She acts superior</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Masculine Plural</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          מִתְנַשִּׂים
+                        </td>
+                        <td className="border px-4 py-2">Mitnasim</td>
+                        <td className="border px-4 py-2">
+                          They (m.) act superior
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">Feminine Plural</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          מִתְנַשּׂוֹת
+                        </td>
+                        <td className="border px-4 py-2">Mitnasot</td>
+                        <td className="border px-4 py-2">
+                          They (f.) act superior
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </section>
           </main>
