@@ -469,6 +469,129 @@ export default function HifilPage() {
                 </div>
               </div>
             </section>
+
+            {/* Past Tense */}
+            <section id="past-tense" className="mb-12 scroll-mt-20">
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  The Past Tense (עבר)
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  In Hifil, past tense forms are made by adding a{" "}
+                  <span className="font-semibold">ה</span> (hey) to the front of
+                  the root and inserting a{" "}
+                  <span className="font-semibold">י</span> (yod with hiriq)
+                  before the third root letter. Then, the usual past tense
+                  suffixes are attached.
+                </p>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Example with the root{" "}
+                  <span className="font-semibold">זמן</span> → “to invite / to
+                  order”:
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Person
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">אני</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִזְמַנְתִּי
+                        </td>
+                        <td className="border px-4 py-2">Hizmantí</td>
+                        <td className="border px-4 py-2">I invited</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתה</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִזְמַנְתָּ
+                        </td>
+                        <td className="border px-4 py-2">Hizmantá</td>
+                        <td className="border px-4 py-2">You (m.s.) invited</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">את</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִזְמַנְתְּ
+                        </td>
+                        <td className="border px-4 py-2">Hizmant</td>
+                        <td className="border px-4 py-2">You (f.s.) invited</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">הוא</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִזְמִין
+                        </td>
+                        <td className="border px-4 py-2">Hizmin</td>
+                        <td className="border px-4 py-2">He invited</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">היא</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִזְמִינָה
+                        </td>
+                        <td className="border px-4 py-2">Hizminá</td>
+                        <td className="border px-4 py-2">She invited</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אנחנו</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִזְמַנּוּ
+                        </td>
+                        <td className="border px-4 py-2">Hizmánu</td>
+                        <td className="border px-4 py-2">We invited</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתם</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִזְמַנְתֶּם
+                        </td>
+                        <td className="border px-4 py-2">Hizmantém</td>
+                        <td className="border px-4 py-2">
+                          You (m.pl.) invited
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתן</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִזְמַנְתֶּן
+                        </td>
+                        <td className="border px-4 py-2">Hizmantén</td>
+                        <td className="border px-4 py-2">
+                          You (f.pl.) invited
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">הם / הן</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          הִזְמִינוּ
+                        </td>
+                        <td className="border px-4 py-2">Hizmínu</td>
+                        <td className="border px-4 py-2">They invited</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </section>
           </main>
         </div>
       </div>
