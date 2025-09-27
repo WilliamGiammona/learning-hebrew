@@ -40,7 +40,7 @@ export default function PualPage() {
                     href="#past-tense"
                     className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
                   >
-                    The Past Tense (עבר)
+                    Past Tense (עבר)
                   </a>
                 </li>
                 <li>
@@ -56,7 +56,15 @@ export default function PualPage() {
                     href="#future-tense"
                     className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
                   >
-                    The Future Tense (עתיד)
+                    Future Tense (עתיד)
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#present-tense-exceptions"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    Future Tense — Exceptions
                   </a>
                 </li>
               </ul>
