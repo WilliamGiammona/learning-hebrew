@@ -914,6 +914,159 @@ export default function HifilPage() {
                 </div>
               </div>
             </section>
+
+            {/* Future Tense — Exceptions */}
+            <section
+              id="future-tense-exceptions"
+              className="mb-12 scroll-mt-20"
+            >
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  Future Tense — Exceptions
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  For Hifil verbs whose root ends in{" "}
+                  <span className="font-semibold">ה</span> (hey), the future
+                  tense endings cause special changes:
+                </p>
+
+                <ul className="list-disc list-inside text-gray-700 mb-4">
+                  <li>
+                    <span className="font-semibold">1st and 2nd persons</span> —
+                    overwrite the <span className="font-semibold">ה</span> with{" "}
+                    <span className="font-semibold">י</span>.
+                  </li>
+                  <li>
+                    <span className="font-semibold">
+                      3rd person feminine singular
+                    </span>{" "}
+                    — adds a <span className="font-semibold">ת</span> before the{" "}
+                    <span className="font-semibold">ה</span>.
+                  </li>
+                  <li>
+                    <span className="font-semibold">3rd person plural</span> —
+                    drops the <span className="font-semibold">ה</span> entirely,
+                    no replacement.
+                  </li>
+                  <li>
+                    <span className="font-semibold">
+                      3rd person masculine singular
+                    </span>{" "}
+                    — keeps the final <span className="font-semibold">ה</span>.
+                  </li>
+                </ul>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Example with the root{" "}
+                  <span className="font-semibold">ר־ש־ה</span> → “to permit /
+                  allow”:
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Person
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">אני</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          אַרְשֶׁה
+                        </td>
+                        <td className="border px-4 py-2">Arsheh</td>
+                        <td className="border px-4 py-2">I will permit</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתה</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          תַּרְשֶׁה
+                        </td>
+                        <td className="border px-4 py-2">Tarsheh</td>
+                        <td className="border px-4 py-2">
+                          You (m.s.) will permit
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">את</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          תַּרְשִׁי
+                        </td>
+                        <td className="border px-4 py-2">Tarshi</td>
+                        <td className="border px-4 py-2">
+                          You (f.s.) will permit
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">הוא</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          יַרְשֶׁה
+                        </td>
+                        <td className="border px-4 py-2">Yarsheh</td>
+                        <td className="border px-4 py-2">He will permit</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">היא</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          תַּרְשֶׁה
+                        </td>
+                        <td className="border px-4 py-2">Tarsheh</td>
+                        <td className="border px-4 py-2">She will permit</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אנחנו</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          נַרְשֶׁה
+                        </td>
+                        <td className="border px-4 py-2">Narsheh</td>
+                        <td className="border px-4 py-2">We will permit</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתם</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          תַּרְשׁוּ
+                        </td>
+                        <td className="border px-4 py-2">Tarshu</td>
+                        <td className="border px-4 py-2">
+                          You (m.pl.) will permit
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתן</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          תַּרְשׁוּ
+                        </td>
+                        <td className="border px-4 py-2">Tarshu</td>
+                        <td className="border px-4 py-2">
+                          You (f.pl.) will permit
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">הם / הן</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          יַרְשׁוּ
+                        </td>
+                        <td className="border px-4 py-2">Yarshu</td>
+                        <td className="border px-4 py-2">They will permit</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </section>
           </main>
         </div>
       </div>
