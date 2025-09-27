@@ -301,7 +301,7 @@ export default function HifilPage() {
 
                 <p className="text-gray-700 leading-relaxed mb-4">
                   Example with the root{" "}
-                  <span className="font-semibold">פ־ס־ק</span> → “to stop / to
+                  <span className="font-semibold">פסק</span> → “to stop / to
                   interrupt”:
                 </p>
 
