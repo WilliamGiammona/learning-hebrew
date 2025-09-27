@@ -817,6 +817,157 @@ export default function HitpaelPage() {
                 </div>
               </div>
             </section>
+
+            {/* Future Tense */}
+            <section id="future-tense" className="mb-12 scroll-mt-20">
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  The Future Tense (עתיד)
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Future tense forms in Hitpael are built using the{" "}
+                  <span className="font-semibold">אֵיתָן (EITaN)</span>{" "}
+                  prefixes:
+                  <span className="ml-2 font-semibold">א</span> (ani),
+                  <span className="ml-2 font-semibold">ת</span>{" "}
+                  (ata/at/atem/aten/hi),
+                  <span className="ml-2 font-semibold">י</span> (hu/hem/hen),
+                  <span className="ml-2 font-semibold">נ</span> (anachnu).
+                </p>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  In addition, a <span className="font-semibold">ת</span> (tav)
+                  is inserted before the root itself, right after the prefix.
+                  This creates the template{" "}
+                  <span className="font-semibold">Prefix + ת + Root</span>.
+                </p>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Example with root <span className="font-semibold">ח־ל־ק</span>{" "}
+                  →
+                  <span className="font-semibold" dir="rtl">
+                    אֶתְחַלֵּק
+                  </span>{" "}
+                  (“I will share / divide”):
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Person
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">אני</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          אֶתְחַלֵּק
+                        </td>
+                        <td className="border px-4 py-2">Etḥalek</td>
+                        <td className="border px-4 py-2">I will share</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתה</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          תִּתְחַלֵּק
+                        </td>
+                        <td className="border px-4 py-2">Titḥalek</td>
+                        <td className="border px-4 py-2">
+                          You (m.s.) will share
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">את</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          תִּתְחַלְּקִי
+                        </td>
+                        <td className="border px-4 py-2">Titḥalki</td>
+                        <td className="border px-4 py-2">
+                          You (f.s.) will share
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">הוא</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          יִתְחַלֵּק
+                        </td>
+                        <td className="border px-4 py-2">Yitḥalek</td>
+                        <td className="border px-4 py-2">He will share</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">היא</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          תִּתְחַלֵּק
+                        </td>
+                        <td className="border px-4 py-2">Titḥalek</td>
+                        <td className="border px-4 py-2">She will share</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אנחנו</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          נִתְחַלֵּק
+                        </td>
+                        <td className="border px-4 py-2">Nitḥalek</td>
+                        <td className="border px-4 py-2">We will share</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתם</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          תִּתְחַלְּקוּ
+                        </td>
+                        <td className="border px-4 py-2">Titḥalku</td>
+                        <td className="border px-4 py-2">
+                          You (m.pl.) will share
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתן</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          תִּתְחַלֵּקְנָה
+                        </td>
+                        <td className="border px-4 py-2">Titḥalekna</td>
+                        <td className="border px-4 py-2">
+                          You (f.pl.) will share
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">הם / הן</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          יִתְחַלְּקוּ
+                        </td>
+                        <td className="border px-4 py-2">Yitḥalku</td>
+                        <td className="border px-4 py-2">They will share</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div className="mt-6 p-4 bg-indigo-50 border-l-4 border-indigo-400 rounded">
+                  <p className="text-gray-700 leading-relaxed">
+                    <span className="font-semibold">Reminder:</span> the extra{" "}
+                    <span className="font-semibold">ת</span> inside the verb is
+                    unique to Hitpael. Think of it as{" "}
+                    <span className="font-semibold">
+                      EITaN prefix + ת + root
+                    </span>
+                    .
+                  </p>
+                </div>
+              </div>
+            </section>
           </main>
         </div>
       </div>
