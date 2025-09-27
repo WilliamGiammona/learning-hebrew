@@ -855,6 +855,144 @@ export default function NifalPage() {
                 </div>
               </div>
             </section>
+
+            {/* Future Tense */}
+            <section id="future-tense" className="mb-12 scroll-mt-20">
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  The Future Tense (עתיד)
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  In Hebrew, the future tense is often remembered using the
+                  acronym <span className="font-semibold">אֵיתָ"ן</span>{" "}
+                  (EITaN). Each letter represents the prefix used for different
+                  persons:
+                </p>
+
+                <ul className="list-disc list-inside text-gray-700 mb-4">
+                  <li>
+                    <span className="font-semibold">א</span> (Alef) → אני (I)
+                  </li>
+                  <li>
+                    <span className="font-semibold">ת</span> (Tav) → אתה / את /
+                    אתם / אתן (you)
+                  </li>
+                  <li>
+                    <span className="font-semibold">י</span> (Yod) → הוא / הם /
+                    הן (he / they)
+                  </li>
+                  <li>
+                    <span className="font-semibold">נ</span> (Nun) → אנחנו (we)
+                  </li>
+                </ul>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  In Nifal, the future tense is formed by adding these prefixes
+                  to the root (with the <span className="font-semibold">נ</span>{" "}
+                  of Nifal preserved). Notice that all forms except{" "}
+                  <span className="font-semibold">אני</span> begin with{" "}
+                  <span className="font-semibold">י</span>,{" "}
+                  <span className="font-semibold">ת</span>, or{" "}
+                  <span className="font-semibold">נ</span>.
+                </p>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Example with the root{" "}
+                  <span className="font-semibold">כ־נ־ס</span> (“to enter” →{" "}
+                  <span className="font-semibold">להיכנס</span>):
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Person
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">אני</td>
+                        <td className="border px-4 py-2">אֶכָּנֵס</td>
+                        <td className="border px-4 py-2">Ekanés</td>
+                        <td className="border px-4 py-2">I will enter</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתה</td>
+                        <td className="border px-4 py-2">תִּכָּנֵס</td>
+                        <td className="border px-4 py-2">Tikanés</td>
+                        <td className="border px-4 py-2">
+                          You (m.s.) will enter
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">את</td>
+                        <td className="border px-4 py-2">תִּכָּנְסִי</td>
+                        <td className="border px-4 py-2">Tikanesí</td>
+                        <td className="border px-4 py-2">
+                          You (f.s.) will enter
+                        </td>
+                      </tr>
+                      <tr className="bg-indigo-50">
+                        <td className="border px-4 py-2 font-semibold">הוא</td>
+                        <td className="border px-4 py-2 font-semibold">
+                          יִכָּנֵס
+                        </td>
+                        <td className="border px-4 py-2 font-semibold">
+                          Yikanés
+                        </td>
+                        <td className="border px-4 py-2">He will enter</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">היא</td>
+                        <td className="border px-4 py-2">תִּכָּנֵס</td>
+                        <td className="border px-4 py-2">Tikanés</td>
+                        <td className="border px-4 py-2">She will enter</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אנחנו</td>
+                        <td className="border px-4 py-2">נִכָּנֵס</td>
+                        <td className="border px-4 py-2">Nikanés</td>
+                        <td className="border px-4 py-2">We will enter</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתם</td>
+                        <td className="border px-4 py-2">תִּכָּנְסוּ</td>
+                        <td className="border px-4 py-2">Tikanesú</td>
+                        <td className="border px-4 py-2">
+                          You (m.pl.) will enter
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתן</td>
+                        <td className="border px-4 py-2">תִּכָּנְסוּ</td>
+                        <td className="border px-4 py-2">Tikanesú</td>
+                        <td className="border px-4 py-2">
+                          You (f.pl.) will enter
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">הם/הן</td>
+                        <td className="border px-4 py-2">יִכָּנְסוּ</td>
+                        <td className="border px-4 py-2">Yikanesú</td>
+                        <td className="border px-4 py-2">They will enter</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </section>
           </main>
         </div>
       </div>
