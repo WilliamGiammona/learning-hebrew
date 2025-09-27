@@ -35,6 +35,14 @@ export default function PualPage() {
                     Present Tense — Exceptions
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#past-tense"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    The Past Tense (עבר)
+                  </a>
+                </li>
               </ul>
             </nav>
           </aside>
@@ -256,6 +264,139 @@ export default function PualPage() {
                     . The <span className="font-semibold">מ</span>…
                     <span className="font-semibold">ו</span> pattern remains.
                   </p>
+                </div>
+              </div>
+            </section>
+
+            {/* Past Tense */}
+            <section id="past-tense" className="mb-12 scroll-mt-20">
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  The Past Tense (עבר)
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  In Pual, the past tense is formed like in Piel, but with one
+                  crucial difference: instead of inserting a{" "}
+                  <span className="font-semibold">י</span> (yod) after the first
+                  root letter, Pual uses a{" "}
+                  <span className="font-semibold">ו</span> (vav). The same
+                  past-tense endings apply as in other binyanim.
+                </p>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Example with the root{" "}
+                  <span className="font-semibold">ברך</span> →
+                  <span className="font-semibold"> בּוֹרַךְ</span> (“was
+                  blessed”):
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Person
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">אני</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          בּוֹרַכְתִּי
+                        </td>
+                        <td className="border px-4 py-2">Borachti</td>
+                        <td className="border px-4 py-2">I was blessed</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתה</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          בּוֹרַכְתָּ
+                        </td>
+                        <td className="border px-4 py-2">Borachta</td>
+                        <td className="border px-4 py-2">
+                          You (m.s.) were blessed
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">את</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          בּוֹרַכְתְּ
+                        </td>
+                        <td className="border px-4 py-2">Boracht</td>
+                        <td className="border px-4 py-2">
+                          You (f.s.) were blessed
+                        </td>
+                      </tr>
+                      <tr className="bg-indigo-50">
+                        <td className="border px-4 py-2 font-semibold">הוא</td>
+                        <td
+                          className="border px-4 py-2 font-semibold"
+                          dir="rtl"
+                        >
+                          בּוֹרַךְ
+                        </td>
+                        <td className="border px-4 py-2 font-semibold">
+                          Borach
+                        </td>
+                        <td className="border px-4 py-2">He was blessed</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">היא</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          בּוֹרְכָה
+                        </td>
+                        <td className="border px-4 py-2">Borchá</td>
+                        <td className="border px-4 py-2">She was blessed</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אנחנו</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          בּוֹרַכְנוּ
+                        </td>
+                        <td className="border px-4 py-2">Borachnu</td>
+                        <td className="border px-4 py-2">We were blessed</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתם</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          בּוֹרַכְתֶּם
+                        </td>
+                        <td className="border px-4 py-2">Borachtem</td>
+                        <td className="border px-4 py-2">
+                          You (m.pl.) were blessed
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתן</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          בּוֹרַכְתֶּן
+                        </td>
+                        <td className="border px-4 py-2">Borachten</td>
+                        <td className="border px-4 py-2">
+                          You (f.pl.) were blessed
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">הם / הן</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          בּוֹרְכוּ
+                        </td>
+                        <td className="border px-4 py-2">Borchu</td>
+                        <td className="border px-4 py-2">They were blessed</td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
               </div>
             </section>
