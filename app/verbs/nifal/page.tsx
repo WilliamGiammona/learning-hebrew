@@ -890,11 +890,7 @@ export default function NifalPage() {
                 <p className="text-gray-700 leading-relaxed mb-4">
                   In Nifal, the future tense is formed by adding these prefixes
                   to the root (with the <span className="font-semibold">נ</span>{" "}
-                  of Nifal preserved). Notice that all forms except{" "}
-                  <span className="font-semibold">אני</span> begin with{" "}
-                  <span className="font-semibold">י</span>,{" "}
-                  <span className="font-semibold">ת</span>, or{" "}
-                  <span className="font-semibold">נ</span>.
+                  of Nifal preserved).
                 </p>
 
                 <p className="text-gray-700 leading-relaxed mb-4">
@@ -944,14 +940,10 @@ export default function NifalPage() {
                           You (f.s.) will enter
                         </td>
                       </tr>
-                      <tr className="bg-indigo-50">
-                        <td className="border px-4 py-2 font-semibold">הוא</td>
-                        <td className="border px-4 py-2 font-semibold">
-                          יִכָּנֵס
-                        </td>
-                        <td className="border px-4 py-2 font-semibold">
-                          Yikanés
-                        </td>
+                      <tr>
+                        <td className="border px-4 py-2 ">הוא</td>
+                        <td className="border px-4 py-2 ">יִכָּנֵס</td>
+                        <td className="border px-4 py-2 ">Yikanés</td>
                         <td className="border px-4 py-2">He will enter</td>
                       </tr>
                       <tr>
