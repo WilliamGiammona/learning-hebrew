@@ -27,6 +27,14 @@ export default function HifilPage() {
                     The Infinitive (שם הפועל)
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#infinitive-exceptions"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    The Infinitive Exceptions
+                  </a>
+                </li>
               </ul>
             </nav>
           </aside>
@@ -144,6 +152,105 @@ export default function HifilPage() {
                     </tbody>
                   </table>
                 </div>
+              </div>
+            </section>
+
+            {/* Infinitive — Exceptions */}
+            <section id="infinitive-exceptions" className="mb-12 scroll-mt-20">
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  Infinitive — Exceptions
+                </h2>
+
+                {/* 1) Root starts with Yod */}
+                <h3 className="text-xl font-semibold text-indigo-700 mt-2 mb-2">
+                  1) Root starts with י (yod)
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-3">
+                  When the root begins with{" "}
+                  <span className="font-semibold">י</span>, that initial yod is
+                  <span className="font-semibold"> replaced by ו</span> in the
+                  Hifil infinitive (after{" "}
+                  <span className="font-semibold">לה־</span>).
+                </p>
+                <ul className="list-disc list-inside text-gray-700 mb-4">
+                  <li dir="rtl">
+                    לְהוֹסִיף (<span className="font-semibold">lehosif</span>) —
+                    from יסף
+                  </li>
+                </ul>
+
+                {/* 2) Root starts with Nun */}
+                <h3 className="text-xl font-semibold text-indigo-700 mt-2 mb-2">
+                  2) Root starts with נ (nun)
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-3">
+                  When the root begins with{" "}
+                  <span className="font-semibold">נ</span>, the nun is
+                  <span className="font-semibold"> dropped</span> in the Hifil
+                  infinitive.
+                </p>
+                <ul className="list-disc list-inside text-gray-700 mb-4">
+                  <li dir="rtl">
+                    לְהַכִּיר (<span className="font-semibold">lehakir</span>) —
+                    from נכר
+                  </li>
+                </ul>
+
+                {/* 3) Middle letter is Yod */}
+                <h3 className="text-xl font-semibold text-indigo-700 mt-2 mb-2">
+                  3) Middle letter is י (yod)
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-3">
+                  If the middle root letter is already{" "}
+                  <span className="font-semibold">י</span>, you do
+                  <span className="font-semibold">
+                    {" "}
+                    not add an additional י
+                  </span>{" "}
+                  before the third root letter.
+                </p>
+                <ul className="list-disc list-inside text-gray-700 mb-4">
+                  <li dir="rtl">
+                    לְהָבִין (<span className="font-semibold">lehavin</span>) —
+                    from בין (middle = י)
+                  </li>
+                </ul>
+
+                {/* 4) Middle letter is Vav */}
+                <h3 className="text-xl font-semibold text-indigo-700 mt-2 mb-2">
+                  4) Middle letter is ו (vav)
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-3">
+                  If the middle root letter is{" "}
+                  <span className="font-semibold">ו</span>, it is
+                  <span className="font-semibold"> removed</span> in the Hifil
+                  infinitive.
+                </p>
+                <ul className="list-disc list-inside text-gray-700 mb-4">
+                  <li dir="rtl">
+                    לְהָכִין (<span className="font-semibold">lehachin</span>) —
+                    from כון (middle ו dropped)
+                  </li>
+                </ul>
+
+                {/* 5) Root ends with Hey */}
+                <h3 className="text-xl font-semibold text-indigo-700 mt-2 mb-2">
+                  5) Root ends with ה (hey)
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-3">
+                  When the root ends in <span className="font-semibold">ה</span>
+                  , no extra <span className="font-semibold">י</span> is added.
+                  Instead, the final <span className="font-semibold">ה</span> is
+                  <span className="font-semibold"> replaced by ו + ת</span>.
+                </p>
+                <ul className="list-disc list-inside text-gray-700">
+                  <li dir="rtl">
+                    לְהַרְשׁוֹת (
+                    <span className="font-semibold">leharshot</span>) — from רשה
+                    (→ ו + ת)
+                  </li>
+                </ul>
               </div>
             </section>
           </main>
