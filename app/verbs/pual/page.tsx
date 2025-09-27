@@ -43,6 +43,14 @@ export default function PualPage() {
                     The Past Tense (עבר)
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#past-tense-exceptions"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    Past Tense — Exceptions
+                  </a>
+                </li>
               </ul>
             </nav>
           </aside>
