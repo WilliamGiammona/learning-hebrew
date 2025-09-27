@@ -51,6 +51,14 @@ export default function HufalPage() {
                     Past Tense — Exceptions
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="#future-tense"
+                    className="block px-2 py-1 rounded hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    The Future Tense (עתיד)
+                  </a>
+                </li>
               </ul>
             </nav>
           </aside>
@@ -579,6 +587,158 @@ export default function HufalPage() {
                       </tr>
                     </tbody>
                   </table>
+                </div>
+              </div>
+            </section>
+
+            {/* Future Tense */}
+            <section id="future-tense" className="mb-12 scroll-mt-20">
+              <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-4">
+                  The Future Tense (עתיד)
+                </h2>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  In Hufal, future tense forms are built with the{" "}
+                  <span className="font-semibold">אֵיתָ"ן (EITaN)</span>{" "}
+                  prefixes: <span className="font-semibold">א</span> (ani),{" "}
+                  <span className="font-semibold">ת</span>{" "}
+                  (ata/at/atem/aten/hi),{" "}
+                  <span className="font-semibold">י</span> (hu/hem/hen),{" "}
+                  <span className="font-semibold">נ</span> (anachnu). A{" "}
+                  <span className="font-semibold">ו</span> (vav) is placed
+                  before the root.
+                </p>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Example with root <span className="font-semibold">ז־מ־ן</span>{" "}
+                  →
+                  <span className="font-semibold" dir="rtl">
+                    אוּזְמַן
+                  </span>{" "}
+                  (“I will be invited”):
+                </p>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border border-gray-300 text-gray-700">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Person
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Hebrew
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Pronunciation
+                        </th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">
+                          Meaning
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2">אני</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          אוּזְמַן
+                        </td>
+                        <td className="border px-4 py-2">Uzmán</td>
+                        <td className="border px-4 py-2">I will be invited</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתה</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          תוּזְמַן
+                        </td>
+                        <td className="border px-4 py-2">Tuzmán</td>
+                        <td className="border px-4 py-2">
+                          You (m.s.) will be invited
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">את</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          תוּזְמְנִי
+                        </td>
+                        <td className="border px-4 py-2">Tuzméni</td>
+                        <td className="border px-4 py-2">
+                          You (f.s.) will be invited
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">הוא</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          יוּזְמַן
+                        </td>
+                        <td className="border px-4 py-2">Yuzmán</td>
+                        <td className="border px-4 py-2">He will be invited</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">היא</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          תוּזְמַן
+                        </td>
+                        <td className="border px-4 py-2">Tuzmán</td>
+                        <td className="border px-4 py-2">
+                          She will be invited
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אנחנו</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          נוּזְמַן
+                        </td>
+                        <td className="border px-4 py-2">Nuzmán</td>
+                        <td className="border px-4 py-2">We will be invited</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתם</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          תוּזְמְנוּ
+                        </td>
+                        <td className="border px-4 py-2">Tuzménu</td>
+                        <td className="border px-4 py-2">
+                          You (m.pl.) will be invited
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">אתן</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          תוּזְמַנָּה
+                        </td>
+                        <td className="border px-4 py-2">Tuzmaná</td>
+                        <td className="border px-4 py-2">
+                          You (f.pl.) will be invited
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2">הם / הן</td>
+                        <td className="border px-4 py-2" dir="rtl">
+                          יוּזְמְנוּ
+                        </td>
+                        <td className="border px-4 py-2">Yuzménu</td>
+                        <td className="border px-4 py-2">
+                          They will be invited
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div className="mt-6 p-4 bg-indigo-50 border-l-4 border-indigo-400 rounded">
+                  <p className="text-gray-700 leading-relaxed">
+                    <span className="font-semibold">Note:</span> As in other
+                    binyanim, the{" "}
+                    <span className="font-semibold">feminine plural</span> forms
+                    (
+                    <span dir="rtl" className="font-semibold">
+                      -נָה
+                    </span>
+                    ) are rare in Modern Hebrew, and most speakers prefer to use
+                    the common plural <span className="font-semibold">-וּ</span>{" "}
+                    forms instead.
+                  </p>
                 </div>
               </div>
             </section>
